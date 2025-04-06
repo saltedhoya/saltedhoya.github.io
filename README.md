@@ -1,4 +1,5 @@
 # Salted Hoya
+[X](https://x.com/saltedhoya)
 [Steam](https://store.steampowered.com/search/?developer=Salted%20Hoya)
 
 ## sushininjarobot TD
