@@ -297,7 +297,7 @@
     },
     "boomerang": {
         "type": "power",
-        "tier": 1,
+        "tier": 2,
         "desc": "Add Weapon: {tower}",
         "race": [
             "air",
@@ -401,7 +401,7 @@
     },
     "telephonepole": {
         "type": "power",
-        "tier": 1,
+        "tier": 2,
         "desc": "Add Weapon: {tower}",
         "race": [
             "air",

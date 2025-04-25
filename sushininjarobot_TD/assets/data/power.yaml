@@ -246,7 +246,7 @@ pearlnecklace:
       deck: 1
 boomerang:
   type: power
-  tier: 1
+  tier: 2
   desc: "Add Weapon: {tower}"
   race:
     - air
@@ -325,7 +325,7 @@ metalghost:
   desc: "All {ghost} items: Durable"
 telephonepole:
   type: power
-  tier: 1
+  tier: 2
   desc: "Add Weapon: {tower}"
   race:
     - air
