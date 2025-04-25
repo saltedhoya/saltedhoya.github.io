@@ -1,0 +1,833 @@
+wasabi:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      qtip: 2
+      attack: 3
+      fireRate: 3
+brassknuckles:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  purchase:
+    gain:
+      qtip: 10
+button:
+  type: item
+  tier: 2
+  race: []
+  cost: 2
+  resolve:
+    gain:
+      qtip: 1
+    temp:
+      attack: 2
+      fireRate: 2
+camera:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  resolve:
+    gain:
+      qtip: 3
+candle:
+  type: item
+  tier: 3
+  race: []
+  cost: 2
+  requirement:
+    qtip: 1
+  resolve:
+    gain:
+      qtip: -1
+      towerFireRate: 3
+cap:
+  type: item
+  tier: 3
+  race: []
+  cost: 2
+  requirement:
+    qtip: 1
+  resolve:
+    gain:
+      qtip: -1
+      towerAttack: 3
+circulator:
+  type: item
+  tier: 5
+  race: []
+  cost: 3
+  requirement:
+    qtip: 1
+  resolve:
+    gain:
+      qtip: -1
+      towerAttack: 2
+      towerFireRate: 2
+dc:
+  type: item
+  tier: 5
+  race: []
+  cost: 3
+  requirement:
+    qtip: 1
+  resolve:
+    gain:
+      qtip: -1
+    temp:
+      fireRate: 30
+drill:
+  type: item
+  tier: 6
+  race: []
+  cost: 3
+  requirement:
+    qtip: 2
+  time:
+    gain:
+      qtip: -2
+      attack: 1
+fishingrod:
+  type: item
+  tier: 6
+  race: []
+  cost: 3
+  requirement:
+    qtip: 2
+  time:
+    gain:
+      qtip: -2
+      fireRate: 1
+fukutsu:
+  type: item
+  tier: 7
+  race: []
+  cost: 4
+  requirement:
+    qtip: 5
+  resolve:
+    temp:
+      qtip: 5
+garbagecan:
+  type: item
+  tier: 8
+  race: []
+  cost: 4
+  resolve:
+    gain:
+      qtip: 2
+      towerAttack: 2
+      towerFireRate: 2
+hairmassager:
+  type: item
+  tier: 9
+  race: []
+  cost: 4
+  spec:
+    resolve:
+      qtip:
+        - all
+        - 1
+gomibukuro:
+  type: item
+  tier: 10
+  race: []
+  cost: 5
+  requirement:
+    qtip: 10
+  resolve:
+    gain:
+      qtip: -10
+      attack: 3
+      fireRate: 3
+hammer:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      coin: 1
+hanger:
+  type: item
+  tier: 2
+  race: []
+  cost: 2
+  requirement:
+    coin: 1
+  resolve:
+    gain:
+      coin: -1
+    temp:
+      ninjaAttack: 15
+      ninjaFireRate: 15
+hook:
+  type: item
+  tier: 3
+  race: []
+  cost: 2
+  requirement:
+    coin: 1
+  resolve:
+    gain:
+      coin: -1
+      ninjaAttack: 2
+      ninjaFireRate: 1
+instax:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  requirement:
+    coin: 3
+  resolve:
+    gain:
+      coin: 1
+joypad:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  resolve:
+    temp:
+      coin: 2
+kusarigama:
+  type: item
+  tier: 5
+  race: []
+  cost: 3
+  requirement:
+    coin: 2
+  resolve:
+    gain:
+      coin: -2
+      ninjaAttack: 4
+ladder:
+  type: item
+  tier: 5
+  race: []
+  cost: 3
+  requirement:
+    coin: 2
+  resolve:
+    gain:
+      coin: -2
+      ninjaFireRate: 4
+matryoshka:
+  type: item
+  tier: 6
+  race: []
+  cost: 3
+  resolve:
+    temp:
+      coin: 3
+mayo:
+  type: item
+  tier: 7
+  race: []
+  cost: 4
+  resolve:
+    gain:
+      coin: 2
+mouse:
+  type: item
+  tier: 8
+  race: []
+  cost: 4
+  requirement:
+    coin: 3
+  resolve:
+    gain:
+      coin: -3
+    temp:
+      ninjaAttack: 25
+      ninjaFireRate: 25
+natto:
+  type: item
+  tier: 9
+  race: []
+  cost: 4
+  minus:
+    coin:
+      gain:
+        ninjaAttack: 1
+wind:
+  type: item
+  tier: 9
+  race: []
+  cost: 4
+  minus:
+    coin:
+      gain:
+        ninjaFireRate: 1
+namodoki:
+  type: item
+  tier: 10
+  race: []
+  cost: 5
+  requirement:
+    coin: 4
+  resolve:
+    gain:
+      coin: -4
+      ninjaAttack: 3
+      ninjaFireRate: 3
+neji:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      magatama: 1
+oildrum:
+  type: item
+  tier: 2
+  race: []
+  cost: 2
+  resolve:
+    gain:
+      groundAttack: "1*magatama"
+pickaxe:
+  type: item
+  tier: 2
+  race: []
+  cost: 2
+  resolve:
+    gain:
+      groundFireRate: "1*magatama"
+rubberband:
+  type: item
+  tier: 3
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      attack: "2*magatama"
+      fireRate: "2*magatama"
+supana:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  purchase:
+    gain:
+      magatama: 1
+surprisebox:
+  type: item
+  tier: 5
+  race: []
+  cost: 3
+  resolve:
+    temp:
+      magatama: 2
+tabletennis:
+  type: item
+  tier: 6
+  race: []
+  cost: 3
+  resolve:
+    gain:
+      groundAttack: "2*magatama"
+tama:
+  type: item
+  tier: 6
+  race: []
+  cost: 3
+  resolve:
+    gain:
+      groundFireRate: "2*magatama"
+tripod:
+  type: item
+  tier: 7
+  race: []
+  cost: 4
+  resolve:
+    temp:
+      attack: "3*magatama"
+      fireRate: "3*magatama"
+tsumekiri:
+  type: item
+  tier: 8
+  race: []
+  cost: 4
+  purchase:
+    gain:
+      magatama: 2
+tulip:
+  type: item
+  tier: 9
+  race: []
+  cost: 4
+  spec:
+    resolve:
+      magatama:
+        - all
+        - 1
+umbrella:
+  type: item
+  tier: 10
+  race: []
+  cost: 5
+  resolve:
+    gain:
+      attack: "3*magatama"
+usbcable:
+  type: item
+  tier: 10
+  race: []
+  cost: 5
+  resolve:
+    gain:
+      fireRate: "3*magatama"
+whisk:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      attack: 5
+      airAttack: 10
+bandage:
+  type: item
+  tier: 2
+  race: []
+  cost: 2
+  resolve:
+    gain:
+      airAttack: 3
+sharkfin:
+  type: item
+  tier: 2
+  race: []
+  cost: 2
+  resolve:
+    gain:
+      airFireRate: 3
+beer:
+  type: item
+  tier: 3
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      airAttack: 30
+teeth:
+  type: item
+  tier: 3
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      airFireRate: 30
+laptop:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  purchase:
+    gain:
+      airAttack: 5
+usbstick:
+  type: item
+  tier: 5
+  race: []
+  cost: 3
+  resolve:
+    temp:
+      airAttack: 40
+mask:
+  type: item
+  tier: 6
+  race: []
+  cost: 3
+  resolve:
+    gain:
+      airAttack: 4
+ribbon:
+  type: item
+  tier: 7
+  race: []
+  cost: 4
+  resolve:
+    gain:
+      airFireRate: 5
+mirror:
+  type: item
+  tier: 8
+  race: []
+  cost: 4
+  resolve:
+    temp:
+      airFireRate: 60
+toiletpaper:
+  type: item
+  tier: 9
+  race: []
+  cost: 4
+  resolve:
+    temp:
+      airAttack: 60
+smartphone:
+  type: item
+  tier: 10
+  race: []
+  cost: 5
+  resolve:
+    gain:
+      airFireRate: 6
+pointingstick:
+  type: item
+  tier: 10
+  race: []
+  cost: 5
+  resolve:
+    gain:
+      airAttack: 6
+hat:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  damaged:
+    gain:
+      ninjaAttack: 2
+      ninjaFireRate: 2
+bongo:
+  type: item
+  tier: 2
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      health: 1
+letter:
+  type: item
+  tier: 3
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      health: -1
+      ninjaAttack: 10
+      ninjaFireRate: 10
+scotchtape:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  plus:
+    health:
+      temp:
+        ninjaAttack: 20
+        ninjaFireRate: 20
+chopsticks:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  purchase:
+    gain:
+      health: 3
+spray:
+  type: item
+  tier: 5
+  race: []
+  cost: 3
+  requirement:
+    health: "<=2"
+  resolve:
+    gain:
+      ninjaAttack: 4
+thumbsup:
+  type: item
+  tier: 5
+  race: []
+  cost: 3
+  requirement:
+    health: "<=2"
+  resolve:
+    gain:
+      ninjaFireRate: 4
+fork:
+  type: item
+  tier: 6
+  race: []
+  cost: 3
+  minus:
+    health:
+      gain:
+        ninjaAttack: 1
+rubikscube:
+  type: item
+  tier: 6
+  race: []
+  cost: 3
+  minus:
+    health:
+      gain:
+        ninjaFireRate: 1
+downloads:
+  type: item
+  tier: 7
+  race: []
+  cost: 4
+  resolve:
+    gain:
+      health: -1
+      attack: 4
+a4:
+  type: item
+  tier: 8
+  race: []
+  cost: 4
+  resolve:
+    gain:
+      health: -1
+      fireRate: 4
+powercable:
+  type: item
+  tier: 9
+  race: []
+  cost: 4
+  requirement:
+    health: "<=1"
+  resolve:
+    gain:
+      ninjaFireRate: 3
+      ninjaAttack: 3
+progressbar:
+  type: item
+  tier: 10
+  race: []
+  cost: 5
+  damaged:
+    gain:
+      ninjaFireRate: 5
+      ninjaAttack: 5
+kazoo:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  resolve:
+    gain:
+      attack: 1
+art:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  resolve:
+    gain:
+      fireRate: 1
+bandgraph:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      attack: 10
+bell:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      fireRate: 10
+loveletter:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  resolve:
+    gain:
+      attack: 2
+comb:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  resolve:
+    gain:
+      fireRate: 2
+tissuebox:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  resolve:
+    temp:
+      attack: 20
+phone:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  resolve:
+    temp:
+      fireRate: 20
+speechbubble:
+  type: item
+  tier: 7
+  race: []
+  cost: 4
+  resolve:
+    gain:
+      attack: 3
+antenna:
+  type: item
+  tier: 7
+  race: []
+  cost: 4
+  resolve:
+    gain:
+      fireRate: 3
+incensesticks:
+  type: item
+  tier: 7
+  race: []
+  cost: 4
+  resolve:
+    temp:
+      attack: 30
+balloon:
+  type: item
+  tier: 7
+  race: []
+  cost: 4
+  resolve:
+    temp:
+      fireRate: 30
+testitem1:
+  type: item
+  tier: 11
+  race:
+    - guu
+    - hearts
+    - diamonds
+    - clubs
+    - spades
+  cost: 2
+  resolve:
+    temp:
+      coin: -1
+    gain:
+      coin: -1
+  target:
+    temp:
+      coin:
+        - guu
+        - 1
+testitem2:
+  type: item
+  tier: 11
+  race:
+    - choki
+  cost: 2
+  resolve:
+    temp:
+      attack: 1
+  target:
+    temp:
+      coin:
+        - choki
+        - 1
+    gain:
+      coin:
+        - choki
+        - 1
+  requirement:
+    paa: <3
+    guu: <=2
+testitem3:
+  type: item
+  tier: 11
+  race:
+    - paa
+  cost: 2
+  purchase:
+    gain:
+      coin: 1
+  resolve:
+    gain:
+      coin: 1
+  target:
+    temp:
+      airAttack:
+        - level>=2
+        - 1
+  requirement:
+    paa: ">=1"
+    choki: ">-10"
+testitem4:
+  type: item
+  tier: 11
+  race:
+    - guu
+    - choki
+    - paa
+    - ghost
+  cost: 2
+  requirement:
+    testpower1: 1
+  plus:
+    coin:
+      temp:
+        attack: 1
+  minus:
+    coin:
+      temp:
+        fireRate: 1
+testitem5:
+  type: item
+  tier: 11
+  race: []
+  cost: 2
+  plus:
+    attack:
+      temp:
+        groundAttack: 1*tier
+  spec:
+    sell:
+      coin:
+        - paa
+        - 1
+    resolve:
+      coin:
+        - guu
+        - -1
+testitem6:
+  type: item
+  tier: 12
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      coin: -758
+    gain:
+      coin: -29
+testitem9:
+  type: item
+  tier: 11
+  race: []
+  cost: 2
+  resolve:
+    gain:
+      testresolve: 1
+      attack: 1
+      fireRate: 1
+  kill:
+    gain:
+      testkill: 1
+  buy:
+    gain:
+      testbuy: 1

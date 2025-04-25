@@ -1,0 +1,47 @@
+{
+    "guu": {
+        "type": "race",
+        "tier": 1,
+        "desc": [
+            "[{guu} >=3]",
+            "→ {attack} +10*{tier}"
+        ],
+        "race": [
+            "guu"
+        ]
+    },
+    "choki": {
+        "type": "race",
+        "tier": 1,
+        "desc": [
+            "[{choki} >=3]",
+            "→ {fireRate} +10*{tier}"
+        ],
+        "race": [
+            "choki"
+        ]
+    },
+    "paa": {
+        "type": "race",
+        "tier": 1,
+        "desc": [
+            "[{paa} >=3]",
+            "→ {deck} +1"
+        ],
+        "race": [
+            "paa"
+        ]
+    },
+    "ghost": {
+        "type": "race",
+        "tier": 1,
+        "desc": [
+            "Consumable",
+            "[{ghost} >=3]",
+            "→ Durable"
+        ],
+        "race": [
+            "ghost"
+        ]
+    }
+}

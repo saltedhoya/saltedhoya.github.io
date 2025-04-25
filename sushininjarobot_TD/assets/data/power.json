@@ -1,0 +1,1225 @@
+{
+    "shuriken": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "ninja"
+        ],
+        "tower": "shuriken",
+        "attackRate": 1.2,
+        "bulletSpeed": 1.2,
+        "fireRate": 1.2
+    },
+    "makibishi": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "ninja"
+        ],
+        "tower": "makibishi",
+        "attackRate": 1,
+        "bulletSpeed": 1,
+        "fireRate": 2
+    },
+    "magnet": {
+        "type": "power",
+        "tier": 2,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "ninja"
+        ],
+        "tower": "magnet",
+        "attackRate": 0,
+        "bulletSpeed": 1,
+        "fireRate": 2
+    },
+    "bomb": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "ninja"
+        ],
+        "tower": "bomb",
+        "attackRate": 0.5,
+        "bulletSpeed": 0.7,
+        "fireRate": 1
+    },
+    "kunai": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "ninja"
+        ],
+        "tower": "kunai",
+        "attackRate": 0.5,
+        "bulletSpeed": 1.5,
+        "fireRate": 1
+    },
+    "katana": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "ninja"
+        ],
+        "tower": "katana",
+        "attackRate": 3,
+        "bulletSpeed": 1,
+        "fireRate": 1
+    },
+    "sushibro": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "ninja"
+        ],
+        "tower": "sushibro",
+        "attackRate": 1.2,
+        "bulletSpeed": 1,
+        "fireRate": 1.2
+    },
+    "sprinkler": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "tower"
+        ],
+        "tower": "sprinkler",
+        "attackRate": 1.2,
+        "bulletSpeed": 0.6,
+        "fireRate": 1.2
+    },
+    "bookshelf": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "bookshelf",
+        "attackRate": 1.1,
+        "bulletSpeed": 1,
+        "fireRate": 1.1
+    },
+    "mousetrap": {
+        "type": "power",
+        "tier": 2,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "tower"
+        ],
+        "tower": "mousetrap",
+        "attackRate": 0.5,
+        "bulletSpeed": 0.3,
+        "fireRate": 1.2
+    },
+    "face": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "face",
+        "attackRate": 0.5,
+        "bulletSpeed": 1,
+        "fireRate": 1
+    },
+    "rifle": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "rifle",
+        "attackRate": 2,
+        "bulletSpeed": 10,
+        "fireRate": 2,
+        "locked": true
+    },
+    "airhockey": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "tower"
+        ],
+        "tower": "airhockey",
+        "attackRate": 2,
+        "bulletSpeed": 1,
+        "fireRate": 1,
+        "locked": true
+    },
+    "flashlight": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "flashlight",
+        "attackRate": 1,
+        "bulletSpeed": 1,
+        "fireRate": 1.2
+    },
+    "obake": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "obake",
+        "attackRate": 1,
+        "bulletSpeed": 0.4,
+        "fireRate": 1
+    },
+    "slime": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "slime",
+        "attackRate": 1,
+        "bulletSpeed": 1,
+        "fireRate": 1
+    },
+    "antiair": {
+        "type": "power",
+        "tier": 2,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "air",
+            "tower"
+        ],
+        "tower": "antiair",
+        "attackRate": 1,
+        "bulletSpeed": 3,
+        "fireRate": 0.8
+    },
+    "landmine": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "tower"
+        ],
+        "tower": "landmine",
+        "attackRate": 3,
+        "bulletSpeed": 1,
+        "fireRate": 2
+    },
+    "pole": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "tower"
+        ],
+        "tower": "pole",
+        "attackRate": 0.3,
+        "bulletSpeed": 1,
+        "fireRate": 1
+    },
+    "merlion": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "tower"
+        ],
+        "tower": "merlion",
+        "attackRate": 0.4,
+        "bulletSpeed": 1,
+        "fireRate": 0.4
+    },
+    "rimokon": {
+        "type": "power",
+        "tier": 3,
+        "desc": "|{enemy}| → {exp} ￪100%",
+        "spec": {
+            "die": {
+                "exp": [
+                    "enemy",
+                    "*2"
+                ]
+            }
+        }
+    },
+    "pyramid": {
+        "type": "power",
+        "tier": 6,
+        "desc": "All {guu} items: {coin} -1",
+        "spec": {
+            "cost": [
+                "guu",
+                -1
+            ]
+        }
+    },
+    "pearlnecklace": {
+        "type": "power",
+        "tier": 3,
+        "desc": "{deck} +1",
+        "purchase": {
+            "gain": {
+                "deck": 1
+            }
+        }
+    },
+    "boomerang": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "air",
+            "ninja"
+        ],
+        "tower": "boomerang",
+        "attackRate": 1.5,
+        "bulletSpeed": 1.2,
+        "fireRate": 1.2
+    },
+    "gas": {
+        "type": "power",
+        "tier": 3,
+        "desc": "{deck} -1, {phase.resolveCount} +1",
+        "purchase": {
+            "gain": {
+                "deck": -1
+            }
+        },
+        "phase": {
+            "resolveCount": [
+                "all",
+                1
+            ]
+        },
+        "condition": [
+            "face"
+        ]
+    },
+    "faucet": {
+        "type": "power",
+        "tier": 3,
+        "desc": "{choice} +1",
+        "purchase": {
+            "gain": {
+                "choice": 1
+            }
+        }
+    },
+    "pushpin": {
+        "type": "power",
+        "tier": 3,
+        "desc": "{ deck level up }: {option}",
+        "option": {
+            "type": "deck"
+        },
+        "purchase": {
+            "deck": {
+                "level": 1
+            }
+        }
+    },
+    "pen": {
+        "type": "power",
+        "tier": 5,
+        "desc": "{ race cost down }: {option}",
+        "option": {
+            "type": "race",
+            "choice": [
+                "guu",
+                "choki"
+            ]
+        },
+        "spec": {
+            "cost": [
+                "option",
+                -1
+            ]
+        }
+    },
+    "keyboard": {
+        "type": "power",
+        "tier": 2,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "keyboard",
+        "attackRate": 0.5,
+        "bulletSpeed": 1,
+        "fireRate": 0.5
+    },
+    "simple-16": {
+        "type": "power",
+        "tier": 2,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "simple-16",
+        "attackRate": 0.1,
+        "bulletSpeed": 1,
+        "fireRate": 0.15
+    },
+    "metalghost": {
+        "type": "power",
+        "tier": 3,
+        "desc": "All {ghost} items: Durable"
+    },
+    "telephonepole": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "air",
+            "tower"
+        ],
+        "tower": "telephonepole",
+        "attackRate": 0.3,
+        "bulletSpeed": 1,
+        "fireRate": 0.8
+    },
+    "sunglasses": {
+        "type": "power",
+        "tier": 2,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "sunglasses",
+        "attackRate": 2,
+        "bulletSpeed": 1,
+        "fireRate": 1.5
+    },
+    "swingingblade": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "ninja"
+        ],
+        "tower": "swingingblade",
+        "attackRate": 1,
+        "bulletSpeed": 1,
+        "fireRate": 1
+    },
+    "roulette": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "ninja"
+        ],
+        "tower": "roulette",
+        "attackRate": 1.1,
+        "bulletSpeed": 0.9,
+        "fireRate": 1.1
+    },
+    "sunglasseswitheyes": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "sunglasses",
+        "condition": [
+            "sunglasses"
+        ],
+        "limit": 1
+    },
+    "practiceofkunai": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "kunai",
+        "condition": [
+            "kunai"
+        ],
+        "limit": 1
+    },
+    "greatkatana": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "katana",
+        "condition": [
+            "katana"
+        ],
+        "limit": 1
+    },
+    "longfusebomb": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "bomb",
+        "condition": [
+            "bomb"
+        ],
+        "limit": 1
+    },
+    "makibishimakibishi": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "makibishi",
+        "condition": [
+            "makibishi"
+        ],
+        "limit": 1
+    },
+    "neodymiummagnet": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "magnet",
+        "condition": [
+            "magnet"
+        ],
+        "limit": 1
+    },
+    "fuumashuriken": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "shuriken",
+        "condition": [
+            "shuriken"
+        ],
+        "limit": 1
+    },
+    "sushiparty": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "sushibro",
+        "condition": [
+            "sushibro"
+        ],
+        "limit": 1
+    },
+    "guidedsprinkler": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "sprinkler",
+        "condition": [
+            "sprinkler"
+        ],
+        "limit": 1
+    },
+    "bookflower": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "bookshelf",
+        "condition": [
+            "bookshelf"
+        ],
+        "limit": 1
+    },
+    "poisonbottle": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "ninja"
+        ],
+        "tower": "poisonbottle",
+        "attackRate": 1,
+        "bulletSpeed": 0.6,
+        "fireRate": 1
+    },
+    "mouseghost": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "mousetrap",
+        "condition": [
+            "mousetrap"
+        ],
+        "limit": 1
+    },
+    "bigface": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "face",
+        "condition": [
+            "face"
+        ],
+        "limit": 1
+    },
+    "burstmode": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "rifle",
+        "condition": [
+            "rifle"
+        ],
+        "limit": 1
+    },
+    "premiumpuck": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "airhockey",
+        "condition": [
+            "airhockey"
+        ],
+        "limit": 1
+    },
+    "mirrorball": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "flashlight",
+        "condition": [
+            "flashlight"
+        ],
+        "limit": 1
+    },
+    "nurikabe": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "obake",
+        "condition": [
+            "obake"
+        ],
+        "limit": 1
+    },
+    "queenslime": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "slime",
+        "condition": [
+            "slime"
+        ],
+        "limit": 1
+    },
+    "antiairfighter": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "antiair",
+        "condition": [
+            "antiair"
+        ],
+        "limit": 1
+    },
+    "claymore": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "landmine",
+        "condition": [
+            "landmine"
+        ],
+        "limit": 1
+    },
+    "constructionsite": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "pole",
+        "condition": [
+            "pole"
+        ],
+        "limit": 1
+    },
+    "integratedresort": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "merlion",
+        "condition": [
+            "merlion"
+        ],
+        "limit": 1
+    },
+    "bombboomerang": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "boomerang",
+        "condition": [
+            "boomerang"
+        ],
+        "limit": 1
+    },
+    "looper": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "keyboard",
+        "condition": [
+            "keyboard"
+        ],
+        "limit": 1
+    },
+    "extensionbar": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "simple-16",
+        "condition": [
+            "simple-16"
+        ],
+        "limit": 1
+    },
+    "circulatingcurrent": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "telephonepole",
+        "condition": [
+            "telephonepole"
+        ],
+        "limit": 1
+    },
+    "fullswingingblade": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "swingingblade",
+        "condition": [
+            "swingingblade"
+        ],
+        "limit": 1
+    },
+    "jackpot": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "roulette",
+        "condition": [
+            "roulette"
+        ],
+        "limit": 1
+    },
+    "triplepoisonampoule": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "poisonbottle",
+        "condition": [
+            "poisonbottle"
+        ],
+        "limit": 1
+    },
+    "handspinner": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "ninja"
+        ],
+        "tower": "handspinner",
+        "attackRate": 1.2,
+        "bulletSpeed": 1.2,
+        "fireRate": 0.8
+    },
+    "electrichandspinner": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "handspinner",
+        "condition": [
+            "handspinner"
+        ],
+        "limit": 1
+    },
+    "tabletennis": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "tabletennis",
+        "attackRate": 1,
+        "bulletSpeed": 1,
+        "fireRate": 2
+    },
+    "tabletennis2": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "tabletennis",
+        "condition": [
+            "tabletennis"
+        ],
+        "limit": 1
+    },
+    "sasumata": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "ninja"
+        ],
+        "tower": "sasumata",
+        "attackRate": 1,
+        "bulletSpeed": 1,
+        "fireRate": 1.5
+    },
+    "spikesasumata": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "sasumata",
+        "condition": [
+            "sasumata"
+        ],
+        "limit": 1
+    },
+    "samepuzzle": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "samepuzzle",
+        "attackRate": 0.2,
+        "bulletSpeed": 0.8,
+        "fireRate": 1.2
+    },
+    "easymode": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "samepuzzle",
+        "condition": [
+            "samepuzzle"
+        ],
+        "limit": 1
+    },
+    "capsuletoymachine": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "capsuletoymachine",
+        "attackRate": 0.2,
+        "bulletSpeed": 0.7,
+        "fireRate": 2
+    },
+    "capsuletoybadge": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "capsuletoymachine",
+        "condition": [
+            "capsuletoymachine"
+        ],
+        "limit": 1
+    },
+    "clock": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "tower"
+        ],
+        "tower": "clock",
+        "attackRate": 0.5,
+        "bulletSpeed": 1,
+        "fireRate": 1
+    },
+    "x3clock": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "clock",
+        "condition": [
+            "clock"
+        ],
+        "limit": 1
+    },
+    "artillery": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "tower"
+        ],
+        "tower": "artillery",
+        "attackRate": 0.5,
+        "bulletSpeed": 1,
+        "fireRate": 1
+    },
+    "longartillery": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "artillery",
+        "condition": [
+            "artillery"
+        ],
+        "limit": 1
+    },
+    "thundercloud": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "thundercloud",
+        "attackRate": 1,
+        "bulletSpeed": 1,
+        "fireRate": 2
+    },
+    "lightningrod": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "thundercloud",
+        "condition": [
+            "thundercloud"
+        ],
+        "limit": 1
+    },
+    "signpole": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "signpole",
+        "attackRate": 0.2,
+        "bulletSpeed": 0.1,
+        "fireRate": 0.3
+    },
+    "scissorsstorm": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "signpole",
+        "condition": [
+            "signpole"
+        ],
+        "limit": 1
+    },
+    "ufocatcher": {
+        "type": "power",
+        "tier": 2,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "tower"
+        ],
+        "tower": "ufocatcher",
+        "attackRate": 1,
+        "bulletSpeed": 0.3,
+        "fireRate": 1.5
+    },
+    "homingufocatcher": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "ufocatcher",
+        "condition": [
+            "ufocatcher"
+        ],
+        "limit": 1
+    },
+    "pencil": {
+        "type": "power",
+        "tier": 2,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "ninja"
+        ],
+        "tower": "pencil",
+        "attackRate": 0.1,
+        "bulletSpeed": 1,
+        "fireRate": 0.2
+    },
+    "eraser": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "pencil",
+        "condition": [
+            "pencil"
+        ],
+        "limit": 1
+    },
+    "testpower1": {
+        "type": "power",
+        "tier": 11,
+        "desc": "spec.resolve.coin: [ 'all', 1 ], rerollCost: -10",
+        "rerollCost": -10,
+        "spec": {
+            "resolve": {
+                "coin": [
+                    "guu",
+                    1
+                ]
+            }
+        }
+    },
+    "testpower2": {
+        "type": "power",
+        "tier": 11,
+        "desc": "spec: { resolve.allstatus: [ 'all', '*2' ], purchase.allstatus: [ 'all', '1*bullet' ] }",
+        "spec": {
+            "resolve": {
+                "allstatus": [
+                    "guu",
+                    "*2"
+                ]
+            },
+            "purchase": {
+                "allstatus": [
+                    "all",
+                    "1*bullet"
+                ]
+            }
+        }
+    },
+    "testpower3": {
+        "type": "power",
+        "tier": 11,
+        "desc": "phase.resolveCount: [ 'guu', 2 ]",
+        "phase": {
+            "resolveCount": [
+                "guu",
+                2
+            ]
+        }
+    },
+    "testpower4": {
+        "type": "power",
+        "tier": 11,
+        "desc": "spec: { target.allstatus: [ 'item', '1*tier' ], cost: [ 'all', '-1*guu' ] }",
+        "spec": {
+            "target": {
+                "allstatus": [
+                    "guu",
+                    "1*tier"
+                ]
+            },
+            "cost": [
+                "all",
+                "-1*guu"
+            ]
+        }
+    },
+    "testpower5": {
+        "type": "power",
+        "tier": 11,
+        "desc": "phase.plusCount = [ all, 1 ], phase.minusCount = [ all, 1 ]",
+        "phase": {
+            "plusCount": [
+                "all",
+                1
+            ],
+            "minusCount": [
+                "all",
+                1
+            ]
+        }
+    },
+    "testpower6": {
+        "type": "power",
+        "tier": 11,
+        "desc": "phase.resolveCount = [ tier<=11, 1 ]",
+        "phase": {
+            "resolveCount": [
+                "tier<=11",
+                1
+            ]
+        }
+    },
+    "storepage": {
+        "type": "power",
+        "tier": 2,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "tower"
+        ],
+        "tower": "storepage",
+        "attackRate": 0.8,
+        "bulletSpeed": 0.6,
+        "fireRate": 1.2
+    },
+    "discountsale": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "storepage",
+        "condition": [
+            "storepage"
+        ],
+        "limit": 1
+    },
+    "magiccarpet": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "ninja"
+        ],
+        "tower": "magiccarpet",
+        "attackRate": 1,
+        "bulletSpeed": 0.6,
+        "fireRate": 1.8
+    },
+    "jinn": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "magiccarpet",
+        "condition": [
+            "magiccarpet"
+        ],
+        "limit": 1
+    },
+    "stealth": {
+        "type": "power",
+        "tier": 2,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "ninja"
+        ],
+        "tower": "stealth",
+        "attackRate": 0.2,
+        "bulletSpeed": 1,
+        "fireRate": 2
+    },
+    "throwingwildly": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "stealth",
+        "condition": [
+            "stealth"
+        ],
+        "limit": 1
+    },
+    "bambooshootlance": {
+        "type": "power",
+        "tier": 2,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "ninja"
+        ],
+        "tower": "bambooshootlance",
+        "attackRate": 1,
+        "bulletSpeed": 1,
+        "fireRate": 1
+    },
+    "longbambooshootlance": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "bambooshootlance",
+        "condition": [
+            "bambooshootlance"
+        ],
+        "limit": 1
+    },
+    "cat": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "ninja"
+        ],
+        "tower": "cat",
+        "attackRate": 1,
+        "bulletSpeed": 1,
+        "fireRate": 3
+    },
+    "sittingcat": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "cat",
+        "condition": [
+            "cat"
+        ],
+        "limit": 1
+    },
+    "dog": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "ground",
+            "ninja"
+        ],
+        "tower": "dog",
+        "attackRate": 0.5,
+        "bulletSpeed": 1,
+        "fireRate": 1.5
+    },
+    "frisbee": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "dog",
+        "condition": [
+            "dog"
+        ],
+        "limit": 1
+    }
+}

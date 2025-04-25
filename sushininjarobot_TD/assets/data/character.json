@@ -1,0 +1,77 @@
+{
+    "ninjarobot": {
+        "type": "character",
+        "character": "ninjarobot",
+        "tier": 1,
+        "desc": "|{enemy}| → {exp} ￪100%",
+        "status": {
+            "power": [
+                "rimokon"
+            ]
+        }
+    },
+    "astronomersocks": {
+        "type": "character",
+        "character": "astronomersocks",
+        "tier": 1,
+        "desc": "{bullet} +1 {attack} -5",
+        "status": {
+            "bulletNum": 2,
+            "attackNum": 5
+        }
+    },
+    "pyramidpiano": {
+        "type": "character",
+        "character": "pyramidpiano",
+        "tier": 1,
+        "desc": "All {guu} items: {coin} -1",
+        "status": {
+            "power": [
+                "pyramid"
+            ]
+        }
+    },
+    "sewingmachineghost": {
+        "type": "character",
+        "character": "sewingmachineghost",
+        "tier": 1,
+        "desc": "All {ghost} items: Durable",
+        "status": {
+            "power": [
+                "metalghost"
+            ]
+        }
+    },
+    "tvlizard": {
+        "type": "character",
+        "character": "tvlizard",
+        "tier": 1,
+        "desc": "hogehoge",
+        "status": {},
+        "locked": true
+    },
+    "basketballbug": {
+        "type": "character",
+        "character": "basketballbug",
+        "tier": 1,
+        "desc": "hogehoge",
+        "status": {},
+        "locked": true
+    },
+    "cameraelephant": {
+        "type": "character",
+        "character": "cameraelephant",
+        "tier": 1,
+        "desc": "hogehoge",
+        "status": {},
+        "locked": true
+    },
+    "elevatorsnake": {
+        "type": "character",
+        "character": "elevatorsnake",
+        "tier": 1,
+        "desc": "hogehoge",
+        "status": {},
+        "locked": true
+    }
+}

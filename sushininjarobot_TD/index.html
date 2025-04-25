@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/sushininjarobot_TD/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sushininjarobot TD</title>
+  <script type="module" crossorigin src="/sushininjarobot_TD/assets/index-C0LwNPtF.js"></script>
+  <link rel="stylesheet" crossorigin href="/sushininjarobot_TD/assets/index-D8r4at4z.css">
+</head>
+
+<body>
+    <div id="app">
+        <div id="game-container"></div>
+    </div>
+    <script>
+        if (typeof nw !== 'undefined' && typeof nw.require === 'function') { // NWJS環境
+            // Alt + Enter でのフルスクリーン切り替え
+            window.gui = require('nw.gui');
+            const win = gui.Window.get();
+            document.addEventListener('keydown', (event) => {
+                if (event.altKey && event.keyCode === 13) { // Alt + Enter
+                    win.toggleFullscreen();
+                }
+            });
+            // Greenworks 読み込み
+            window.greenworks = require('greenworks.js');
+            console.log("Running in NWJS environment");
+            if (window.greenworks.init()) {
+                console.log("Steam initialized successfully: " + window.greenworks.getAppId());
+            } else {
+                console.log("Steam initialization failed");
+            }
+        } else if (typeof require !== 'undefined') { // Node.js環境（NWJSのNode context含む）
+            customRequire = require;
+            console.log("Running in Node.js environment");
+        } else { // ブラウザ環境
+            console.log("Running in browser environment");
+        }
+        document.addEventListener('contextmenu', (event) => {
+            event.preventDefault(); // 右クリックメニューを無効化
+        });
+        if (window.location.hostname !== 'localhost' && !window.gui) { // vite と NW.js ではリロード確認はでない
+            // F5 でリセットになるので注意喚起する
+            window.addEventListener('beforeunload', function (event) {
+                // Chromeではメッセージを設定しないとデフォルトのメッセージが表示される
+                event.preventDefault();
+                event.returnValue = ''; // 古いブラウザ向けの記述
+                return '';
+            });
+        }
+    </script>
+</body>
+
+</html>
