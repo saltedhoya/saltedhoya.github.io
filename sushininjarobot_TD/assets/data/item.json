@@ -994,19 +994,6 @@
             }
         }
     },
-    "wasabi": {
-        "type": "item",
-        "tier": 1,
-        "race": [],
-        "cost": 2,
-        "resolve": {
-            "temp": {
-                "qtip": 2,
-                "attack": 3,
-                "fireRate": 3
-            }
-        }
-    },
     "art": {
         "type": "item",
         "tier": 1,
@@ -1149,6 +1136,115 @@
                 "gain": {
                     "ninjaFireRate": 1
                 }
+            }
+        }
+    },
+    "tshirt": {
+        "type": "item",
+        "tier": 1,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "qtip": 2,
+                "attack": 3,
+                "fireRate": 3
+            }
+        }
+    },
+    "boxinggloves": {
+        "type": "item",
+        "tier": 1,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "towerAttack": -1,
+                "ninjaAttack": 1
+            }
+        }
+    },
+    "standingmummy": {
+        "type": "item",
+        "tier": 1,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "ninjaAttack": -1,
+                "towerAttack": 1
+            }
+        }
+    },
+    "soap": {
+        "type": "item",
+        "tier": 1,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "towerFireRate": -1,
+                "ninjaFireRate": 1
+            }
+        }
+    },
+    "dryer": {
+        "type": "item",
+        "tier": 1,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "ninjaFireRate": -1,
+                "towerFireRate": 1
+            }
+        }
+    },
+    "can": {
+        "type": "item",
+        "tier": 2,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "attack": -1,
+                "ninjaFireRate": 2
+            }
+        }
+    },
+    "deckbrush": {
+        "type": "item",
+        "tier": 2,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "attack": -1,
+                "towerFireRate": 2
+            }
+        }
+    },
+    "cloud": {
+        "type": "item",
+        "tier": 3,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "fireRate": -1,
+                "groundAttack": 3
+            }
+        }
+    },
+    "unicycle": {
+        "type": "item",
+        "tier": 3,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "fireRate": -1,
+                "airAttack": 3
             }
         }
     }
