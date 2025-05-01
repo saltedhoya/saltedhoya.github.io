@@ -1159,8 +1159,8 @@
         "cost": 2,
         "resolve": {
             "gain": {
-                "towerAttack": -1,
-                "ninjaAttack": 1
+                "towerAttack": -2,
+                "ninjaAttack": 3
             }
         }
     },
@@ -1171,8 +1171,8 @@
         "cost": 2,
         "resolve": {
             "gain": {
-                "ninjaAttack": -1,
-                "towerAttack": 1
+                "ninjaAttack": -2,
+                "towerAttack": 3
             }
         }
     },
@@ -1183,8 +1183,8 @@
         "cost": 2,
         "resolve": {
             "gain": {
-                "towerFireRate": -1,
-                "ninjaFireRate": 1
+                "towerFireRate": -2,
+                "ninjaFireRate": 3
             }
         }
     },
@@ -1195,8 +1195,8 @@
         "cost": 2,
         "resolve": {
             "gain": {
-                "ninjaFireRate": -1,
-                "towerFireRate": 1
+                "ninjaFireRate": -2,
+                "towerFireRate": 3
             }
         }
     },
@@ -1208,7 +1208,7 @@
         "resolve": {
             "gain": {
                 "attack": -1,
-                "ninjaFireRate": 2
+                "ninjaFireRate": 3
             }
         }
     },
@@ -1220,7 +1220,7 @@
         "resolve": {
             "gain": {
                 "attack": -1,
-                "towerFireRate": 2
+                "towerFireRate": 3
             }
         }
     },
@@ -1232,7 +1232,7 @@
         "resolve": {
             "gain": {
                 "fireRate": -1,
-                "groundAttack": 3
+                "groundAttack": 4
             }
         }
     },
@@ -1244,7 +1244,18 @@
         "resolve": {
             "gain": {
                 "fireRate": -1,
-                "airAttack": 3
+                "airAttack": 4
+            }
+        }
+    },
+    "toothbrush": {
+        "type": "item",
+        "tier": 1,
+        "race": [],
+        "cost": 2,
+        "critical": {
+            "temp": {
+                "attack": 1
             }
         }
     }
