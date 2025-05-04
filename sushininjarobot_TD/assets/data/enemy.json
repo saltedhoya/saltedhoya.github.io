@@ -1,13 +1,15 @@
 {
     "apple": {
         "type": "enemy",
-        "tier": 2,
-        "race": [],
-        "hp": 41,
-        "speed": 1,
+        "tier": 15,
+        "race": [
+            "flying"
+        ],
+        "hp": 97872,
+        "speed": 0.5,
         "die": {
             "gain": {
-                "exp": 2
+                "exp": 15
             }
         }
     },
@@ -23,6 +25,20 @@
             }
         }
     },
+    "baumkuchen": {
+        "type": "enemy",
+        "tier": 15,
+        "race": [
+            "flying"
+        ],
+        "hp": 97872,
+        "speed": 0.5,
+        "die": {
+            "gain": {
+                "exp": 15
+            }
+        }
+    },
     "bbqonion": {
         "type": "enemy",
         "tier": 5,
@@ -30,7 +46,7 @@
         "hp": 363,
         "shield": 1,
         "speed": 1,
-        "activateRate": 2,
+        "activateRate": 4,
         "skill": [
             "heal",
             5
@@ -44,9 +60,7 @@
     "bread": {
         "type": "enemy",
         "tier": 2,
-        "race": [
-            "flying"
-        ],
+        "race": [],
         "hp": 41,
         "speed": 1,
         "die": {
@@ -58,12 +72,52 @@
     "cake": {
         "type": "enemy",
         "tier": 3,
-        "race": [],
+        "race": [
+            "flying"
+        ],
         "hp": 97,
         "speed": 1,
         "die": {
             "gain": {
                 "exp": 3
+            }
+        }
+    },
+    "canele": {
+        "type": "enemy",
+        "tier": 7,
+        "race": [
+            "flying"
+        ],
+        "hp": 1082,
+        "speed": 1.5,
+        "die": {
+            "gain": {
+                "exp": 7
+            }
+        }
+    },
+    "carrot": {
+        "type": "enemy",
+        "tier": 14,
+        "race": [],
+        "hp": 30909,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 14
+            }
+        }
+    },
+    "catgrass": {
+        "type": "enemy",
+        "tier": 15,
+        "race": [],
+        "hp": 97872,
+        "speed": 0.5,
+        "die": {
+            "gain": {
+                "exp": 15
             }
         }
     },
@@ -83,7 +137,9 @@
     "cherry": {
         "type": "enemy",
         "tier": 5,
-        "race": [],
+        "race": [
+            "flying"
+        ],
         "hp": 725,
         "speed": 0.5,
         "activateRate": 3,
@@ -94,6 +150,20 @@
         "die": {
             "gain": {
                 "exp": 5
+            }
+        }
+    },
+    "chestnut": {
+        "type": "enemy",
+        "tier": 16,
+        "race": [
+            "flying"
+        ],
+        "hp": 77367,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 16
             }
         }
     },
@@ -109,6 +179,62 @@
             }
         }
     },
+    "chikuwabu": {
+        "type": "enemy",
+        "tier": 13,
+        "race": [],
+        "hp": 9741,
+        "speed": 1.5,
+        "die": {
+            "gain": {
+                "exp": 13
+            }
+        }
+    },
+    "chocolate": {
+        "type": "enemy",
+        "tier": 9,
+        "race": [
+            "flying"
+        ],
+        "hp": 2944,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 9
+            }
+        }
+    },
+    "crab": {
+        "type": "enemy",
+        "tier": 10,
+        "race": [],
+        "hp": 9537,
+        "shield": 1,
+        "speed": 0.5,
+        "activateRate": 3,
+        "skill": [
+            "spawn",
+            "mentaiko"
+        ],
+        "die": {
+            "gain": {
+                "exp": 10
+            }
+        }
+    },
+    "croissant": {
+        "type": "enemy",
+        "tier": 11,
+        "race": [],
+        "hp": 7663,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 11
+            }
+        }
+    },
     "curry": {
         "type": "enemy",
         "tier": 3,
@@ -116,7 +242,7 @@
         "hp": 97,
         "shield": 2,
         "speed": 1,
-        "activateRate": 3,
+        "activateRate": 5,
         "skill": [
             "shield",
             1
@@ -136,7 +262,7 @@
         "hp": 196,
         "shield": 1,
         "speed": 1,
-        "activateRate": 3,
+        "activateRate": 4,
         "skill": [
             "spawn",
             "mug"
@@ -150,12 +276,40 @@
     "dorayaki": {
         "type": "enemy",
         "tier": 2,
-        "race": [],
+        "race": [
+            "flying"
+        ],
         "hp": 20,
         "speed": 1.5,
         "die": {
             "gain": {
                 "exp": 2
+            }
+        }
+    },
+    "eringi": {
+        "type": "enemy",
+        "tier": 8,
+        "race": [],
+        "hp": 3597,
+        "shield": 1,
+        "speed": 0.5,
+        "die": {
+            "gain": {
+                "exp": 8
+            }
+        }
+    },
+    "fish": {
+        "type": "enemy",
+        "tier": 8,
+        "race": [],
+        "hp": 599,
+        "shield": 5,
+        "speed": 1.5,
+        "die": {
+            "gain": {
+                "exp": 8
             }
         }
     },
@@ -165,7 +319,7 @@
         "race": [],
         "hp": 82,
         "speed": 0.5,
-        "activateRate": 4,
+        "activateRate": 8,
         "skill": [
             "spawn",
             "chicken"
@@ -173,6 +327,86 @@
         "die": {
             "gain": {
                 "exp": 2
+            }
+        }
+    },
+    "garlic": {
+        "type": "enemy",
+        "tier": 13,
+        "race": [],
+        "hp": 19483,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 13
+            }
+        }
+    },
+    "greenonion": {
+        "type": "enemy",
+        "tier": 12,
+        "race": [],
+        "hp": 12244,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 12
+            }
+        }
+    },
+    "gyoza": {
+        "type": "enemy",
+        "tier": 10,
+        "race": [],
+        "hp": 4769,
+        "shield": 1,
+        "speed": 1,
+        "activateRate": 2,
+        "skill": [
+            "heal",
+            5
+        ],
+        "die": {
+            "gain": {
+                "exp": 10
+            }
+        }
+    },
+    "hotdog": {
+        "type": "enemy",
+        "tier": 9,
+        "race": [],
+        "hp": 2944,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 9
+            }
+        }
+    },
+    "lemon": {
+        "type": "enemy",
+        "tier": 7,
+        "race": [],
+        "hp": 1082,
+        "shield": 2,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 7
+            }
+        }
+    },
+    "mentaiko": {
+        "type": "enemy",
+        "tier": 10,
+        "race": [],
+        "hp": 2384,
+        "shield": 2,
+        "speed": 1.5,
+        "die": {
+            "gain": {
+                "exp": 10
             }
         }
     },
@@ -201,6 +435,18 @@
             }
         }
     },
+    "mushrooms": {
+        "type": "enemy",
+        "tier": 11,
+        "race": [],
+        "hp": 3831,
+        "speed": 1.5,
+        "die": {
+            "gain": {
+                "exp": 11
+            }
+        }
+    },
     "naruto": {
         "type": "enemy",
         "tier": 4,
@@ -213,16 +459,78 @@
             }
         }
     },
+    "oden": {
+        "type": "enemy",
+        "tier": 13,
+        "race": [],
+        "hp": 19483,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 13
+            }
+        }
+    },
+    "oyuwari": {
+        "type": "enemy",
+        "tier": 11,
+        "race": [],
+        "hp": 7663,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 11
+            }
+        }
+    },
+    "panko": {
+        "type": "enemy",
+        "tier": 16,
+        "race": [],
+        "hp": 77367,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 16
+            }
+        }
+    },
+    "peach": {
+        "type": "enemy",
+        "tier": 14,
+        "race": [
+            "flying"
+        ],
+        "hp": 15455,
+        "speed": 1.5,
+        "die": {
+            "gain": {
+                "exp": 14
+            }
+        }
+    },
     "pizza": {
         "type": "enemy",
         "tier": 5,
         "race": [],
         "hp": 725,
-        "shield": 5,
+        "shield": 2,
         "speed": 0.5,
         "die": {
             "gain": {
                 "exp": 5
+            }
+        }
+    },
+    "potato": {
+        "type": "enemy",
+        "tier": 2,
+        "race": [],
+        "hp": 41,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 2
             }
         }
     },
@@ -232,7 +540,7 @@
         "race": [],
         "hp": 589,
         "speed": 0.2,
-        "activateRate": 2,
+        "activateRate": 4,
         "skill": [
             "shield",
             1
@@ -255,6 +563,18 @@
         "die": {
             "gain": {
                 "exp": 5
+            }
+        }
+    },
+    "ramen": {
+        "type": "enemy",
+        "tier": 16,
+        "race": [],
+        "hp": 77367,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 16
             }
         }
     },
@@ -282,6 +602,20 @@
             }
         }
     },
+    "suama": {
+        "type": "enemy",
+        "tier": 12,
+        "race": [
+            "flying"
+        ],
+        "hp": 24488,
+        "speed": 0.5,
+        "die": {
+            "gain": {
+                "exp": 12
+            }
+        }
+    },
     "taco": {
         "type": "enemy",
         "tier": 4,
@@ -296,6 +630,38 @@
         "die": {
             "gain": {
                 "exp": 4
+            }
+        }
+    },
+    "taiyaki": {
+        "type": "enemy",
+        "tier": 9,
+        "race": [
+            "flying"
+        ],
+        "hp": 2944,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 9
+            }
+        }
+    },
+    "teabag": {
+        "type": "enemy",
+        "tier": 8,
+        "race": [],
+        "hp": 3597,
+        "shield": 1,
+        "speed": 0.5,
+        "activateRate": 2,
+        "skill": [
+            "shield",
+            1
+        ],
+        "die": {
+            "gain": {
+                "exp": 8
             }
         }
     },
@@ -319,7 +685,7 @@
             "flying"
         ],
         "hp": 1273,
-        "shield": 5,
+        "shield": 2,
         "speed": 0.5,
         "die": {
             "gain": {
@@ -330,12 +696,38 @@
     "wataame": {
         "type": "enemy",
         "tier": 7,
-        "race": [],
-        "hp": 1082,
-        "speed": 1,
+        "race": [
+            "flying"
+        ],
+        "hp": 2164,
+        "speed": 0.5,
         "die": {
             "gain": {
                 "exp": 7
+            }
+        }
+    },
+    "watermelon": {
+        "type": "enemy",
+        "tier": 12,
+        "race": [],
+        "hp": 12244,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 12
+            }
+        }
+    },
+    "wine": {
+        "type": "enemy",
+        "tier": 14,
+        "race": [],
+        "hp": 30909,
+        "speed": 1,
+        "die": {
+            "gain": {
+                "exp": 14
             }
         }
     },

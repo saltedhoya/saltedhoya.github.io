@@ -779,6 +779,47 @@ unicycle:
     gain:
       fireRate: -1
       airAttack: 4
+tennisball:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      critical: 5
+meattenderizer:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  resolve:
+    gain:
+      critical: 1
+aabattery:
+  type: item
+  tier: 2
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      bothAttack: 20
+cd:
+  type: item
+  tier: 2
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      bothFireRate: 20
+lighter:
+  type: item
+  tier: 3
+  race: []
+  cost: 2
+  resolve:
+    gain:
+      attack: -1
+      bothFireRate: 3
 toothbrush:
   type: item
   tier: 1
@@ -911,3 +952,10 @@ testitem9:
   buy:
     gain:
       testbuy: 1
+  critical:
+    gain:
+      testcritical: 1
+  sell:
+    gain:
+      testsell: 1
+
