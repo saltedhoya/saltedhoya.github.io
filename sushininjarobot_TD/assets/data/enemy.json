@@ -5,7 +5,7 @@
         "race": [
             "flying"
         ],
-        "hp": 97872,
+        "hp": 186452,
         "speed": 0.5,
         "die": {
             "gain": {
@@ -17,7 +17,7 @@
         "type": "enemy",
         "tier": 3,
         "race": [],
-        "hp": 195,
+        "hp": 202,
         "speed": 0.5,
         "die": {
             "gain": {
@@ -31,7 +31,7 @@
         "race": [
             "flying"
         ],
-        "hp": 97872,
+        "hp": 186452,
         "speed": 0.5,
         "die": {
             "gain": {
@@ -43,7 +43,7 @@
         "type": "enemy",
         "tier": 5,
         "race": [],
-        "hp": 363,
+        "hp": 405,
         "shield": 1,
         "speed": 1,
         "activateRate": 4,
@@ -75,7 +75,7 @@
         "race": [
             "flying"
         ],
-        "hp": 97,
+        "hp": 101,
         "speed": 1,
         "die": {
             "gain": {
@@ -89,7 +89,7 @@
         "race": [
             "flying"
         ],
-        "hp": 1082,
+        "hp": 1319,
         "speed": 1.5,
         "die": {
             "gain": {
@@ -101,7 +101,7 @@
         "type": "enemy",
         "tier": 14,
         "race": [],
-        "hp": 30909,
+        "hp": 55384,
         "speed": 1,
         "die": {
             "gain": {
@@ -113,7 +113,7 @@
         "type": "enemy",
         "tier": 15,
         "race": [],
-        "hp": 97872,
+        "hp": 186452,
         "speed": 0.5,
         "die": {
             "gain": {
@@ -125,7 +125,7 @@
         "type": "enemy",
         "tier": 6,
         "race": [],
-        "hp": 318,
+        "hp": 371,
         "shield": 1,
         "speed": 1.5,
         "die": {
@@ -140,7 +140,7 @@
         "race": [
             "flying"
         ],
-        "hp": 725,
+        "hp": 809,
         "speed": 0.5,
         "activateRate": 3,
         "skill": [
@@ -159,7 +159,7 @@
         "race": [
             "flying"
         ],
-        "hp": 77367,
+        "hp": 156894,
         "speed": 1,
         "die": {
             "gain": {
@@ -183,7 +183,7 @@
         "type": "enemy",
         "tier": 13,
         "race": [],
-        "hp": 9741,
+        "hp": 16439,
         "speed": 1.5,
         "die": {
             "gain": {
@@ -197,7 +197,7 @@
         "race": [
             "flying"
         ],
-        "hp": 2944,
+        "hp": 3970,
         "speed": 1,
         "die": {
             "gain": {
@@ -209,7 +209,7 @@
         "type": "enemy",
         "tier": 10,
         "race": [],
-        "hp": 9537,
+        "hp": 13565,
         "shield": 1,
         "speed": 0.5,
         "activateRate": 3,
@@ -227,7 +227,7 @@
         "type": "enemy",
         "tier": 11,
         "race": [],
-        "hp": 7663,
+        "hp": 11519,
         "speed": 1,
         "die": {
             "gain": {
@@ -239,7 +239,7 @@
         "type": "enemy",
         "tier": 3,
         "race": [],
-        "hp": 97,
+        "hp": 101,
         "shield": 2,
         "speed": 1,
         "activateRate": 5,
@@ -259,7 +259,7 @@
         "race": [
             "flying"
         ],
-        "hp": 196,
+        "hp": 211,
         "shield": 1,
         "speed": 1,
         "activateRate": 4,
@@ -279,7 +279,7 @@
         "race": [
             "flying"
         ],
-        "hp": 20,
+        "hp": 21,
         "speed": 1.5,
         "die": {
             "gain": {
@@ -291,7 +291,7 @@
         "type": "enemy",
         "tier": 8,
         "race": [],
-        "hp": 3597,
+        "hp": 4606,
         "shield": 1,
         "speed": 0.5,
         "die": {
@@ -304,7 +304,7 @@
         "type": "enemy",
         "tier": 8,
         "race": [],
-        "hp": 599,
+        "hp": 768,
         "shield": 5,
         "speed": 1.5,
         "die": {
@@ -317,7 +317,7 @@
         "type": "enemy",
         "tier": 2,
         "race": [],
-        "hp": 82,
+        "hp": 83,
         "speed": 0.5,
         "activateRate": 8,
         "skill": [
@@ -334,7 +334,7 @@
         "type": "enemy",
         "tier": 13,
         "race": [],
-        "hp": 19483,
+        "hp": 32877,
         "speed": 1,
         "die": {
             "gain": {
@@ -346,7 +346,7 @@
         "type": "enemy",
         "tier": 12,
         "race": [],
-        "hp": 12244,
+        "hp": 19486,
         "speed": 1,
         "die": {
             "gain": {
@@ -358,7 +358,7 @@
         "type": "enemy",
         "tier": 10,
         "race": [],
-        "hp": 4769,
+        "hp": 6783,
         "shield": 1,
         "speed": 1,
         "activateRate": 2,
@@ -376,7 +376,7 @@
         "type": "enemy",
         "tier": 9,
         "race": [],
-        "hp": 2944,
+        "hp": 3970,
         "speed": 1,
         "die": {
             "gain": {
@@ -388,7 +388,7 @@
         "type": "enemy",
         "tier": 7,
         "race": [],
-        "hp": 1082,
+        "hp": 1319,
         "shield": 2,
         "speed": 1,
         "die": {
@@ -401,7 +401,7 @@
         "type": "enemy",
         "tier": 10,
         "race": [],
-        "hp": 2384,
+        "hp": 3391,
         "shield": 2,
         "speed": 1.5,
         "die": {
@@ -414,7 +414,7 @@
         "type": "enemy",
         "tier": 6,
         "race": [],
-        "hp": 212,
+        "hp": 247,
         "shield": 1,
         "speed": 2,
         "die": {
@@ -439,7 +439,7 @@
         "type": "enemy",
         "tier": 11,
         "race": [],
-        "hp": 3831,
+        "hp": 5760,
         "speed": 1.5,
         "die": {
             "gain": {
@@ -451,7 +451,7 @@
         "type": "enemy",
         "tier": 4,
         "race": [],
-        "hp": 196,
+        "hp": 211,
         "speed": 0.5,
         "die": {
             "gain": {
@@ -463,7 +463,7 @@
         "type": "enemy",
         "tier": 13,
         "race": [],
-        "hp": 19483,
+        "hp": 32877,
         "speed": 1,
         "die": {
             "gain": {
@@ -475,7 +475,7 @@
         "type": "enemy",
         "tier": 11,
         "race": [],
-        "hp": 7663,
+        "hp": 11519,
         "speed": 1,
         "die": {
             "gain": {
@@ -487,7 +487,7 @@
         "type": "enemy",
         "tier": 16,
         "race": [],
-        "hp": 77367,
+        "hp": 156894,
         "speed": 1,
         "die": {
             "gain": {
@@ -501,7 +501,7 @@
         "race": [
             "flying"
         ],
-        "hp": 15455,
+        "hp": 27692,
         "speed": 1.5,
         "die": {
             "gain": {
@@ -513,7 +513,7 @@
         "type": "enemy",
         "tier": 5,
         "race": [],
-        "hp": 725,
+        "hp": 809,
         "shield": 2,
         "speed": 0.5,
         "die": {
@@ -538,7 +538,7 @@
         "type": "enemy",
         "tier": 4,
         "race": [],
-        "hp": 589,
+        "hp": 632,
         "speed": 0.2,
         "activateRate": 4,
         "skill": [
@@ -557,7 +557,7 @@
         "race": [
             "flying"
         ],
-        "hp": 181,
+        "hp": 202,
         "shield": 1,
         "speed": 1.5,
         "die": {
@@ -570,7 +570,7 @@
         "type": "enemy",
         "tier": 16,
         "race": [],
-        "hp": 77367,
+        "hp": 156894,
         "speed": 1,
         "die": {
             "gain": {
@@ -608,7 +608,7 @@
         "race": [
             "flying"
         ],
-        "hp": 24488,
+        "hp": 38972,
         "speed": 0.5,
         "die": {
             "gain": {
@@ -620,7 +620,7 @@
         "type": "enemy",
         "tier": 4,
         "race": [],
-        "hp": 196,
+        "hp": 211,
         "speed": 1,
         "skill": [
             "split",
@@ -639,7 +639,7 @@
         "race": [
             "flying"
         ],
-        "hp": 2944,
+        "hp": 3970,
         "speed": 1,
         "die": {
             "gain": {
@@ -651,7 +651,7 @@
         "type": "enemy",
         "tier": 8,
         "race": [],
-        "hp": 3597,
+        "hp": 4606,
         "shield": 1,
         "speed": 0.5,
         "activateRate": 2,
@@ -669,7 +669,7 @@
         "type": "enemy",
         "tier": 6,
         "race": [],
-        "hp": 637,
+        "hp": 741,
         "shield": 1,
         "speed": 1,
         "die": {
@@ -684,7 +684,7 @@
         "race": [
             "flying"
         ],
-        "hp": 1273,
+        "hp": 1483,
         "shield": 2,
         "speed": 0.5,
         "die": {
@@ -699,7 +699,7 @@
         "race": [
             "flying"
         ],
-        "hp": 2164,
+        "hp": 2639,
         "speed": 0.5,
         "die": {
             "gain": {
@@ -711,7 +711,7 @@
         "type": "enemy",
         "tier": 12,
         "race": [],
-        "hp": 12244,
+        "hp": 19486,
         "speed": 1,
         "die": {
             "gain": {
@@ -723,7 +723,7 @@
         "type": "enemy",
         "tier": 14,
         "race": [],
-        "hp": 30909,
+        "hp": 55384,
         "speed": 1,
         "die": {
             "gain": {
@@ -737,7 +737,7 @@
         "race": [
             "flying"
         ],
-        "hp": 97,
+        "hp": 101,
         "speed": 1,
         "die": {
             "gain": {

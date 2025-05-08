@@ -16,7 +16,7 @@
         "type": "boss",
         "tier": 10,
         "race": [],
-        "hp": 14306,
+        "hp": 20348,
         "speed": 1.1,
         "die": {
             "gain": {
@@ -29,7 +29,7 @@
         "type": "boss",
         "tier": 11,
         "race": [],
-        "hp": 22989,
+        "hp": 34558,
         "speed": 1.2,
         "die": {
             "gain": {
@@ -42,7 +42,7 @@
         "type": "boss",
         "tier": 12,
         "race": [],
-        "hp": 36732,
+        "hp": 58459,
         "speed": 1.3,
         "die": {
             "gain": {
@@ -55,7 +55,7 @@
         "type": "boss",
         "tier": 13,
         "race": [],
-        "hp": 58448,
+        "hp": 98632,
         "speed": 1.4,
         "die": {
             "gain": {
@@ -68,7 +68,7 @@
         "type": "boss",
         "tier": 14,
         "race": [],
-        "hp": 92728,
+        "hp": 166153,
         "speed": 1.5,
         "die": {
             "gain": {
@@ -81,7 +81,7 @@
         "type": "boss",
         "tier": 15,
         "race": [],
-        "hp": 146808,
+        "hp": 279678,
         "speed": 1.6,
         "die": {
             "gain": {
@@ -94,7 +94,7 @@
         "type": "boss",
         "tier": 16,
         "race": [],
-        "hp": 232101,
+        "hp": 470682,
         "speed": 1.7,
         "die": {
             "gain": {
@@ -107,7 +107,7 @@
         "type": "boss",
         "tier": 17,
         "race": [],
-        "hp": 366632,
+        "hp": 792341,
         "speed": 1.8,
         "die": {
             "gain": {
@@ -120,7 +120,7 @@
         "type": "boss",
         "tier": 18,
         "race": [],
-        "hp": 578882,
+        "hp": 1334640,
         "speed": 1.9,
         "die": {
             "gain": {
@@ -133,7 +133,7 @@
         "type": "boss",
         "tier": 19,
         "race": [],
-        "hp": 913911,
+        "hp": 2250104,
         "speed": 2,
         "die": {
             "gain": {
@@ -146,7 +146,7 @@
         "type": "boss",
         "tier": 2,
         "race": [],
-        "hp": 123,
+        "hp": 124,
         "speed": 0.3,
         "die": {
             "gain": {
@@ -160,7 +160,7 @@
         "type": "boss",
         "tier": 20,
         "race": [],
-        "hp": 1443072,
+        "hp": 3797700,
         "speed": 2.1,
         "die": {
             "gain": {
@@ -173,7 +173,7 @@
         "type": "boss",
         "tier": 3,
         "race": [],
-        "hp": 292,
+        "hp": 304,
         "speed": 0.4,
         "die": {
             "gain": {
@@ -187,7 +187,7 @@
         "type": "boss",
         "tier": 4,
         "race": [],
-        "hp": 589,
+        "hp": 632,
         "speed": 0.5,
         "die": {
             "gain": {
@@ -201,7 +201,7 @@
         "type": "boss",
         "tier": 5,
         "race": [],
-        "hp": 1088,
+        "hp": 1214,
         "speed": 0.6,
         "die": {
             "gain": {
@@ -215,7 +215,7 @@
         "type": "boss",
         "tier": 6,
         "race": [],
-        "hp": 1910,
+        "hp": 2224,
         "speed": 0.7,
         "die": {
             "gain": {
@@ -229,7 +229,7 @@
         "type": "boss",
         "tier": 7,
         "race": [],
-        "hp": 3245,
+        "hp": 3958,
         "speed": 0.8,
         "die": {
             "gain": {
@@ -243,7 +243,7 @@
         "type": "boss",
         "tier": 8,
         "race": [],
-        "hp": 5395,
+        "hp": 6910,
         "speed": 0.9,
         "die": {
             "gain": {
@@ -257,7 +257,7 @@
         "type": "boss",
         "tier": 9,
         "race": [],
-        "hp": 8833,
+        "hp": 11909,
         "speed": 1,
         "die": {
             "gain": {

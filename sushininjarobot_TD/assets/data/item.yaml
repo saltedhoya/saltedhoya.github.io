@@ -1,7 +1,7 @@
 tshirt:
   type: item
   tier: 1
-  race: []
+  race: ["guu"]
   cost: 2
   resolve:
     temp:
@@ -11,7 +11,7 @@ tshirt:
 brassknuckles:
   type: item
   tier: 1
-  race: []
+  race: ["guu"]
   cost: 2
   purchase:
     gain:
@@ -19,7 +19,7 @@ brassknuckles:
 button:
   type: item
   tier: 2
-  race: []
+  race: ["guu"]
   cost: 2
   resolve:
     gain:
@@ -133,6 +133,13 @@ hairmassager:
       qtip:
         - all
         - 1
+  level:
+    2:
+      spec:
+        resolve:
+          qtip:
+            - all
+            - 2
 gomibukuro:
   type: item
   tier: 10
@@ -369,6 +376,13 @@ tulip:
       magatama:
         - all
         - 1
+  level:
+    2:
+      spec:
+        resolve:
+          magatama:
+            - all
+            - 2
 umbrella:
   type: item
   tier: 10
@@ -822,12 +836,76 @@ lighter:
       bothFireRate: 3
 toothbrush:
   type: item
-  tier: 1
+  tier: 4
   race: []
-  cost: 2
+  cost: 3
   critical:
     temp:
       attack: 1
+tiepin:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  purchase:
+    gain:
+      attack: 2
+ruler:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  purchase:
+    gain:
+      fireRate: 2
+polevaultpole:
+  type: item
+  tier: 5
+  race: []
+  cost: 3
+  purchase:
+    gain:
+      attack: 4
+cactus:
+  type: item
+  tier: 5
+  race: []
+  cost: 3
+  purchase:
+    gain:
+      fireRate: 4
+bathmat:
+  type: item
+  tier: 3
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      groundAttack: 30
+ladle:
+  type: item
+  tier: 3
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      groundFireRate: 30
+thermometer:
+  type: item
+  tier: 3
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      airAttack: 30
+realdog:
+  type: item
+  tier: 3
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      airFireRate: 30
 testitem1:
   type: item
   tier: 11
