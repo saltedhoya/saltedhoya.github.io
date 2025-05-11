@@ -9,6 +9,8 @@
 
 ## onponchi
 
+![onponchi](onponchi.png)
+
 "onponchi" is a side-to-side jumping game.
 
 - [Code(GitHub)](https://github.com/saltedhoya/onponchi)
@@ -17,6 +19,8 @@
 ---
 
 ## sushininjarobot TD
+
+![sushininjarobot_TD](sushininjarobot_TD.png)
 
 "sushininjarobot TD" is a casual tower defense game with rogue-lite elements.
 
