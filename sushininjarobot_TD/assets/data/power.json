@@ -1221,5 +1221,51 @@
             "dog"
         ],
         "limit": 1
+    },
+    "transparentdonut": {
+        "type": "power",
+        "tier": 2,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "air",
+            "ninja"
+        ],
+        "tower": "transparentdonut",
+        "attackRate": 1.5,
+        "bulletSpeed": 1.5,
+        "fireRate": 1.2
+    },
+    "realization": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "transparentdonut",
+        "condition": [
+            "transparentdonut"
+        ],
+        "limit": 1
+    },
+    "thinking": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Add Weapon: {tower}",
+        "race": [
+            "both",
+            "ninja"
+        ],
+        "tower": "thinking",
+        "attackRate": 0.3,
+        "bulletSpeed": 0.6,
+        "fireRate": 1
+    },
+    "imagination": {
+        "type": "power",
+        "tier": 1,
+        "desc": "Upgrade Weapon: {upgrade}",
+        "upgrade": "thinking",
+        "condition": [
+            "thinking"
+        ],
+        "limit": 1
     }
 }

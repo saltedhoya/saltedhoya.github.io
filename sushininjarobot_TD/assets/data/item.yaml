@@ -1,7 +1,32 @@
-tshirt:
+cattoy:
   type: item
   tier: 1
   race: ["guu"]
+  cost: 2
+  resolve:
+    temp:
+      attack: 5
+tie:
+  type: item
+  tier: 2
+  race: ["guu","choki","paa"]
+  cost: 2
+  resolve:
+    gain:
+      attack: 0
+      fireRate: 0
+prepaidcard:
+  type: item
+  tier: 1
+  race: ["choki"]
+  cost: 2
+  resolve:
+    temp:
+      fireRate: 5
+tshirt:
+  type: item
+  tier: 1
+  race: []
   cost: 2
   resolve:
     temp:
@@ -11,15 +36,16 @@ tshirt:
 brassknuckles:
   type: item
   tier: 1
-  race: ["guu"]
+  race: []
   cost: 2
   purchase:
     gain:
       qtip: 10
+      fireRate: 1
 button:
   type: item
   tier: 2
-  race: ["guu"]
+  race: []
   cost: 2
   resolve:
     gain:
@@ -292,6 +318,8 @@ neji:
   resolve:
     temp:
       magatama: 1
+      attack: 1
+      fireRate: 1
 oildrum:
   type: item
   tier: 2
@@ -723,7 +751,7 @@ balloon:
       fireRate: 30
 boxinggloves:
   type: item
-  tier: 1
+  tier: 2
   race: []
   cost: 2
   resolve:
@@ -732,7 +760,7 @@ boxinggloves:
       ninjaAttack: 3
 standingmummy:
   type: item
-  tier: 1
+  tier: 2
   race: []
   cost: 2
   resolve:
@@ -741,7 +769,7 @@ standingmummy:
       towerAttack: 3
 soap:
   type: item
-  tier: 1
+  tier: 2
   race: []
   cost: 2
   resolve:
@@ -750,7 +778,7 @@ soap:
       ninjaFireRate: 3
 dryer:
   type: item
-  tier: 1
+  tier: 2
   race: []
   cost: 2
   resolve:
@@ -906,6 +934,152 @@ realdog:
   resolve:
     temp:
       airFireRate: 30
+saturn:
+  type: item
+  tier: 7
+  race: []
+  cost: 4
+  purchase:
+    gain:
+      attack: 6
+yoyo:
+  type: item
+  tier: 7
+  race: []
+  cost: 4
+  purchase:
+    gain:
+      fireRate: 6
+hangingstrap:
+  type: item
+  tier: 2
+  race: []
+  cost: 2
+  spec:
+    resolve:
+      attack:
+        - guu
+        - 1
+building:
+  type: item
+  tier: 2
+  race:
+    - guu
+  cost: 2
+  resolve:
+    temp:
+      fireRate: 5
+flask:
+  type: item
+  tier: 3
+  race: []
+  cost: 2
+  spec:
+    resolve:
+      fireRate:
+        - guu
+        - 1
+acorns:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  spec:
+    purchase:
+      fireRate:
+        - guu
+        - 4
+firework:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  spec:
+    purchase:
+      attack:
+        - guu
+        - 4
+sakura:
+  type: item
+  tier: 5
+  race:
+    - guu
+  cost: 3
+  purchase:
+    gain:
+      fireRate: 2
+match:
+  type: item
+  tier: 5
+  race:
+    - guu
+  cost: 3
+  purchase:
+    gain:
+      attack: 2
+bowlingpin:
+  type: item
+  tier: 6
+  race: []
+  cost: 3
+  spec:
+    purchase:
+      allstatus:
+        - guu
+        - 4
+fishbonediagram:
+  type: item
+  tier: 7
+  race:
+    - guu
+  cost: 4
+  resolve:
+    gain:
+      attack: 2
+memory:
+  type: item
+  tier: 7
+  race:
+    - guu
+  cost: 4
+  resolve:
+    gain:
+      fireRate: 2
+pan:
+  type: item
+  tier: 8
+  race: []
+  cost: 4
+  spec:
+    resolve:
+      attack:
+        - guu
+        - 3
+plate:
+  type: item
+  tier: 9
+  race: []
+  cost: 4
+  spec:
+    resolve:
+      fireRate:
+        - guu
+        - 3
+knife:
+  type: item
+  tier: 10
+  race: []
+  cost: 5
+  spec:
+    resolve:
+      allstatus:
+        - guu
+        - 4
+
+
+
+
+
 testitem1:
   type: item
   tier: 11
@@ -1011,9 +1185,9 @@ testitem6:
   cost: 2
   resolve:
     temp:
-      coin: -758
+      coin: -754
     gain:
-      coin: -29
+      coin: -25
 testitem9:
   type: item
   tier: 11
