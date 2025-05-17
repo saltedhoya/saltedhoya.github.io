@@ -185,7 +185,7 @@ hammer:
   cost: 2
   resolve:
     temp:
-      coin: 1
+      coin: 2
 hanger:
   type: item
   tier: 2
@@ -227,8 +227,8 @@ joypad:
   race: []
   cost: 3
   resolve:
-    temp:
-      coin: 2
+    gain:
+      coin: 1
 kusarigama:
   type: item
   tier: 5
@@ -258,7 +258,7 @@ matryoshka:
   cost: 3
   resolve:
     temp:
-      coin: 3
+      coin: 4
 mayo:
   type: item
   tier: 7
@@ -1027,6 +1027,15 @@ bowlingpin:
       allstatus:
         - guu
         - 4
+shoes:
+  type: item
+  tier: 6
+  race:
+    - guu
+  cost: 3
+  resolve:
+    gain:
+      attack: 1
 fishbonediagram:
   type: item
   tier: 7
@@ -1075,6 +1084,129 @@ knife:
       allstatus:
         - guu
         - 4
+grater:
+  type: item
+  tier: 1
+  race: ["choki"]
+  cost: 2
+  target:
+    temp:
+      fireRate:
+        - choki
+        - 5
+whistle:
+  type: item
+  tier: 2
+  race: ["choki"]
+  cost: 2
+  target:
+    temp:
+      attack:
+        - choki
+        - 5
+paintbrush:
+  type: item
+  tier: 4
+  race: ["choki"]
+  cost: 3
+  target:
+    temp:
+      fireRate:
+        - choki
+        - 10
+skateboard:
+  type: item
+  tier: 5
+  race: ["choki"]
+  cost: 3
+  target:
+    temp:
+      attack:
+        - choki
+        - 10
+lightbulb:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  target:
+    gain:
+      attack:
+        - choki
+        - 1
+compass:
+  type: item
+  tier: 5
+  race: []
+  cost: 3
+  target:
+    gain:
+      fireRate:
+        - choki
+        - 1
+stapleremover:
+  type: item
+  tier: 7
+  race: ["choki"]
+  cost: 4
+  target:
+    temp:
+      fireRate:
+        - choki
+        - 15
+kite:
+  type: item
+  tier: 8
+  race: ["choki"]
+  cost: 4
+  target:
+    temp:
+      attack:
+        - choki
+        - 15
+crochethook:
+  type: item
+  tier: 7
+  race: []
+  cost: 4
+  target:
+    gain:
+      attack:
+        - choki
+        - 2
+towel:
+  type: item
+  tier: 8
+  race: []
+  cost: 4
+  target:
+    gain:
+      fireRate:
+        - choki
+        - 2
+rubberduck:
+  type: item
+  tier: 10
+  race: ["choki"]
+  cost: 5
+  target:
+    gain:
+      attack:
+        - choki
+        - 3
+vinylrecord:
+  type: item
+  tier: 10
+  race: ["choki"]
+  cost: 5
+  target:
+    gain:
+      fireRate:
+        - choki
+        - 3
+
+
+
 
 
 
@@ -1190,7 +1322,7 @@ testitem6:
       coin: -25
 testitem9:
   type: item
-  tier: 11
+  tier: 12
   race: []
   cost: 2
   resolve:
