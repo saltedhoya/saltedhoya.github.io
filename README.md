@@ -7,6 +7,17 @@
 
 ---
 
+## sushininjarobot TD
+
+![sushininjarobot_TD](sushininjarobot_TD.png)
+
+"sushininjarobot TD" is a casual tower defense game with rogue-lite elements.
+
+- [Game(Web Demo)](https://saltedhoya.com/sushininjarobot_TD/)
+- [Game(Steam)](https://store.steampowered.com/app/3019000/sushininjarobot_TD)
+
+---
+
 ## onponchi
 
 ![onponchi](onponchi.png)
@@ -17,12 +28,3 @@
 - [Game(Web)](https://saltedhoya.com/onponchi/)
 
 ---
-
-## sushininjarobot TD
-
-![sushininjarobot_TD](sushininjarobot_TD.png)
-
-"sushininjarobot TD" is a casual tower defense game with rogue-lite elements.
-
-- [Game(Web Demo)](https://saltedhoya.com/sushininjarobot_TD/)
-- [Game(Steam)](https://store.steampowered.com/app/3019000/sushininjarobot_TD)
