@@ -220,6 +220,17 @@ merlion:
   attackRate: 0.4
   bulletSpeed: 1
   fireRate: 0.4
+boomerang:
+  type: power
+  tier: 2
+  desc: "Add Weapon: {tower}"
+  race:
+    - air
+    - ninja
+  tower: boomerang
+  attackRate: 1.5
+  bulletSpeed: 1.2
+  fireRate: 1.2
 rimokon:
   type: power
   tier: 3
@@ -244,30 +255,37 @@ pearlnecklace:
   purchase:
     gain:
       deck: 1
-boomerang:
-  type: power
-  tier: 2
-  desc: "Add Weapon: {tower}"
-  race:
-    - air
-    - ninja
-  tower: boomerang
-  attackRate: 1.5
-  bulletSpeed: 1.2
-  fireRate: 1.2
-gas:
+sharpener:
   type: power
   tier: 3
-  desc: "{deck} -1, {phase.resolveCount} +1"
+  desc: "{deck} -1 {bullet} +1"
   purchase:
     gain:
       deck: -1
+    gain:
+      bullet: 1
+yarnball:
+  type: power
+  tier: 8
+  desc: "{phase.resolveCount} +1"
   phase:
     resolveCount:
       - all
       - 1
-  condition:
-    - face
+gas:
+  type: power
+  tier: 5
+  desc: "|{option}| → {phase.resolveCount} +1"
+  option:
+    type: race
+    choice:
+      - guu
+      - choki
+      - paa
+  phase:
+    resolveCount:
+      - option
+      - 1
 faucet:
   type: power
   tier: 3

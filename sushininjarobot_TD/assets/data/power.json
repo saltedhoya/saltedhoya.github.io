@@ -310,22 +310,22 @@
     },
     "gas": {
         "type": "power",
-        "tier": 3,
-        "desc": "{deck} -1, {phase.resolveCount} +1",
-        "purchase": {
-            "gain": {
-                "deck": -1
-            }
+        "tier": 5,
+        "desc": "|{option}| → {phase.resolveCount} +1",
+        "option": {
+            "type": "race",
+            "choice": [
+                "guu",
+                "choki",
+                "paa"
+            ]
         },
         "phase": {
             "resolveCount": [
-                "all",
+                "option",
                 1
             ]
-        },
-        "condition": [
-            "face"
-        ]
+        }
     },
     "faucet": {
         "type": "power",
@@ -1267,5 +1267,26 @@
             "thinking"
         ],
         "limit": 1
+    },
+    "sharpener": {
+        "type": "power",
+        "tier": 3,
+        "desc": "{deck} -1 {bullet} +1",
+        "purchase": {
+            "gain": {
+                "bullet": 1
+            }
+        }
+    },
+    "yarnball": {
+        "type": "power",
+        "tier": 8,
+        "desc": "{phase.resolveCount} +1",
+        "phase": {
+            "resolveCount": [
+                "all",
+                1
+            ]
+        }
     }
 }
