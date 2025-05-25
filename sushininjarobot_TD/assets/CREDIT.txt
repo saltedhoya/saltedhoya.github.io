@@ -1,13 +1,5 @@
 # Design, Programming, Art & Localization
 © Salted Hoya
-https://saltedhoya.com/
 
 # Music
 This game using enikaitashiro's BGM, © RemanolD.
-https://enikaitashiro.com/
-https://enikaitashiro.com/?page_id=46
-
-# Game Engine
-This game was made using Phaser 3, © Richard Davey, Phaser Studio Inc.
-https://phaser.io/
-https://phaser.io/download/license

@@ -24,8 +24,9 @@
         "type": "character",
         "character": "pyramidpiano",
         "tier": 1,
-        "desc": "All {guu} items: {coin} -1",
+        "desc": "{choice} +2",
         "status": {
+            "choiceNum": 2,
             "power": [
                 "pyramid"
             ]

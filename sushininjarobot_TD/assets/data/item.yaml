@@ -9,7 +9,7 @@ cattoy:
 tie:
   type: item
   tier: 2
-  race: ["guu","choki","paa"]
+  race: ["guu", "choki", "paa"]
   cost: 2
   resolve:
     gain:
@@ -1207,7 +1207,7 @@ holepunch:
     tier: "<=5"
   resolve:
     temp:
-      bothFireRate: '5*tier'
+      bothFireRate: "5*tier"
 bottleopener:
   type: item
   tier: 1
@@ -1217,7 +1217,7 @@ bottleopener:
     tier: "<=5"
   resolve:
     temp:
-      bothAttack: '5*tier'
+      bothAttack: "5*tier"
 cushion:
   type: item
   tier: 2
@@ -1257,7 +1257,7 @@ pincushion:
   cost: 4
   resolve:
     temp:
-      bothFireRate: '5*tier'
+      bothFireRate: "5*tier"
 backpack:
   type: item
   tier: 5
@@ -1265,7 +1265,7 @@ backpack:
   cost: 4
   resolve:
     temp:
-      bothAttack: '5*tier'
+      bothAttack: "5*tier"
 wateringcan:
   type: item
   tier: 7
@@ -1292,12 +1292,215 @@ harmonica:
   resolve:
     temp:
       bothBullet: 1
-
-
-
-
-
-
+pizzacutter:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  time:
+    temp:
+      towerFireRate: 2
+coinpurse:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  time:
+    temp:
+      towerAttack: 2
+binder:
+  type: item
+  tier: 3
+  race: []
+  cost: 3
+  time:
+    gain:
+      towerAttack: 1
+spatula:
+  type: item
+  tier: 3
+  race: []
+  cost: 3
+  time:
+    gain:
+      towerFireRate: 1
+earrings:
+  type: item
+  tier: 5
+  race: []
+  cost: 4
+  time:
+    temp:
+      towerFireRate: 6
+printer:
+  type: item
+  tier: 5
+  race: []
+  cost: 4
+  time:
+    temp:
+      towerAttack: 6
+iron:
+  type: item
+  tier: 7
+  race: []
+  cost: 5
+  time:
+    temp:
+      towerFireRate: 8
+clothespin:
+  type: item
+  tier: 7
+  race: []
+  cost: 5
+  time:
+    temp:
+      towerAttack: 8
+pliers:
+  type: item
+  tier: 9
+  race: []
+  cost: 6
+  time:
+    gain:
+      towerAttack: 2
+monitor:
+  type: item
+  tier: 9
+  race: []
+  cost: 6
+  time:
+    gain:
+      towerFireRate: 2
+plunger:
+  type: item
+  tier: 6
+  race: []
+  cost: 4
+  spec:
+    time:
+      towerAttack:
+        - all
+        - 1
+ziptie:
+  type: item
+  tier: 6
+  race: []
+  cost: 4
+  spec:
+    time:
+      towerFireRate:
+        - all
+        - 1
+bucket:
+  type: item
+  tier: 10
+  race: []
+  cost: 6
+  spec:
+    time:
+      allstatus:
+        - all
+        - 1
+gauze:
+  type: item
+  tier: 3
+  race: []
+  cost: 3
+  condition:
+    - tapemeasure
+  requirement:
+    ninjaAttack: ">=10"
+  resolve:
+    gain:
+      ninjaAttack: -10
+      towerAttack: 10
+totebag:
+  type: item
+  tier: 3
+  race: []
+  cost: 3
+  condition:
+    - tapemeasure
+  requirement:
+    towerAttack: ">=10"
+  resolve:
+    gain:
+      towerAttack: -10
+      ninjaAttack: 10
+protractor:
+  type: item
+  tier: 3
+  race: []
+  cost: 3
+  condition:
+    - glue
+  requirement:
+    ninjaFireRate: ">=10"
+  resolve:
+    gain:
+      ninjaFireRate: -10
+      towerFireRate: 10
+handblender:
+  type: item
+  tier: 3
+  race: []
+  cost: 3
+  condition:
+    - glue
+  requirement:
+    towerFireRate: ">=10"
+  resolve:
+    gain:
+      towerFireRate: -10
+      ninjaFireRate: 10
+bookmark:
+  type: item
+  tier: 5
+  race: []
+  cost: 4
+  requirement:
+    groundAttack: ">=10"
+  resolve:
+    gain:
+      groundAttack: -10
+      attack: 5
+measuringcup:
+  type: item
+  tier: 5
+  race: []
+  cost: 4
+  requirement:
+    airAttack: ">=10"
+  resolve:
+    gain:
+      airAttack: -10
+      attack: 5
+scarf:
+  type: item
+  tier: 5
+  race: []
+  cost: 4
+  requirement:
+    groundFireRate: ">=10"
+  resolve:
+    gain:
+      groundFireRate: -10
+      fireRate: 5
+shoppingbag:
+  type: item
+  tier: 5
+  race: []
+  cost: 4
+  requirement:
+    airFireRate: ">=10"
+  resolve:
+    gain:
+      airFireRate: -10
+      fireRate: 5
+# ----------------------------------------
+# ここから下はテスト用パワー
+# ----------------------------------------
 testitem1:
   type: item
   tier: 11
@@ -1326,7 +1529,7 @@ testitem2:
   cost: 2
   resolve:
     temp:
-      attack: 1
+      attack: "1*tier"
   target:
     temp:
       coin:
@@ -1354,8 +1557,8 @@ testitem3:
   target:
     temp:
       airAttack:
-        - level>=2
-        - 1
+        - all
+        - 1*tier
   requirement:
     paa: ">=1"
     choki: ">-10"
@@ -1387,6 +1590,11 @@ testitem5:
     attack:
       temp:
         groundAttack: 1*tier
+  target:
+    temp:
+      airAttack:
+        - level>=2
+        - 1*tier
   spec:
     sell:
       coin:

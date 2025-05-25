@@ -4,10 +4,10 @@
         "tier": 1,
         "race": [],
         "hp": 33,
-        "speed": 0.2,
+        "speed": 20,
         "die": {
             "gain": {
-                "exp": 5,
+                "exp": 4,
                 "box": 1
             }
         }
@@ -17,10 +17,10 @@
         "tier": 10,
         "race": [],
         "hp": 20348,
-        "speed": 1.1,
+        "speed": 110,
         "die": {
             "gain": {
-                "exp": 50,
+                "exp": 220,
                 "gem": 2
             }
         }
@@ -30,10 +30,10 @@
         "tier": 11,
         "race": [],
         "hp": 34558,
-        "speed": 1.2,
+        "speed": 120,
         "die": {
             "gain": {
-                "exp": 55,
+                "exp": 267,
                 "gem": 2
             }
         }
@@ -43,10 +43,10 @@
         "tier": 12,
         "race": [],
         "hp": 58459,
-        "speed": 1.3,
+        "speed": 130,
         "die": {
             "gain": {
-                "exp": 60,
+                "exp": 303,
                 "gem": 2
             }
         }
@@ -56,10 +56,10 @@
         "tier": 13,
         "race": [],
         "hp": 98632,
-        "speed": 1.4,
+        "speed": 140,
         "die": {
             "gain": {
-                "exp": 65,
+                "exp": 341,
                 "gem": 2
             }
         }
@@ -69,10 +69,10 @@
         "tier": 14,
         "race": [],
         "hp": 166153,
-        "speed": 1.5,
+        "speed": 150,
         "die": {
             "gain": {
-                "exp": 70,
+                "exp": 381,
                 "gem": 2
             }
         }
@@ -82,10 +82,10 @@
         "tier": 15,
         "race": [],
         "hp": 279678,
-        "speed": 1.6,
+        "speed": 160,
         "die": {
             "gain": {
-                "exp": 75,
+                "exp": 423,
                 "gem": 2
             }
         }
@@ -95,10 +95,10 @@
         "tier": 16,
         "race": [],
         "hp": 470682,
-        "speed": 1.7,
+        "speed": 170,
         "die": {
             "gain": {
-                "exp": 80,
+                "exp": 468,
                 "gem": 3
             }
         }
@@ -108,10 +108,10 @@
         "tier": 17,
         "race": [],
         "hp": 792341,
-        "speed": 1.8,
+        "speed": 180,
         "die": {
             "gain": {
-                "exp": 85,
+                "exp": 514,
                 "gem": 3
             }
         }
@@ -121,10 +121,10 @@
         "tier": 18,
         "race": [],
         "hp": 1334640,
-        "speed": 1.9,
+        "speed": 190,
         "die": {
             "gain": {
-                "exp": 90,
+                "exp": 562,
                 "gem": 3
             }
         }
@@ -134,10 +134,10 @@
         "tier": 19,
         "race": [],
         "hp": 2250104,
-        "speed": 2,
+        "speed": 200,
         "die": {
             "gain": {
-                "exp": 95,
+                "exp": 612,
                 "gem": 3
             }
         }
@@ -147,10 +147,10 @@
         "tier": 2,
         "race": [],
         "hp": 124,
-        "speed": 0.3,
+        "speed": 30,
         "die": {
             "gain": {
-                "exp": 10,
+                "exp": 9,
                 "box": 1,
                 "gem": 1
             }
@@ -161,10 +161,10 @@
         "tier": 20,
         "race": [],
         "hp": 3797700,
-        "speed": 2.1,
+        "speed": 210,
         "die": {
             "gain": {
-                "exp": 100,
+                "exp": 664,
                 "gem": 4
             }
         }
@@ -174,10 +174,10 @@
         "tier": 3,
         "race": [],
         "hp": 304,
-        "speed": 0.4,
+        "speed": 40,
         "die": {
             "gain": {
-                "exp": 15,
+                "exp": 20,
                 "box": 1,
                 "gem": 1
             }
@@ -188,10 +188,10 @@
         "tier": 4,
         "race": [],
         "hp": 632,
-        "speed": 0.5,
+        "speed": 50,
         "die": {
             "gain": {
-                "exp": 20,
+                "exp": 36,
                 "box": 1,
                 "gem": 1
             }
@@ -202,10 +202,10 @@
         "tier": 5,
         "race": [],
         "hp": 1214,
-        "speed": 0.6,
+        "speed": 60,
         "die": {
             "gain": {
-                "exp": 25,
+                "exp": 55,
                 "box": 1,
                 "gem": 1
             }
@@ -216,10 +216,10 @@
         "tier": 6,
         "race": [],
         "hp": 2224,
-        "speed": 0.7,
+        "speed": 70,
         "die": {
             "gain": {
-                "exp": 30,
+                "exp": 80,
                 "box": 1,
                 "gem": 1
             }
@@ -230,10 +230,10 @@
         "tier": 7,
         "race": [],
         "hp": 3958,
-        "speed": 0.8,
+        "speed": 80,
         "die": {
             "gain": {
-                "exp": 35,
+                "exp": 108,
                 "box": 1,
                 "gem": 1
             }
@@ -244,10 +244,10 @@
         "tier": 8,
         "race": [],
         "hp": 6910,
-        "speed": 0.9,
+        "speed": 90,
         "die": {
             "gain": {
-                "exp": 40,
+                "exp": 141,
                 "box": 1,
                 "gem": 1
             }
@@ -258,10 +258,10 @@
         "tier": 9,
         "race": [],
         "hp": 11909,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
-                "exp": 45,
+                "exp": 179,
                 "gem": 1
             }
         }

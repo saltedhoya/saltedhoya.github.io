@@ -263,7 +263,7 @@
     },
     "rimokon": {
         "type": "power",
-        "tier": 3,
+        "tier": 4,
         "desc": "|{enemy}| → {exp} ￪100%",
         "spec": {
             "die": {
@@ -277,17 +277,16 @@
     "pyramid": {
         "type": "power",
         "tier": 6,
-        "desc": "All {guu} items: {coin} -1",
-        "spec": {
-            "cost": [
-                "guu",
-                -1
-            ]
+        "desc": "{choice} +2",
+        "purchase": {
+            "gain": {
+                "choice": 2
+            }
         }
     },
     "pearlnecklace": {
         "type": "power",
-        "tier": 3,
+        "tier": 2,
         "desc": "{deck} +1",
         "purchase": {
             "gain": {
@@ -310,7 +309,7 @@
     },
     "gas": {
         "type": "power",
-        "tier": 5,
+        "tier": 6,
         "desc": "|{option}| → {phase.resolveCount} +1",
         "option": {
             "type": "race",
@@ -329,7 +328,7 @@
     },
     "faucet": {
         "type": "power",
-        "tier": 3,
+        "tier": 2,
         "desc": "{choice} +1",
         "purchase": {
             "gain": {
@@ -340,7 +339,7 @@
     "pushpin": {
         "type": "power",
         "tier": 3,
-        "desc": "{ deck level up }: {option}",
+        "desc": "{option} → {level} +1",
         "option": {
             "type": "deck"
         },
@@ -352,13 +351,14 @@
     },
     "pen": {
         "type": "power",
-        "tier": 5,
-        "desc": "{ race cost down }: {option}",
+        "tier": 4,
+        "desc": "{option} → ￬1{coin}",
         "option": {
             "type": "race",
             "choice": [
                 "guu",
-                "choki"
+                "choki",
+                "paa"
             ]
         },
         "spec": {
@@ -396,8 +396,9 @@
     },
     "metalghost": {
         "type": "power",
-        "tier": 3,
-        "desc": "All {ghost} items: Durable"
+        "tier": 4,
+        "desc": "All {ghost} items: Durable",
+        "limit": 1
     },
     "telephonepole": {
         "type": "power",
@@ -1270,10 +1271,11 @@
     },
     "sharpener": {
         "type": "power",
-        "tier": 3,
+        "tier": 4,
         "desc": "{deck} -1 {bullet} +1",
         "purchase": {
             "gain": {
+                "deck": -1,
                 "bullet": 1
             }
         }
@@ -1287,6 +1289,176 @@
                 "all",
                 1
             ]
+        }
+    },
+    "saw": {
+        "type": "power",
+        "tier": 4,
+        "desc": "|{enemy}| → {speed} ￬20%",
+        "spec": {
+            "speed": [
+                "enemy",
+                "*0.8"
+            ]
+        }
+    },
+    "tapemeasure": {
+        "type": "power",
+        "tier": 2,
+        "desc": "{reroll} → ￬1{coin}",
+        "rerollCost": -1
+    },
+    "saucepan": {
+        "type": "power",
+        "tier": 6,
+        "desc": "{reroll} → ￬2{coin}",
+        "rerollCost": -2
+    },
+    "glue": {
+        "type": "power",
+        "tier": 2,
+        "desc": "|{flying}| → {speed} ￬30%",
+        "spec": {
+            "speed": [
+                "flying",
+                "*0.8"
+            ]
+        }
+    },
+    "sponge": {
+        "type": "power",
+        "tier": 6,
+        "desc": "{all} → ￬1{coin}",
+        "spec": {
+            "cost": [
+                "all",
+                -1
+            ]
+        }
+    },
+    "toothpaste": {
+        "type": "power",
+        "tier": 2,
+        "desc": "|{boss}| → {exp} ￪200% {speed} ￪100%",
+        "spec": {
+            "speed": [
+                "boss",
+                "*2"
+            ],
+            "die": {
+                "exp": [
+                    "boss",
+                    "*3"
+                ]
+            }
+        }
+    },
+    "stapler": {
+        "type": "power",
+        "tier": 8,
+        "desc": "{bullet} +1",
+        "purchase": {
+            "gain": {
+                "bullet": 1
+            }
+        }
+    },
+    "handkerchief": {
+        "type": "power",
+        "tier": 4,
+        "desc": "|{guu}| → {phase.resolveCount} +1",
+        "phase": {
+            "resolveCount": [
+                "guu",
+                1
+            ]
+        }
+    },
+    "rollingpin": {
+        "type": "power",
+        "tier": 6,
+        "desc": "{towerBullet} +1",
+        "purchase": {
+            "gain": {
+                "towerBullet": 1
+            }
+        }
+    },
+    "wrench": {
+        "type": "power",
+        "tier": 6,
+        "desc": "{ninjaBullet} +1",
+        "purchase": {
+            "gain": {
+                "ninjaBullet": 1
+            }
+        }
+    },
+    "broom": {
+        "type": "power",
+        "tier": 4,
+        "desc": "{airBullet} +1",
+        "purchase": {
+            "gain": {
+                "airBullet": 1
+            }
+        }
+    },
+    "fishinglure": {
+        "type": "power",
+        "tier": 4,
+        "desc": "{groundBullet} +1",
+        "purchase": {
+            "gain": {
+                "groundBullet": 1
+            }
+        }
+    },
+    "fountainpen": {
+        "type": "power",
+        "tier": 4,
+        "desc": "{bothBullet} +1",
+        "purchase": {
+            "gain": {
+                "bothBullet": 1
+            }
+        }
+    },
+    "thimble": {
+        "type": "power",
+        "tier": 2,
+        "desc": "{guu} → ￬1{coin}",
+        "spec": {
+            "cost": [
+                "guu",
+                -1
+            ]
+        }
+    },
+    "paperclip": {
+        "type": "power",
+        "tier": 4,
+        "desc": "|{all}| → {time}: {towerAttack} ￪1",
+        "spec": {
+            "time": {
+                "towerAttack": [
+                    "all",
+                    1
+                ]
+            }
+        }
+    },
+    "penstand": {
+        "type": "power",
+        "tier": 4,
+        "desc": "|{all}| → {time}: {towerFireRate} ￪1",
+        "spec": {
+            "time": {
+                "towerFireRate": [
+                    "all",
+                    1
+                ]
+            }
         }
     }
 }

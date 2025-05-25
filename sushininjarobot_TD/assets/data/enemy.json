@@ -6,7 +6,7 @@
             "flying"
         ],
         "hp": 186452,
-        "speed": 0.5,
+        "speed": 50,
         "die": {
             "gain": {
                 "exp": 15
@@ -18,7 +18,7 @@
         "tier": 3,
         "race": [],
         "hp": 202,
-        "speed": 0.5,
+        "speed": 50,
         "die": {
             "gain": {
                 "exp": 3
@@ -32,7 +32,7 @@
             "flying"
         ],
         "hp": 186452,
-        "speed": 0.5,
+        "speed": 50,
         "die": {
             "gain": {
                 "exp": 15
@@ -45,7 +45,7 @@
         "race": [],
         "hp": 405,
         "shield": 1,
-        "speed": 1,
+        "speed": 100,
         "activateRate": 4,
         "skill": [
             "heal",
@@ -62,7 +62,7 @@
         "tier": 2,
         "race": [],
         "hp": 41,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 2
@@ -76,7 +76,7 @@
             "flying"
         ],
         "hp": 101,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 3
@@ -90,7 +90,7 @@
             "flying"
         ],
         "hp": 1319,
-        "speed": 1.5,
+        "speed": 150,
         "die": {
             "gain": {
                 "exp": 7
@@ -102,7 +102,7 @@
         "tier": 14,
         "race": [],
         "hp": 55384,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 14
@@ -114,7 +114,7 @@
         "tier": 15,
         "race": [],
         "hp": 186452,
-        "speed": 0.5,
+        "speed": 50,
         "die": {
             "gain": {
                 "exp": 15
@@ -127,7 +127,7 @@
         "race": [],
         "hp": 371,
         "shield": 1,
-        "speed": 1.5,
+        "speed": 150,
         "die": {
             "gain": {
                 "exp": 6
@@ -141,7 +141,7 @@
             "flying"
         ],
         "hp": 809,
-        "speed": 0.5,
+        "speed": 50,
         "activateRate": 3,
         "skill": [
             "spawn",
@@ -160,7 +160,7 @@
             "flying"
         ],
         "hp": 156894,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 16
@@ -172,7 +172,7 @@
         "tier": 1,
         "race": [],
         "hp": 11,
-        "speed": 1.2,
+        "speed": 120,
         "die": {
             "gain": {
                 "exp": 1
@@ -184,7 +184,7 @@
         "tier": 13,
         "race": [],
         "hp": 16439,
-        "speed": 1.5,
+        "speed": 150,
         "die": {
             "gain": {
                 "exp": 13
@@ -198,7 +198,7 @@
             "flying"
         ],
         "hp": 3970,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 9
@@ -211,7 +211,7 @@
         "race": [],
         "hp": 13565,
         "shield": 1,
-        "speed": 0.5,
+        "speed": 50,
         "activateRate": 3,
         "skill": [
             "spawn",
@@ -228,7 +228,7 @@
         "tier": 11,
         "race": [],
         "hp": 11519,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 11
@@ -241,7 +241,7 @@
         "race": [],
         "hp": 101,
         "shield": 2,
-        "speed": 1,
+        "speed": 100,
         "activateRate": 5,
         "skill": [
             "shield",
@@ -261,7 +261,7 @@
         ],
         "hp": 211,
         "shield": 1,
-        "speed": 1,
+        "speed": 100,
         "activateRate": 4,
         "skill": [
             "spawn",
@@ -280,7 +280,7 @@
             "flying"
         ],
         "hp": 21,
-        "speed": 1.5,
+        "speed": 150,
         "die": {
             "gain": {
                 "exp": 2
@@ -293,7 +293,7 @@
         "race": [],
         "hp": 4606,
         "shield": 1,
-        "speed": 0.5,
+        "speed": 50,
         "die": {
             "gain": {
                 "exp": 8
@@ -306,7 +306,7 @@
         "race": [],
         "hp": 768,
         "shield": 5,
-        "speed": 1.5,
+        "speed": 150,
         "die": {
             "gain": {
                 "exp": 8
@@ -318,7 +318,7 @@
         "tier": 2,
         "race": [],
         "hp": 83,
-        "speed": 0.5,
+        "speed": 50,
         "activateRate": 8,
         "skill": [
             "spawn",
@@ -335,7 +335,7 @@
         "tier": 13,
         "race": [],
         "hp": 32877,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 13
@@ -347,7 +347,7 @@
         "tier": 12,
         "race": [],
         "hp": 19486,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 12
@@ -360,7 +360,7 @@
         "race": [],
         "hp": 6783,
         "shield": 1,
-        "speed": 1,
+        "speed": 100,
         "activateRate": 2,
         "skill": [
             "heal",
@@ -377,7 +377,7 @@
         "tier": 9,
         "race": [],
         "hp": 3970,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 9
@@ -390,7 +390,7 @@
         "race": [],
         "hp": 1319,
         "shield": 2,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 7
@@ -403,7 +403,7 @@
         "race": [],
         "hp": 3391,
         "shield": 2,
-        "speed": 1.5,
+        "speed": 150,
         "die": {
             "gain": {
                 "exp": 10
@@ -416,7 +416,7 @@
         "race": [],
         "hp": 247,
         "shield": 1,
-        "speed": 2,
+        "speed": 200,
         "die": {
             "gain": {
                 "exp": 6
@@ -428,7 +428,7 @@
         "tier": 1,
         "race": [],
         "hp": 6,
-        "speed": 1.5,
+        "speed": 150,
         "die": {
             "gain": {
                 "exp": 1
@@ -440,7 +440,7 @@
         "tier": 11,
         "race": [],
         "hp": 5760,
-        "speed": 1.5,
+        "speed": 150,
         "die": {
             "gain": {
                 "exp": 11
@@ -452,7 +452,7 @@
         "tier": 4,
         "race": [],
         "hp": 211,
-        "speed": 0.5,
+        "speed": 50,
         "die": {
             "gain": {
                 "exp": 4
@@ -464,7 +464,7 @@
         "tier": 13,
         "race": [],
         "hp": 32877,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 13
@@ -476,7 +476,7 @@
         "tier": 11,
         "race": [],
         "hp": 11519,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 11
@@ -488,7 +488,7 @@
         "tier": 16,
         "race": [],
         "hp": 156894,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 16
@@ -502,7 +502,7 @@
             "flying"
         ],
         "hp": 27692,
-        "speed": 1.5,
+        "speed": 150,
         "die": {
             "gain": {
                 "exp": 14
@@ -515,7 +515,7 @@
         "race": [],
         "hp": 809,
         "shield": 2,
-        "speed": 0.5,
+        "speed": 50,
         "die": {
             "gain": {
                 "exp": 5
@@ -527,7 +527,7 @@
         "tier": 2,
         "race": [],
         "hp": 41,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 2
@@ -539,7 +539,7 @@
         "tier": 4,
         "race": [],
         "hp": 632,
-        "speed": 0.2,
+        "speed": 20,
         "activateRate": 4,
         "skill": [
             "shield",
@@ -559,7 +559,7 @@
         ],
         "hp": 202,
         "shield": 1,
-        "speed": 1.5,
+        "speed": 150,
         "die": {
             "gain": {
                 "exp": 5
@@ -571,7 +571,7 @@
         "tier": 16,
         "race": [],
         "hp": 156894,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 16
@@ -583,7 +583,7 @@
         "tier": 1,
         "race": [],
         "hp": 17,
-        "speed": 0.75,
+        "speed": 75,
         "die": {
             "gain": {
                 "exp": 1
@@ -595,7 +595,7 @@
         "tier": 1,
         "race": [],
         "hp": 11,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 1
@@ -609,7 +609,7 @@
             "flying"
         ],
         "hp": 38972,
-        "speed": 0.5,
+        "speed": 50,
         "die": {
             "gain": {
                 "exp": 12
@@ -621,7 +621,7 @@
         "tier": 4,
         "race": [],
         "hp": 211,
-        "speed": 1,
+        "speed": 100,
         "skill": [
             "split",
             "shrimp",
@@ -640,7 +640,7 @@
             "flying"
         ],
         "hp": 3970,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 9
@@ -653,7 +653,7 @@
         "race": [],
         "hp": 4606,
         "shield": 1,
-        "speed": 0.5,
+        "speed": 50,
         "activateRate": 2,
         "skill": [
             "shield",
@@ -671,7 +671,7 @@
         "race": [],
         "hp": 741,
         "shield": 1,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 6
@@ -686,7 +686,7 @@
         ],
         "hp": 1483,
         "shield": 2,
-        "speed": 0.5,
+        "speed": 50,
         "die": {
             "gain": {
                 "exp": 6
@@ -700,7 +700,7 @@
             "flying"
         ],
         "hp": 2639,
-        "speed": 0.5,
+        "speed": 50,
         "die": {
             "gain": {
                 "exp": 7
@@ -712,7 +712,7 @@
         "tier": 12,
         "race": [],
         "hp": 19486,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 12
@@ -724,7 +724,7 @@
         "tier": 14,
         "race": [],
         "hp": 55384,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 14
@@ -738,7 +738,7 @@
             "flying"
         ],
         "hp": 101,
-        "speed": 1,
+        "speed": 100,
         "die": {
             "gain": {
                 "exp": 3
