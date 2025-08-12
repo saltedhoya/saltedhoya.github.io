@@ -1,0 +1,97 @@
+{tutorial_key:T_GAME_EXPLAIN}
+----
+[t_1]
+----
+This game progresses by sequentially repeating the following phases:
+----
+Card Activation Phase: Cards in your hand automatically activate, enhancing your stats.
+----
+Sushi Annihilation Phase: Defeat sushi to earn experience points and coins.
+----
+Purchase Phase: Use coins to purchase new cards.
+----
+If you can survive until the time limit for each stage, you win.
+----
+(Click image to close)
+----
+{tutorial_next}
+----
+{tutorial_key:T_WEAPON_TOWER}
+----
+[t_2]
+----
+There are two types of attack methods: "Weapons" and "Towers."
+The stats that affect each are different, and there are also "Weapon-only" and "Tower-only" stats.
+Please note that increasing stats for a type you don't possess will not have any effect.
+----
+Also, weapons and towers each have specific targets they can attack, divided into three types.
+Stats unrelated to these attack targets will also have no effect, so be sure to check which effects apply to which equipment.
+----
+(Click image to close)
+----
+{tutorial_next}
+----
+{tutorial_key:T_SHOPPING_BASIC}
+----
+[t_3]
+----
+To efficiently defeat sushi, use coins to purchase cards.
+Card effects can either have parentheses ( ) or not.
+Effects with parentheses ( ) are reset when the round ends, but they are often more powerful as a result.
+----
+Cards are not purchased by merely selecting them.
+Be sure to pull the lever to confirm your purchase.
+----
+(Click image to close)
+----
+{tutorial_next}
+----
+{tutorial_key:T_PHASE}
+----
+[t_4]
+----
+Unless a card has a special notation, its effect will activate during the "Card Activation Phase" at the start of a round, enhancing your stats.
+----
+There are also various other activation timings, such as "gain effect when a card is purchased," "gain effect every 10 seconds," "gain effect on a critical hit," and "gain effect for specific cards."
+----
+None of these effects will activate unless the card is active (brightened at the bottom of the screen). Reorder the cards at the bottom of the screen as needed.
+----
+(Click image to close)
+----
+{tutorial_next}
+----
+{tutorial_key:T_FLYING}
+----
+[t_5]
+----
+There are two types of sushi: "ground sushi" that runs on the ground and "flying sushi" that flies in the air.
+----
+Since each weapon and tower has a specific type of sushi it can attack, make sure to equip yourself to handle both types of sushi.
+----
+"Ground-only" and "Anti-air only" weapons/towers may have limited use cases, but they often possess powerful effects.
+----
+(Click image to close)
+----
+{tutorial_next}
+----
+{tutorial_key:T_SPEC}
+----
+[t_6]
+----
+Cards with a "→" notation enhance the effects of other cards.
+----
+If the type or parameter to be enhanced does not match, the enhancement will not activate.
+----
+There are also cards that enhance "all parameters," in which case all parameters will be enhanced.
+----
+(Click image to close)
+----
+{tutorial_next}
+----
+{tutorial_key:T_GEM}
+----
+[t_7]
+----
+Gems have no use in the game, but they can be consumed to punch boxes.
+----
+(Click image to close)

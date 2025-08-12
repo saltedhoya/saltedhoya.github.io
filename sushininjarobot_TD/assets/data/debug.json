@@ -1,0 +1,1067 @@
+[
+    {
+        "label": "カード発動: spec.spec 同士のテスト用",
+        "status": {
+            "expNum": 1000,
+            "deck": [
+                "testitem7",
+                "testitem5",
+                "testitem1"
+            ],
+            "power": [
+                "shuriken",
+                "testpower2",
+                "testpower7"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Resolve"
+    },
+    {
+        "label": "カード購入: シンプルな購入画面",
+        "status": {
+            "expNum": 1000,
+            "power": [
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード購入: チョキ種族ボーナス確認",
+        "status": {
+            "coinNum": 1,
+            "expNum": 500,
+            "deck": [
+                "grater",
+                "grater",
+                "vinylrecord",
+                "vinylrecord",
+                "rubberduck",
+                "rubberduck"
+            ],
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード購入: ハート種族ボーナス確認",
+        "status": {
+            "deck": [
+                "coaster",
+                "school",
+                "circuitboard",
+                "tie"
+            ],
+            "expNum": 150,
+            "power": [
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード購入: ゴースト種族ボーナス確認",
+        "status": {
+            "deck": [
+                "jumprope",
+                "map",
+                "trowel",
+                "tie"
+            ],
+            "expNum": 150,
+            "power": [
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード購入: クラブ種族ボーナス確認",
+        "status": {
+            "deck": [
+                "chalk",
+                "crochethook",
+                "horseshoe",
+                "tie"
+            ],
+            "expNum": 150,
+            "power": [
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード購入: スペード種族ボーナス確認",
+        "status": {
+            "deck": [
+                "sextant",
+                "sugar",
+                "golfclub",
+                "tie"
+            ],
+            "expNum": 150,
+            "power": [
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード購入: ダイヤモンド種族ボーナス確認",
+        "status": {
+            "deck": [
+                "pouch",
+                "haircream",
+                "firetorch",
+                "tie"
+            ],
+            "expNum": 150,
+            "power": [
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "ラウンド: x3clock 動作確認",
+        "status": {
+            "deck": [
+                "bigshower"
+            ],
+            "power": [
+                "rimokon",
+                "clock",
+                "x3clock"
+            ],
+            "towers": [
+                {
+                    "towerKey": "clock"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: hatmissile 動作確認",
+        "status": {
+            "roundTotalTime": 120000,
+            "power": [
+                "rimokon",
+                "hat",
+                "hatmissile"
+            ],
+            "towers": [
+                {
+                    "towerKey": "hat"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: paperballoon 動作確認",
+        "status": {
+            "coinNum": 1,
+            "tierNum": 4,
+            "bossCreated": 7,
+            "roundTotalTime": 360010,
+            "expNum": 150,
+            "power": [
+                "rimokon",
+                "bamboocopter",
+                "paperballoon"
+            ],
+            "towers": [
+                {
+                    "towerKey": "bamboocopter"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: keyboard 動作確認",
+        "status": {
+            "power": [
+                "rimokon",
+                "keyboard"
+            ],
+            "towers": [
+                {
+                    "towerKey": "keyboard"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: guidedsprinkler 動作確認",
+        "status": {
+            "power": [
+                "rimokon",
+                "sprinkler",
+                "guidedsprinkler"
+            ],
+            "towers": [
+                {
+                    "towerKey": "sprinkler"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: toothbrush (criticalフェーズ発動) 動作確認",
+        "status": {
+            "criticalNum": 100,
+            "deck": [
+                "toothbrush"
+            ],
+            "power": [
+                "rimokon"
+            ],
+            "towers": [
+                {
+                    "towerKey": "katana"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "カード購入: レベルアップ購入確認",
+        "status": {
+            "coinNum": 7,
+            "expNum": 120,
+            "locked": [
+                "mayo",
+                "tie",
+                "mouse"
+            ],
+            "deck": [
+                "mousepad",
+                "cattoy",
+                "building",
+                "tie",
+                "mouse",
+                "tie"
+            ],
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード購入: レベル2カード表示確認",
+        "status": {
+            "coinNum": 1000,
+            "expNum": 1600,
+            "deck": [
+                "bottleopener:2"
+            ],
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード購入: スペック変更カードのレベルアップ購入確認",
+        "status": {
+            "coinNum": 1000,
+            "choiceNum": 2,
+            "expNum": 100,
+            "locked": [
+                "hairmassager",
+                "tulip",
+                "fukutsu",
+                "neji"
+            ],
+            "deck": [
+                "hairmassager",
+                "hairmassager",
+                "tulip",
+                "tulip"
+            ],
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード購入: 一時コインが消える処理確認",
+        "status": {
+            "locked": [
+                "mayo",
+                "matryoshka",
+                "mouse"
+            ],
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ],
+            "temp": {
+                "coinNum": 1
+            }
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード購入: レベル3いかないカードのレベルアップ処理確認",
+        "status": {
+            "locked": [
+                "mayo",
+                "matryoshka",
+                "mouse"
+            ],
+            "deck": [
+                "mayo",
+                "mayo",
+                "matryoshka:2",
+                "matryoshka:2",
+                "matryoshka",
+                "matryoshka"
+            ],
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ],
+            "coinNum": 10
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード購入: デッキ最大購入処理確認",
+        "status": {
+            "coinNum": 100,
+            "expNum": 500,
+            "deck": [
+                "tshirt",
+                "brassknuckles",
+                "mouse",
+                "hairmassager",
+                "matryoshka",
+                "garbagecan",
+                "ladder",
+                "oildrum",
+                "button"
+            ],
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "巻物取得: 種族選択オプションのあるパワー",
+        "status": {
+            "coinNum": 1,
+            "tierNum": 4,
+            "bossCreated": 7,
+            "roundTotalTime": 360010,
+            "expNum": 150,
+            "powersForDebug": [
+                "face",
+                "gas",
+                "yarnball"
+            ],
+            "power": [
+                "rimokon",
+                "shuriken",
+                "shuriken",
+                "shuriken"
+            ],
+            "deck": [
+                "cattoy",
+                "prepaidcard"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                },
+                {
+                    "towerKey": "shuriken"
+                },
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Powers"
+    },
+    {
+        "label": "巻物取得: デッキ選択オプションのあるパワー",
+        "status": {
+            "bossCreated": 4,
+            "roundTotalTime": 240010,
+            "fireRateNum": 30,
+            "expNum": 300,
+            "powersForDebug": [
+                "scissorsstorm",
+                "pushpin",
+                "pen"
+            ],
+            "power": [
+                "rimokon",
+                "broom",
+                "landmine",
+                "signpole",
+                "poisonbottle",
+                "triplepoisonampoule"
+            ],
+            "deck": [
+                "wind",
+                "tulip",
+                "balloon",
+                "cap",
+                "harmonica",
+                "skateboard",
+                "antenna"
+            ],
+            "towers": [
+                {
+                    "towerKey": "landmine"
+                },
+                {
+                    "towerKey": "signpole"
+                },
+                {
+                    "towerKey": "poisonbottle"
+                }
+            ]
+        },
+        "scene": "Powers",
+        "setStage": "gyobei"
+    },
+    {
+        "label": "巻物取得: greatkatana 取得",
+        "status": {
+            "coinNum": 1,
+            "tierNum": 4,
+            "bossCreated": 7,
+            "roundTotalTime": 360010,
+            "expNum": 150,
+            "powersForDebug": [
+                "swingingblade",
+                "greatkatana",
+                "keyboard"
+            ],
+            "power": [
+                "rimokon",
+                "katana",
+                "shuriken",
+                "katana"
+            ],
+            "deck": [
+                "mayo",
+                "matryoshka",
+                "mouse",
+                "hairmassager",
+                "garbagecan"
+            ],
+            "towers": [
+                {
+                    "towerKey": "katana"
+                },
+                {
+                    "towerKey": "shuriken"
+                },
+                {
+                    "towerKey": "katana"
+                }
+            ]
+        },
+        "scene": "Powers"
+    },
+    {
+        "label": "巻物取得: extensionbar 取得",
+        "status": {
+            "coinNum": 1,
+            "tierNum": 4,
+            "fireRateNum": 20,
+            "bossCreated": 7,
+            "roundTotalTime": 360010,
+            "expNum": 150,
+            "powersForDebug": [
+                "boomerang",
+                "antiair",
+                "extensionbar"
+            ],
+            "power": [
+                "rimokon",
+                "simple-16",
+                "simple-16",
+                "simple-16"
+            ],
+            "deck": [
+                "mayo",
+                "matryoshka",
+                "mouse",
+                "hairmassager",
+                "garbagecan"
+            ],
+            "towers": [
+                {
+                    "towerKey": "simple-16"
+                },
+                {
+                    "towerKey": "simple-16"
+                },
+                {
+                    "towerKey": "simple-16"
+                }
+            ]
+        },
+        "scene": "Powers"
+    },
+    {
+        "label": "巻物取得: mouseghost 取得",
+        "status": {
+            "coinNum": 1,
+            "tierNum": 4,
+            "bossCreated": 7,
+            "roundTotalTime": 360010,
+            "expNum": 150,
+            "powersForDebug": [
+                "rifle",
+                "mouseghost",
+                "flashlight"
+            ],
+            "power": [
+                "rimokon",
+                "shuriken",
+                "mousetrap",
+                "mousetrap"
+            ],
+            "deck": [
+                "mayo",
+                "matryoshka",
+                "mouse",
+                "hairmassager",
+                "garbagecan"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                },
+                {
+                    "towerKey": "mousetrap"
+                },
+                {
+                    "towerKey": "mousetrap"
+                }
+            ]
+        },
+        "scene": "Powers"
+    },
+    {
+        "label": "巻物取得: バリエーション1",
+        "status": {
+            "coinNum": 1,
+            "powersForDebug": [
+                "shuriken",
+                "pole",
+                "face"
+            ],
+            "power": [
+                "rimokon"
+            ],
+            "deck": [
+                "mayo",
+                "matryoshka",
+                "mouse",
+                "hairmassager",
+                "garbagecan"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                },
+                {
+                    "towerKey": "shuriken"
+                },
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Powers"
+    },
+    {
+        "label": "巻物取得: バリエーション2",
+        "status": {
+            "coinNum": 1,
+            "powersForDebug": [
+                "swingingblade",
+                "katana",
+                "keyboard"
+            ],
+            "power": [
+                "rimokon"
+            ],
+            "deck": [
+                "mayo",
+                "matryoshka",
+                "mouse",
+                "hairmassager",
+                "garbagecan"
+            ],
+            "towers": [
+                {
+                    "towerKey": "katana"
+                },
+                {
+                    "towerKey": "shuriken"
+                },
+                {
+                    "towerKey": "katana"
+                }
+            ]
+        },
+        "scene": "Powers"
+    },
+    {
+        "label": "巻物取得: バリエーション3",
+        "status": {
+            "coinNum": 1,
+            "powersForDebug": [
+                "boomerang",
+                "antiair",
+                "simple-16"
+            ],
+            "power": [
+                "rimokon"
+            ],
+            "deck": [
+                "mayo",
+                "matryoshka",
+                "mouse",
+                "hairmassager",
+                "garbagecan"
+            ],
+            "towers": [
+                {
+                    "towerKey": "simple-16"
+                },
+                {
+                    "towerKey": "simple-16"
+                },
+                {
+                    "towerKey": "simple-16"
+                }
+            ]
+        },
+        "scene": "Powers"
+    },
+    {
+        "label": "巻物取得: バリエーション4",
+        "status": {
+            "coinNum": 1,
+            "tierNum": 4,
+            "bossCreated": 7,
+            "roundTotalTime": 360010,
+            "expNum": 150,
+            "powersForDebug": [
+                "rifle",
+                "mousetrap",
+                "flashlight"
+            ],
+            "power": [
+                "rimokon"
+            ],
+            "deck": [
+                "mayo",
+                "matryoshka",
+                "mouse",
+                "hairmassager",
+                "garbagecan"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                },
+                {
+                    "towerKey": "mousetrap"
+                },
+                {
+                    "towerKey": "mousetrap"
+                }
+            ]
+        },
+        "scene": "Powers"
+    },
+    {
+        "label": "ラウンド: (スクショ用)シンプルなTD、敵がたくさんいる画面へ",
+        "status": {
+            "bossCreated": 10,
+            "roundTotalTime": 600010,
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: (スクショ用) greatkatana の活躍",
+        "status": {
+            "bossCreated": 4,
+            "roundTotalTime": 240010,
+            "expNum": 300,
+            "power": [
+                "rimokon",
+                "shuriken",
+                "katana",
+                "katana",
+                "greatkatana",
+                "katana"
+            ],
+            "deck": [
+                "mayo",
+                "matryoshka",
+                "mouse",
+                "hairmassager",
+                "garbagecan",
+                "belt",
+                "protractor"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                },
+                {
+                    "towerKey": "katana"
+                },
+                {
+                    "towerKey": "katana"
+                },
+                {
+                    "towerKey": "katana"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: (スクショ用) jinn の活躍",
+        "status": {
+            "bossCreated": 4,
+            "roundTotalTime": 240010,
+            "fireRateNum": 30,
+            "expNum": 300,
+            "power": [
+                "rimokon",
+                "shuriken",
+                "magiccarpet",
+                "jinn",
+                "magiccarpet",
+                "magiccarpet"
+            ],
+            "deck": [
+                "totebag",
+                "memory",
+                "yoyo",
+                "candle",
+                "earrings",
+                "cloud",
+                "polevaultpole"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                },
+                {
+                    "towerKey": "magiccarpet"
+                },
+                {
+                    "towerKey": "magiccarpet"
+                },
+                {
+                    "towerKey": "magiccarpet"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "カード購入: (スクショ用) いろいろ買える感じ",
+        "status": {
+            "bossCreated": 3,
+            "roundTotalTime": 180010,
+            "coinNum": 100,
+            "expNum": 200,
+            "locked": [
+                "tennisball"
+            ],
+            "power": [
+                "rimokon",
+                "shuriken",
+                "sunglasses",
+                "sunglasseswitheyes",
+                "sunglasses"
+            ],
+            "deck": [
+                "scarf",
+                "mirror",
+                "whistle",
+                "tennisball",
+                "realdog",
+                "tennisball"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                },
+                {
+                    "towerKey": "sunglasses"
+                },
+                {
+                    "towerKey": "sunglasses"
+                }
+            ]
+        },
+        "scene": "Cards",
+        "setStage": "gyobei"
+    },
+    {
+        "label": "カード発動: (スクショ用) いろいろ発動してる感じ",
+        "status": {
+            "bossCreated": 6,
+            "roundTotalTime": 360010,
+            "expNum": 700,
+            "coinNum": 100,
+            "locked": [
+                "tennisball",
+                "rubberduck"
+            ],
+            "power": [
+                "rimokon",
+                "gas:guu",
+                "mousetrap",
+                "cat",
+                "pen",
+                "pencil",
+                "sushibro",
+                "katana"
+            ],
+            "deck": [
+                "lightbulb",
+                "vase",
+                "grater",
+                "wallet",
+                "whistle:2"
+            ],
+            "towers": [
+                {
+                    "towerKey": "mousetrap"
+                },
+                {
+                    "towerKey": "cat"
+                },
+                {
+                    "towerKey": "pencil"
+                },
+                {
+                    "towerKey": "sushibro"
+                },
+                {
+                    "towerKey": "katana"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "巻物取得: (スクショ用) いろいろ取得できる感じ",
+        "status": {
+            "bossCreated": 4,
+            "roundTotalTime": 240010,
+            "fireRateNum": 30,
+            "expNum": 300,
+            "powersForDebug": [
+                "scissorsstorm",
+                "tapemeasure",
+                "flashlight"
+            ],
+            "power": [
+                "rimokon",
+                "broom",
+                "landmine",
+                "signpole",
+                "poisonbottle",
+                "triplepoisonampoule"
+            ],
+            "deck": [
+                "wind",
+                "tulip",
+                "balloon",
+                "cap",
+                "harmonica",
+                "skateboard",
+                "antenna"
+            ],
+            "towers": [
+                {
+                    "towerKey": "landmine"
+                },
+                {
+                    "towerKey": "signpole"
+                },
+                {
+                    "towerKey": "poisonbottle"
+                }
+            ]
+        },
+        "scene": "Powers",
+        "setStage": "gyobei"
+    },
+    {
+        "label": "カード購入: (スクショ用) たくさん要素がある画面。購入画面後のラウンド用",
+        "status": {
+            "bossCreated": 11,
+            "roundTotalTime": 660010,
+            "fireRateNum": 60,
+            "expNum": 3000,
+            "power": [
+                "rimokon",
+                "sasumata",
+                "cat",
+                "boomerang",
+                "samepuzzle",
+                "telephonepole",
+                "stealth",
+                "swingingblade",
+                "storepage",
+                "handspinner"
+            ],
+            "deck": [
+                "dc",
+                "fork",
+                "bongo",
+                "polevaultpole",
+                "towel",
+                "handblender",
+                "progressbar",
+                "deckbrush",
+                "laptop",
+                "gauze"
+            ],
+            "towers": [
+                {
+                    "towerKey": "sasumata"
+                },
+                {
+                    "towerKey": "cat"
+                },
+                {
+                    "towerKey": "boomerang"
+                },
+                {
+                    "towerKey": "samepuzzle"
+                },
+                {
+                    "towerKey": "telephonepole"
+                },
+                {
+                    "towerKey": "stealth"
+                },
+                {
+                    "towerKey": "swingingblade"
+                },
+                {
+                    "towerKey": "storepage"
+                },
+                {
+                    "towerKey": "handspinner"
+                }
+            ]
+        },
+        "scene": "Cards",
+        "setStage": "beachzushi"
+    }
+]

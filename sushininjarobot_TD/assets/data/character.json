@@ -3,7 +3,7 @@
         "type": "character",
         "character": "ninjarobot",
         "tier": 1,
-        "desc": "|{enemy}| → {exp} ￪100%",
+        "desc": "Double the experience gained from sushi",
         "status": {
             "power": [
                 "rimokon"
@@ -14,17 +14,20 @@
         "type": "character",
         "character": "astronomersocks",
         "tier": 1,
-        "desc": "{bullet} +1 {attack} -5",
+        "desc": "Fires one more projectile, but attack power is halved",
         "status": {
             "bulletNum": 2,
-            "attackNum": 5
+            "attackNum": 5,
+            "power": [
+                "telescope"
+            ]
         }
     },
     "pyramidpiano": {
         "type": "character",
         "character": "pyramidpiano",
         "tier": 1,
-        "desc": "{choice} +2",
+        "desc": "Two more card choices will be available for purchase",
         "status": {
             "choiceNum": 2,
             "power": [
@@ -36,43 +39,88 @@
         "type": "character",
         "character": "sewingmachineghost",
         "tier": 1,
-        "desc": "All {ghost} items: Durable",
+        "desc": "{ghost} cards will no longer be consumed",
         "status": {
             "power": [
                 "metalghost"
             ]
-        }
+        },
+        "locked": true
     },
     "tvlizard": {
         "type": "character",
         "character": "tvlizard",
         "tier": 1,
-        "desc": "hogehoge",
-        "status": {},
+        "desc": "The first scroll will be two",
+        "status": {
+            "power": [
+                "televideo"
+            ]
+        },
         "locked": true
     },
     "basketballbug": {
         "type": "character",
         "character": "basketballbug",
         "tier": 1,
-        "desc": "hogehoge",
-        "status": {},
+        "desc": "The projectile will bounce off the wall once",
+        "status": {
+            "bounceNum": 1,
+            "power": [
+                "basketball"
+            ]
+        },
         "locked": true
     },
     "cameraelephant": {
         "type": "character",
         "character": "cameraelephant",
         "tier": 1,
-        "desc": "hogehoge",
-        "status": {},
+        "desc": "Start the game at Tier 3",
+        "status": {
+            "expNum": 100,
+            "power": [
+                "cameralens"
+            ]
+        },
         "locked": true
     },
     "elevatorsnake": {
         "type": "character",
         "character": "elevatorsnake",
         "tier": 1,
-        "desc": "hogehoge",
-        "status": {},
+        "desc": "Elevator Sauce makes sushi float in the air",
+        "status": {
+            "power": [
+                "elevatorsauce"
+            ]
+        },
+        "locked": true
+    },
+    "toothbrushcitycar": {
+        "type": "character",
+        "character": "toothbrushcitycar",
+        "tier": 1,
+        "desc": "10% of the temporary status remains, but fire rate is halved",
+        "status": {
+            "holeNum": 10,
+            "fireRateNum": 5,
+            "power": [
+                "electrictoothbrush"
+            ]
+        },
+        "locked": true
+    },
+    "designerwearingglasses": {
+        "type": "character",
+        "character": "designerwearingglasses",
+        "tier": 1,
+        "desc": "All status are multiplied by -2",
+        "status": {
+            "power": [
+                "worldfixes"
+            ]
+        },
         "locked": true
     }
 }

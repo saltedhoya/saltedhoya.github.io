@@ -22,7 +22,29 @@
             ]
         ],
         "goal": "03:00",
-        "tier": 1
+        "tier": 1,
+        "enemies": [
+            [
+                "mug",
+                "chicken",
+                "riceball"
+            ],
+            [
+                "icepop",
+                "potato",
+                "bread"
+            ],
+            [
+                "cake",
+                "banana",
+                "curry"
+            ],
+            [
+                "datemaki",
+                "taco",
+                "pumpkin"
+            ]
+        ]
     },
     "rakuzushi": {
         "type": "stage",
@@ -63,7 +85,45 @@
                 820
             ]
         ],
-        "goal": "6:00"
+        "goal": "06:00",
+        "enemies": [
+            [
+                "mug",
+                "chicken",
+                "riceball"
+            ],
+            [
+                "dorayaki",
+                "potato",
+                "friedegg"
+            ],
+            [
+                "yocchanika",
+                "cake",
+                "banana"
+            ],
+            [
+                "datemaki",
+                "naruto",
+                "pumpkin"
+            ],
+            [
+                "bbqonion",
+                "purin",
+                "pizza"
+            ],
+            [
+                "tofu",
+                "cheese",
+                "wasabi",
+                "milk"
+            ],
+            [
+                "wataame",
+                "lemon",
+                "canele"
+            ]
+        ]
     },
     "gyobei": {
         "type": "stage",
@@ -84,7 +144,66 @@
                 200
             ]
         ],
-        "goal": "10:00"
+        "goal": "10:00",
+        "enemies": [
+            [
+                "shrimp",
+                "chicken",
+                "riceball"
+            ],
+            [
+                "icepop",
+                "dorayaki",
+                "bread"
+            ],
+            [
+                "yocchanika",
+                "cake",
+                "curry"
+            ],
+            [
+                "datemaki",
+                "pumpkin",
+                "macaron"
+            ],
+            [
+                "bbqonion",
+                "purin",
+                "cherry"
+            ],
+            [
+                "tofu",
+                "cheese",
+                "wasabi",
+                "milk"
+            ],
+            [
+                "wataame",
+                "lemon",
+                "canele"
+            ],
+            [
+                "eringi",
+                "teabag",
+                "fish"
+            ],
+            [
+                "taiyaki",
+                "chocolate",
+                "hotdog"
+            ],
+            [
+                "gyoza",
+                "crab",
+                "mentaiko"
+            ],
+            [
+                "mushrooms",
+                "croissant",
+                "oyuwari"
+            ]
+        ],
+        "locked": true
     },
     "pakkazushi": {
         "type": "stage",
@@ -197,7 +316,66 @@
                 430
             ]
         ],
-        "goal": "10:00"
+        "goal": "10:00",
+        "enemies": [
+            [
+                "shrimp",
+                "chicken",
+                "riceball"
+            ],
+            [
+                "potato",
+                "bread",
+                "friedegg"
+            ],
+            [
+                "yocchanika",
+                "cake",
+                "curry"
+            ],
+            [
+                "datemaki",
+                "taco",
+                "pumpkin"
+            ],
+            [
+                "bbqonion",
+                "purin",
+                "cherry"
+            ],
+            [
+                "tofu",
+                "cheese",
+                "wasabi",
+                "milk"
+            ],
+            [
+                "wataame",
+                "lemon",
+                "canele"
+            ],
+            [
+                "eringi",
+                "teabag",
+                "fish"
+            ],
+            [
+                "taiyaki",
+                "chocolate",
+                "hotdog"
+            ],
+            [
+                "gyoza",
+                "crab",
+                "mentaiko"
+            ],
+            [
+                "mushrooms",
+                "croissant",
+                "oyuwari"
+            ]
+        ],
+        "locked": true
     },
     "beachzushi": {
         "type": "stage",
@@ -254,6 +432,89 @@
                 820
             ]
         ],
-        "goal": "15:00"
+        "goal": "15:00",
+        "enemies": [
+            [
+                "shrimp",
+                "chicken",
+                "riceball"
+            ],
+            [
+                "icepop",
+                "bread",
+                "friedegg"
+            ],
+            [
+                "yocchanika",
+                "banana",
+                "curry"
+            ],
+            [
+                "naruto",
+                "pumpkin",
+                "macaron"
+            ],
+            [
+                "purin",
+                "pizza",
+                "cherry"
+            ],
+            [
+                "tofu",
+                "cheese",
+                "wasabi"
+            ],
+            [
+                "wataame",
+                "lemon",
+                "canele"
+            ],
+            [
+                "eringi",
+                "teabag",
+                "fish"
+            ],
+            [
+                "taiyaki",
+                "chocolate",
+                "hotdog"
+            ],
+            [
+                "gyoza",
+                "crab",
+                "mentaiko"
+            ],
+            [
+                "mushrooms",
+                "croissant",
+                "oyuwari"
+            ],
+            [
+                "suama",
+                "watermelon",
+                "greenonion"
+            ],
+            [
+                "chikuwabu",
+                "oden",
+                "garlic"
+            ],
+            [
+                "peach",
+                "wine",
+                "carrot"
+            ],
+            [
+                "apple",
+                "catgrass",
+                "baumkuchen"
+            ],
+            [
+                "chestnut",
+                "ramen",
+                "panko"
+            ]
+        ],
+        "locked": true
     }
 }

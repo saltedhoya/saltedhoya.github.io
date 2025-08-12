@@ -1,0 +1,97 @@
+{tutorial_key:T_GAME_EXPLAIN}
+----
+[t_1]
+----
+Dieses Spiel durchläuft nacheinander die folgenden Phasen:
+----
+Kartenaktivierungsphase: Karten auf Ihrer Hand werden automatisch aktiviert und Ihre Statuswerte werden verstärkt.
+----
+Sushi-Vernichtungsphase: Besiegen Sie Sushi, um Erfahrungspunkte und Münzen zu erhalten.
+----
+Kaufphase: Sie können mit Münzen neue Karten kaufen.
+----
+Wenn Sie bis zum Zeitlimit jeder Stufe überleben können, ist es Ihr Sieg.
+----
+(Zum Schließen auf das Bild klicken)
+----
+{tutorial_next}
+----
+{tutorial_key:T_WEAPON_TOWER}
+----
+[t_2]
+----
+Es gibt zwei Angriffsarten: „Waffen“ und „Türme“.
+Jede Art beeinflusst unterschiedliche Statuswerte, und es gibt auch „waffenspezifische“ und „turmspezifische“ Statuswerte.
+Bitte beachten Sie, dass das Erhöhen von Statuswerten für einen Typ, den Sie nicht besitzen, keine Wirkung hat.
+----
+Außerdem haben Waffen und Türme jeweils bestimmte Angriffsziele, die in drei Typen unterteilt sind.
+Statuswerte, die nicht mit diesen Angriffszielen in Verbindung stehen, haben ebenfalls keine Wirkung. Prüfen Sie daher, welche Ausrüstung welche Effekte hat.
+----
+(Zum Schließen auf das Bild klicken)
+----
+{tutorial_next}
+----
+{tutorial_key:T_SHOPPING_BASIC}
+----
+[t_3]
+----
+Um Sushi effizient zu besiegen, kaufen Sie Karten mit Münzen.
+Einige Karteneffekte sind eingeklammert, andere nicht.
+Eingeklammerte Effekte werden am Ende der Runde zurückgesetzt, sind dafür aber oft umso mächtiger.
+----
+Karten werden nicht allein durch Auswahl gekauft.
+Ziehen Sie unbedingt den Hebel, um den Kauf zu bestätigen.
+----
+(Zum Schließen auf das Bild klicken)
+----
+{tutorial_next}
+----
+{tutorial_key:T_PHASE}
+----
+[t_4]
+----
+Wenn eine Karte keine spezielle Markierung hat, entfaltet sie ihren Effekt in der „Kartenaktivierungsphase“ zu Beginn der Runde und verstärkt Ihre Statuswerte.
+----
+Es gibt auch verschiedene andere Aktivierungszeitpunkte, wie „Effekt beim Kauf einer Karte erhalten“, „Effekt alle 10 Sekunden erhalten“, „Effekt bei kritischem Treffer erhalten“ oder „Effekt für bestimmte Karten erhalten“.
+----
+Keiner dieser Effekte wird ausgelöst, es sei denn, die Karte ist aktiv (unten auf dem Bildschirm leuchtend). Ordnen Sie die Karten am unteren Bildschirmrand bei Bedarf neu an.
+----
+(Zum Schließen auf das Bild klicken)
+----
+{tutorial_next}
+----
+{tutorial_key:T_FLYING}
+----
+[t_5]
+----
+Es gibt zwei Arten von Sushi: „am Boden laufendes Sushi“ und „fliegendes Sushi“.
+----
+Die Art des angreifbaren Sushis ist für jede Waffe und jeden Turm festgelegt. Rüsten Sie sich daher so aus, dass Sie mit beiden Sushi-Arten umgehen können.
+----
+„Nur-Boden“- und „Flugabwehr“-Waffen/-Türme sind in ihren Einsatzmöglichkeiten begrenzt, haben aber oft umso stärkere Effekte.
+----
+(Zum Schließen auf das Bild klicken)
+----
+{tutorial_next}
+----
+{tutorial_key:T_SPEC}
+----
+[t_6]
+----
+Karten mit dem Symbol „→“ verstärken die Effekte anderer Karten.
+----
+Wenn der zu verstärkende Typ oder die Parameter nicht übereinstimmen, wird die Verstärkung nicht ausgelöst.
+----
+Es gibt auch Karten, die „alle Parameter“ verstärken; in diesem Fall werden alle Parameter verstärkt.
+----
+(Zum Schließen auf das Bild klicken)
+----
+{tutorial_next}
+----
+{tutorial_key:T_GEM}
+----
+[t_7]
+----
+Juwelen haben im Spiel keine Verwendung, aber durch ihren Verbrauch können Sie Kisten schlagen.
+----
+(Zum Schließen auf das Bild klicken)

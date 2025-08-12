@@ -1,0 +1,97 @@
+{tutorial_key:T_GAME_EXPLAIN}
+----
+[t_1]
+----
+Ce jeu se déroule en répétant les phases suivantes dans l'ordre :
+----
+Phase d'activation des cartes : Les cartes en main s'activent automatiquement, renforçant vos statistiques.
+----
+Phase d'extermination des sushis : Éliminez les sushis pour gagner de l'expérience et des pièces.
+----
+Phase d'achat : Utilisez des pièces pour acheter de nouvelles cartes.
+----
+Si vous survivez jusqu'à la limite de temps de chaque stage, c'est votre victoire.
+----
+(Cliquez sur l'image pour fermer)
+----
+{tutorial_next}
+----
+{tutorial_key:T_WEAPON_TOWER}
+----
+[t_2]
+----
+Il existe deux types de méthodes d'attaque : les "Armes" et les "Tours".
+Les statistiques affectées diffèrent pour chacun, et il existe également des statistiques "spécifiques aux armes" et "spécifiques aux tours".
+Notez que l'augmentation de statistiques pour un type que vous ne possédez pas n'aura aucun effet.
+----
+De plus, les armes et les tours ont chacune des cibles d'attaque spécifiques, réparties en trois types.
+Les statistiques qui ne sont pas liées à ces cibles d'attaque sont également inefficaces, alors vérifiez quel équipement a quel effet.
+----
+(Cliquez sur l'image pour fermer)
+----
+{tutorial_next}
+----
+{tutorial_key:T_SHOPPING_BASIC}
+----
+[t_3]
+----
+Pour éliminer efficacement les sushis, utilisez des pièces pour acheter des cartes.
+Les effets des cartes peuvent être entre parenthèses ou non.
+Les effets entre parenthèses sont réinitialisés à la fin du round, mais sont souvent plus puissants en contrepartie.
+----
+La carte n'est pas achetée simplement en la sélectionnant.
+Assurez-vous de tirer le levier pour confirmer l'achat.
+----
+(Cliquez sur l'image pour fermer)
+----
+{tutorial_next}
+----
+{tutorial_key:T_PHASE}
+----
+[t_4]
+----
+Sauf indication contraire sur la carte, elle prend effet lors de la "Phase d'activation des cartes" au début du round, renforçant vos statistiques.
+----
+Il existe également divers autres moments d'activation, tels que "obtenir un effet lors de l'achat d'une carte", "obtenir un effet toutes les 10 secondes", "obtenir un effet lors d'un coup critique" ou "obtenir un effet pour chaque carte spécifique".
+----
+Aucun effet ne s'active si la carte n'est pas active (brillante en bas de l'écran). Réorganisez les cartes en bas de l'écran si nécessaire.
+----
+(Cliquez sur l'image pour fermer)
+----
+{tutorial_next}
+----
+{tutorial_key:T_FLYING}
+----
+[t_5]
+----
+Il existe deux types de sushis : les "sushis terrestres" et les "sushis volants".
+----
+Le type de sushi que chaque arme ou tour peut attaquer est prédéfini, alors équipez-vous pour pouvoir faire face aux deux types de sushis.
+----
+Les armes et tours "spécifiques au sol" ou "spécifiques à l'anti-aérien" ont des situations d'utilisation limitées, mais sont souvent plus puissantes en contrepartie.
+----
+(Cliquez sur l'image pour fermer)
+----
+{tutorial_next}
+----
+{tutorial_key:T_SPEC}
+----
+[t_6]
+----
+Les cartes avec la notation "→" renforcent les effets d'autres cartes.
+----
+Si le type ou le paramètre à renforcer ne correspond pas, le renforcement ne s'activera pas.
+----
+Il existe également des cartes qui renforcent "tous les paramètres", et dans ce cas, tous les paramètres sont renforcés.
+----
+(Cliquez sur l'image pour fermer)
+----
+{tutorial_next}
+----
+{tutorial_key:T_GEM}
+----
+[t_7]
+----
+Les gemmes n'ont aucune utilité en jeu, mais peuvent être consommées pour frapper des boîtes.
+----
+(Cliquez sur l'image pour fermer)

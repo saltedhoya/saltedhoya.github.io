@@ -1,0 +1,97 @@
+{tutorial_key:T_GAME_EXPLAIN}
+----
+[t_1]
+----
+Bu oyun, aşağıdaki aşamaları sırayla tekrarlayarak ilerler.
+----
+Kart Etkinleştirme Aşaması: Elinizdeki kartlar otomatik olarak etkinleşir ve istatistikleriniz güçlenir.
+----
+Suşi Yok Etme Aşaması: Suşileri yenerek deneyim puanı ve jeton kazanın.
+----
+Satın Alma Aşaması: Jeton kullanarak yeni kartlar satın alabilirsiniz.
+----
+Her aşamanın süresi dolana kadar hayatta kalabilirseniz, zafer sizin olur.
+----
+(Kapatmak için resme tıklayın)
+----
+{tutorial_next}
+----
+{tutorial_key:T_WEAPON_TOWER}
+----
+[t_2]
+----
+Saldırı yöntemlerinin iki türü vardır: "Silah" ve "Kule".
+Her birini etkileyen istatistikler farklıdır ve "silaha özel" veya "kuleye özel" istatistikler de mevcuttur.
+Sahip olmadığınız bir türe ait istatistikleri artırsanız bile, etkisi olmayacaktır, bu yüzden dikkat edin.
+----
+Ayrıca, silahlar ve kulelerin her birinin saldırabileceği hedefler belirlidir ve üç tipe ayrılır.
+Bu saldırı hedefiyle ilgili olmayan istatistiklerin de etkisi yoktur, bu yüzden hangi ekipmanın hangi etkiye sahip olduğunu kontrol edin.
+----
+(Kapatmak için resme tıklayın)
+----
+{tutorial_next}
+----
+{tutorial_key:T_SHOPPING_BASIC}
+----
+[t_3]
+----
+Suşileri etkili bir şekilde yenmek için jeton kullanarak kartlar satın alın.
+Kart etkilerinin bazıları parantez içindedir, bazıları değildir.
+Parantez içindeki etkiler raunt sonunda sıfırlanır ancak genellikle bu yüzden daha güçlüdür.
+----
+Kartlar sadece seçildiğinde satın alınmaz.
+Satın almayı onaylamak için mutlaka kolu çekin.
+----
+(Kapatmak için resme tıklayın)
+----
+{tutorial_next}
+----
+{tutorial_key:T_PHASE}
+----
+[t_4]
+----
+Kartta özel bir belirti yoksa, bu kart raunt başlangıcındaki "Kart Etkinleştirme Aşaması"nda etkisini gösterir ve istatistikleriniz güçlenir.
+----
+Ayrıca "kart satın alındığında etki elde etme", "her 10 saniyede bir etki elde etme", "kritik vuruşta etki elde etme", "belirli kartlara göre etki elde etme" gibi çeşitli etkinleştirme zamanlamaları vardır.
+----
+Hiçbir etki, kart aktif (ekranın altında parlak durumda) değilse etkinleşmez. Gerektiğinde ekranın altındaki kartları yeniden düzenleyin.
+----
+(Kapatmak için resme tıklayın)
+----
+{tutorial_next}
+----
+{tutorial_key:T_FLYING}
+----
+[t_5]
+----
+Suşilerin iki türü vardır: "Yerde koşan suşi" ve "havada uçan suşi".
+----
+Silahlar ve kuleler için saldırı yapabileceği suşi türleri belirlenmiş olduğundan, her iki suşi türüne de uygun ekipman ayarlayın.
+----
+"Yere özel" veya "havadan korunma özel" silahları ve kuleleri, kullanılabilecek durumlar sınırlı olsa da, genellikle bu yüzden daha güçlü etkilere sahiptir.
+----
+(Kapatmak için resme tıklayın)
+----
+{tutorial_next}
+----
+{tutorial_key:T_SPEC}
+----
+[t_6]
+----
+"→" işareti olan kartlar, diğer kartların etkilerini güçlendirir.
+----
+Güçlendirilecek tür veya parametreler eşleşmiyorsa, güçlendirme etkinleşmez.
+----
+"Tüm parametreleri" güçlendiren kartlar da vardır; bu durumda tüm parametreler güçlendirilir.
+----
+(Kapatmak için resme tıklayın)
+----
+{tutorial_next}
+----
+{tutorial_key:T_GEM}
+----
+[t_7]
+----
+Mücevherlerin oyunda bir kullanım alanı yoktur ancak tüketildiğinde kutuları yumruklayabilirsiniz.
+----
+(Kapatmak için resme tıklayın)

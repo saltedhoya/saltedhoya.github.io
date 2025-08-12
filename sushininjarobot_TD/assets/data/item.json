@@ -1,4 +1,58 @@
 {
+    "cattoy": {
+        "type": "item",
+        "tier": 1,
+        "race": [
+            "guu"
+        ],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "attack": 6
+            }
+        }
+    },
+    "tie": {
+        "type": "item",
+        "tier": 2,
+        "race": [
+            "guu",
+            "choki",
+            "paa"
+        ],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "attack": 0,
+                "fireRate": 0
+            }
+        }
+    },
+    "prepaidcard": {
+        "type": "item",
+        "tier": 1,
+        "race": [
+            "choki"
+        ],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "fireRate": 6
+            }
+        }
+    },
+    "tshirt": {
+        "type": "item",
+        "tier": 1,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "qtip": 2,
+                "fireRate": 7
+            }
+        }
+    },
     "brassknuckles": {
         "type": "item",
         "tier": 1,
@@ -21,19 +75,7 @@
                 "qtip": 1
             },
             "temp": {
-                "attack": 2,
-                "fireRate": 2
-            }
-        }
-    },
-    "camera": {
-        "type": "item",
-        "tier": 4,
-        "race": [],
-        "cost": 3,
-        "resolve": {
-            "gain": {
-                "qtip": 3
+                "attack": 7
             }
         }
     },
@@ -67,6 +109,17 @@
             }
         }
     },
+    "camera": {
+        "type": "item",
+        "tier": 4,
+        "race": [],
+        "cost": 3,
+        "resolve": {
+            "gain": {
+                "qtip": 3
+            }
+        }
+    },
     "circulator": {
         "type": "item",
         "tier": 5,
@@ -95,7 +148,7 @@
                 "qtip": -1
             },
             "temp": {
-                "fireRate": 24
+                "fireRate": 32
             }
         }
     },
@@ -156,22 +209,6 @@
             }
         }
     },
-    "gomibukuro": {
-        "type": "item",
-        "tier": 10,
-        "race": [],
-        "cost": 6,
-        "requirement": {
-            "qtip": 10
-        },
-        "resolve": {
-            "gain": {
-                "qtip": -10,
-                "attack": 3,
-                "fireRate": 3
-            }
-        }
-    },
     "hairmassager": {
         "type": "item",
         "tier": 9,
@@ -195,6 +232,22 @@
                         ]
                     }
                 }
+            }
+        }
+    },
+    "gomibukuro": {
+        "type": "item",
+        "tier": 10,
+        "race": [],
+        "cost": 6,
+        "requirement": {
+            "qtip": 10
+        },
+        "resolve": {
+            "gain": {
+                "qtip": -10,
+                "attack": 3,
+                "fireRate": 3
             }
         }
     },
@@ -222,8 +275,7 @@
                 "coin": -1
             },
             "temp": {
-                "ninjaAttack": 10,
-                "ninjaFireRate": 8
+                "ninjaFireRate": 24
             }
         }
     },
@@ -333,8 +385,33 @@
                 "coin": -3
             },
             "temp": {
-                "ninjaAttack": 18,
-                "ninjaFireRate": 18
+                "ninjaAttack": 48
+            }
+        }
+    },
+    "natto": {
+        "type": "item",
+        "tier": 9,
+        "race": [],
+        "cost": 6,
+        "minus": {
+            "coin": {
+                "gain": {
+                    "ninjaAttack": 1
+                }
+            }
+        }
+    },
+    "wind": {
+        "type": "item",
+        "tier": 9,
+        "race": [],
+        "cost": 6,
+        "minus": {
+            "coin": {
+                "gain": {
+                    "ninjaFireRate": 1
+                }
             }
         }
     },
@@ -354,19 +431,6 @@
             }
         }
     },
-    "natto": {
-        "type": "item",
-        "tier": 9,
-        "race": [],
-        "cost": 6,
-        "minus": {
-            "coin": {
-                "gain": {
-                    "ninjaAttack": 1
-                }
-            }
-        }
-    },
     "neji": {
         "type": "item",
         "tier": 1,
@@ -375,8 +439,19 @@
         "resolve": {
             "temp": {
                 "magatama": 1,
-                "attack": 1,
-                "fireRate": 1
+                "attack": "4*magatama"
+            }
+        }
+    },
+    "wood": {
+        "type": "item",
+        "tier": 1,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "magatama": 1,
+                "fireRate": "4*magatama"
             }
         }
     },
@@ -409,8 +484,7 @@
         "cost": 3,
         "resolve": {
             "temp": {
-                "attack": "2*magatama",
-                "fireRate": "2*magatama"
+                "bothAttack": "8*magatama"
             }
         }
     },
@@ -419,9 +493,9 @@
         "tier": 4,
         "race": [],
         "cost": 3,
-        "purchase": {
+        "resolve": {
             "gain": {
-                "magatama": 2
+                "bothFireRate": "1*magatama"
             }
         }
     },
@@ -432,7 +506,20 @@
         "cost": 4,
         "resolve": {
             "temp": {
-                "magatama": 3
+                "magatama": 2,
+                "attack": "6*magatama"
+            }
+        }
+    },
+    "chisel": {
+        "type": "item",
+        "tier": 5,
+        "race": [],
+        "cost": 4,
+        "resolve": {
+            "temp": {
+                "magatama": 2,
+                "fireRate": "6*magatama"
             }
         }
     },
@@ -443,7 +530,7 @@
         "cost": 4,
         "resolve": {
             "gain": {
-                "groundAttack": "2*magatama"
+                "groundAttack": "3*magatama"
             }
         }
     },
@@ -454,211 +541,7 @@
         "cost": 4,
         "resolve": {
             "gain": {
-                "groundFireRate": "2*magatama"
-            }
-        }
-    },
-    "testitem1": {
-        "type": "item",
-        "tier": 11,
-        "race": [
-            "guu",
-            "hearts",
-            "diamonds",
-            "clubs",
-            "spades"
-        ],
-        "cost": 2,
-        "resolve": {
-            "temp": {
-                "coin": -1
-            },
-            "gain": {
-                "coin": -1
-            }
-        },
-        "target": {
-            "temp": {
-                "coin": [
-                    "guu",
-                    1
-                ]
-            }
-        }
-    },
-    "testitem2": {
-        "type": "item",
-        "tier": 11,
-        "race": [
-            "choki"
-        ],
-        "cost": 2,
-        "resolve": {
-            "temp": {
-                "attack": "1*tier"
-            }
-        },
-        "target": {
-            "temp": {
-                "coin": [
-                    "choki",
-                    1
-                ]
-            },
-            "gain": {
-                "coin": [
-                    "choki",
-                    1
-                ]
-            }
-        },
-        "requirement": {
-            "paa": "<3",
-            "guu": "<=2"
-        }
-    },
-    "testitem3": {
-        "type": "item",
-        "tier": 11,
-        "race": [
-            "paa"
-        ],
-        "cost": 2,
-        "purchase": {
-            "gain": {
-                "coin": 1
-            }
-        },
-        "resolve": {
-            "gain": {
-                "coin": 1
-            }
-        },
-        "target": {
-            "temp": {
-                "airAttack": [
-                    "all",
-                    "1*tier"
-                ]
-            }
-        },
-        "requirement": {
-            "paa": ">=1",
-            "choki": ">-10"
-        }
-    },
-    "testitem4": {
-        "type": "item",
-        "tier": 11,
-        "race": [
-            "guu",
-            "choki",
-            "paa",
-            "ghost"
-        ],
-        "cost": 2,
-        "requirement": {
-            "testpower1": 1
-        },
-        "plus": {
-            "coin": {
-                "temp": {
-                    "attack": 1
-                }
-            }
-        },
-        "minus": {
-            "coin": {
-                "temp": {
-                    "fireRate": 1
-                }
-            }
-        }
-    },
-    "testitem5": {
-        "type": "item",
-        "tier": 11,
-        "race": [],
-        "cost": 2,
-        "plus": {
-            "attack": {
-                "temp": {
-                    "groundAttack": "1*tier"
-                }
-            }
-        },
-        "target": {
-            "temp": {
-                "airAttack": [
-                    "level>=2",
-                    "1*tier"
-                ]
-            }
-        },
-        "spec": {
-            "sell": {
-                "coin": [
-                    "paa",
-                    1
-                ]
-            },
-            "resolve": {
-                "coin": [
-                    "guu",
-                    -1
-                ]
-            }
-        }
-    },
-    "testitem6": {
-        "type": "item",
-        "tier": 12,
-        "race": [],
-        "cost": 2,
-        "resolve": {
-            "temp": {
-                "coin": -754
-            },
-            "gain": {
-                "coin": -25
-            }
-        }
-    },
-    "testitem9": {
-        "type": "item",
-        "tier": 12,
-        "race": [],
-        "cost": 2,
-        "resolve": {
-            "gain": {
-                "testresolve": 1,
-                "attack": 1,
-                "fireRate": 1
-            }
-        },
-        "kill": {
-            "gain": {
-                "testkill": 1
-            }
-        },
-        "buy": {
-            "gain": {
-                "testbuy": 1
-            }
-        },
-        "critical": {
-            "gain": {
-                "testcritical": 1
-            }
-        },
-        "sell": {
-            "gain": {
-                "testsell": 1
-            }
-        },
-        "time": {
-            "gain": {
-                "testtime": 1
+                "groundFireRate": "3*magatama"
             }
         }
     },
@@ -669,8 +552,7 @@
         "cost": 5,
         "resolve": {
             "temp": {
-                "attack": "3*magatama",
-                "fireRate": "3*magatama"
+                "attack": "16*magatama"
             }
         }
     },
@@ -681,7 +563,7 @@
         "cost": 5,
         "purchase": {
             "gain": {
-                "magatama": 4
+                "magatama": 1
             }
         }
     },
@@ -728,7 +610,7 @@
         "cost": 2,
         "resolve": {
             "temp": {
-                "attack": 6,
+                "attack": 4,
                 "airAttack": 12
             }
         }
@@ -762,7 +644,7 @@
         "cost": 3,
         "resolve": {
             "temp": {
-                "airAttack": 24
+                "airAttack": 32
             }
         }
     },
@@ -773,7 +655,7 @@
         "cost": 3,
         "resolve": {
             "temp": {
-                "airFireRate": 24
+                "airFireRate": 32
             }
         }
     },
@@ -795,7 +677,7 @@
         "cost": 4,
         "resolve": {
             "temp": {
-                "airAttack": 30
+                "airAttack": 40
             }
         }
     },
@@ -828,7 +710,7 @@
         "cost": 5,
         "resolve": {
             "temp": {
-                "airFireRate": 36
+                "airFireRate": 48
             }
         }
     },
@@ -839,7 +721,7 @@
         "cost": 6,
         "resolve": {
             "temp": {
-                "airAttack": 42
+                "airAttack": 56
             }
         }
     },
@@ -865,7 +747,7 @@
             }
         }
     },
-    "hat": {
+    "token": {
         "type": "item",
         "tier": 1,
         "race": [],
@@ -899,8 +781,7 @@
         "resolve": {
             "temp": {
                 "health": -1,
-                "ninjaAttack": 12,
-                "ninjaFireRate": 12
+                "ninjaAttack": 32
             }
         }
     },
@@ -912,8 +793,7 @@
         "plus": {
             "health": {
                 "temp": {
-                    "ninjaAttack": 18,
-                    "ninjaFireRate": 18
+                    "ninjaFireRate": 32
                 }
             }
         }
@@ -1034,6 +914,17 @@
             }
         }
     },
+    "kazoo": {
+        "type": "item",
+        "tier": 1,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "attack": 1
+            }
+        }
+    },
     "art": {
         "type": "item",
         "tier": 1,
@@ -1052,7 +943,7 @@
         "cost": 2,
         "resolve": {
             "temp": {
-                "attack": 6
+                "attack": 8
             }
         }
     },
@@ -1063,7 +954,7 @@
         "cost": 2,
         "resolve": {
             "temp": {
-                "fireRate": 6
+                "fireRate": 8
             }
         }
     },
@@ -1096,7 +987,7 @@
         "cost": 3,
         "resolve": {
             "temp": {
-                "attack": 12
+                "attack": 16
             }
         }
     },
@@ -1107,7 +998,7 @@
         "cost": 3,
         "resolve": {
             "temp": {
-                "fireRate": 12
+                "fireRate": 16
             }
         }
     },
@@ -1140,7 +1031,7 @@
         "cost": 5,
         "resolve": {
             "temp": {
-                "attack": 24
+                "attack": 32
             }
         }
     },
@@ -1151,44 +1042,7 @@
         "cost": 5,
         "resolve": {
             "temp": {
-                "fireRate": 24
-            }
-        }
-    },
-    "kazoo": {
-        "type": "item",
-        "tier": 1,
-        "race": [],
-        "cost": 2,
-        "resolve": {
-            "gain": {
-                "attack": 1
-            }
-        }
-    },
-    "wind": {
-        "type": "item",
-        "tier": 9,
-        "race": [],
-        "cost": 6,
-        "minus": {
-            "coin": {
-                "gain": {
-                    "ninjaFireRate": 1
-                }
-            }
-        }
-    },
-    "tshirt": {
-        "type": "item",
-        "tier": 1,
-        "race": [],
-        "cost": 2,
-        "resolve": {
-            "temp": {
-                "qtip": 2,
-                "attack": 3,
-                "fireRate": 2
+                "fireRate": 32
             }
         }
     },
@@ -1288,39 +1142,6 @@
             }
         }
     },
-    "toothbrush": {
-        "type": "item",
-        "tier": 4,
-        "race": [],
-        "cost": 3,
-        "critical": {
-            "temp": {
-                "attack": 1
-            }
-        }
-    },
-    "tennisball": {
-        "type": "item",
-        "tier": 1,
-        "race": [],
-        "cost": 2,
-        "resolve": {
-            "temp": {
-                "critical": 3
-            }
-        }
-    },
-    "meattenderizer": {
-        "type": "item",
-        "tier": 4,
-        "race": [],
-        "cost": 3,
-        "resolve": {
-            "gain": {
-                "critical": 1
-            }
-        }
-    },
     "aabattery": {
         "type": "item",
         "tier": 2,
@@ -1328,7 +1149,7 @@
         "cost": 2,
         "resolve": {
             "temp": {
-                "bothAttack": 12
+                "bothAttack": 16
             }
         }
     },
@@ -1339,7 +1160,7 @@
         "cost": 2,
         "resolve": {
             "temp": {
-                "bothFireRate": 12
+                "bothFireRate": 16
             }
         }
     },
@@ -1406,7 +1227,7 @@
         "cost": 3,
         "resolve": {
             "temp": {
-                "groundAttack": 24
+                "groundAttack": 32
             }
         }
     },
@@ -1417,7 +1238,7 @@
         "cost": 3,
         "resolve": {
             "temp": {
-                "groundFireRate": 24
+                "groundFireRate": 32
             }
         }
     },
@@ -1428,7 +1249,7 @@
         "cost": 3,
         "resolve": {
             "temp": {
-                "airAttack": 24
+                "airAttack": 32
             }
         }
     },
@@ -1439,7 +1260,7 @@
         "cost": 3,
         "resolve": {
             "temp": {
-                "airFireRate": 24
+                "airFireRate": 32
             }
         }
     },
@@ -1462,48 +1283,6 @@
         "purchase": {
             "gain": {
                 "fireRate": 8
-            }
-        }
-    },
-    "cattoy": {
-        "type": "item",
-        "tier": 1,
-        "race": [
-            "guu"
-        ],
-        "cost": 2,
-        "resolve": {
-            "temp": {
-                "attack": 3
-            }
-        }
-    },
-    "prepaidcard": {
-        "type": "item",
-        "tier": 1,
-        "race": [
-            "choki"
-        ],
-        "cost": 2,
-        "resolve": {
-            "temp": {
-                "fireRate": 5
-            }
-        }
-    },
-    "tie": {
-        "type": "item",
-        "tier": 2,
-        "race": [
-            "guu",
-            "choki",
-            "paa"
-        ],
-        "cost": 2,
-        "resolve": {
-            "gain": {
-                "attack": 0,
-                "fireRate": 0
             }
         }
     },
@@ -1616,6 +1395,19 @@
             }
         }
     },
+    "shoes": {
+        "type": "item",
+        "tier": 6,
+        "race": [
+            "guu"
+        ],
+        "cost": 4,
+        "resolve": {
+            "gain": {
+                "attack": 2
+            }
+        }
+    },
     "fishbonediagram": {
         "type": "item",
         "tier": 7,
@@ -1684,19 +1476,6 @@
             }
         }
     },
-    "shoes": {
-        "type": "item",
-        "tier": 6,
-        "race": [
-            "guu"
-        ],
-        "cost": 4,
-        "resolve": {
-            "gain": {
-                "attack": 2
-            }
-        }
-    },
     "grater": {
         "type": "item",
         "tier": 1,
@@ -1725,6 +1504,20 @@
                 "attack": [
                     "choki",
                     3
+                ]
+            }
+        }
+    },
+    "vase": {
+        "type": "item",
+        "tier": 3,
+        "race": [],
+        "cost": 3,
+        "target": {
+            "gain": {
+                "fireRate": [
+                    "choki",
+                    1
                 ]
             }
         }
@@ -1761,6 +1554,20 @@
             }
         }
     },
+    "lightbulb": {
+        "type": "item",
+        "tier": 4,
+        "race": [],
+        "cost": 3,
+        "target": {
+            "gain": {
+                "attack": [
+                    "choki",
+                    1
+                ]
+            }
+        }
+    },
     "stapleremover": {
         "type": "item",
         "tier": 7,
@@ -1789,20 +1596,6 @@
             }
         }
     },
-    "lightbulb": {
-        "type": "item",
-        "tier": 4,
-        "race": [],
-        "cost": 3,
-        "target": {
-            "gain": {
-                "attack": [
-                    "choki",
-                    1
-                ]
-            }
-        }
-    },
     "towel": {
         "type": "item",
         "tier": 8,
@@ -1813,6 +1606,22 @@
                 "fireRate": [
                     "choki",
                     3
+                ]
+            }
+        }
+    },
+    "wallet": {
+        "type": "item",
+        "tier": 9,
+        "race": [
+            "choki"
+        ],
+        "cost": 6,
+        "target": {
+            "temp": {
+                "attack": [
+                    "choki",
+                    24
                 ]
             }
         }
@@ -1884,7 +1693,7 @@
         "cost": 2,
         "purchase": {
             "gain": {
-                "exp": 10
+                "exp": "10*tier"
             }
         }
     },
@@ -1895,7 +1704,7 @@
         "cost": 2,
         "resolve": {
             "gain": {
-                "exp": 5
+                "exp": "5*tier"
             }
         }
     },
@@ -1906,7 +1715,7 @@
         "cost": 3,
         "resolve": {
             "gain": {
-                "exp": 10
+                "exp": "10*tier"
             }
         }
     },
@@ -1917,18 +1726,7 @@
         "cost": 3,
         "purchase": {
             "gain": {
-                "exp": 20
-            }
-        }
-    },
-    "wateringcan": {
-        "type": "item",
-        "tier": 7,
-        "race": [],
-        "cost": 5,
-        "purchase": {
-            "gain": {
-                "exp": 40
+                "exp": "20*tier"
             }
         }
     },
@@ -1954,6 +1752,17 @@
             }
         }
     },
+    "wateringcan": {
+        "type": "item",
+        "tier": 7,
+        "race": [],
+        "cost": 5,
+        "purchase": {
+            "gain": {
+                "exp": "40*tier"
+            }
+        }
+    },
     "toolbox": {
         "type": "item",
         "tier": 7,
@@ -1961,7 +1770,7 @@
         "cost": 5,
         "resolve": {
             "gain": {
-                "exp": 20
+                "exp": "20*tier"
             }
         }
     },
@@ -1976,36 +1785,6 @@
         "resolve": {
             "temp": {
                 "bothBullet": 1
-            }
-        }
-    },
-    "vase": {
-        "type": "item",
-        "tier": 3,
-        "race": [],
-        "cost": 3,
-        "target": {
-            "gain": {
-                "fireRate": [
-                    "choki",
-                    1
-                ]
-            }
-        }
-    },
-    "wallet": {
-        "type": "item",
-        "tier": 9,
-        "race": [
-            "choki"
-        ],
-        "cost": 6,
-        "target": {
-            "temp": {
-                "attack": [
-                    "choki",
-                    24
-                ]
             }
         }
     },
@@ -2075,28 +1854,6 @@
             }
         }
     },
-    "pliers": {
-        "type": "item",
-        "tier": 9,
-        "race": [],
-        "cost": 6,
-        "time": {
-            "gain": {
-                "towerAttack": 2
-            }
-        }
-    },
-    "monitor": {
-        "type": "item",
-        "tier": 9,
-        "race": [],
-        "cost": 6,
-        "time": {
-            "gain": {
-                "towerFireRate": 2
-            }
-        }
-    },
     "iron": {
         "type": "item",
         "tier": 7,
@@ -2116,6 +1873,28 @@
         "time": {
             "temp": {
                 "towerAttack": 8
+            }
+        }
+    },
+    "pliers": {
+        "type": "item",
+        "tier": 9,
+        "race": [],
+        "cost": 6,
+        "time": {
+            "gain": {
+                "towerAttack": 2
+            }
+        }
+    },
+    "monitor": {
+        "type": "item",
+        "tier": 9,
+        "race": [],
+        "cost": 6,
+        "time": {
+            "gain": {
+                "towerFireRate": 2
             }
         }
     },
@@ -2290,6 +2069,1625 @@
             "gain": {
                 "airFireRate": -10,
                 "fireRate": 5
+            }
+        }
+    },
+    "easel": {
+        "type": "item",
+        "tier": 4,
+        "race": [],
+        "cost": 3,
+        "resolve": {
+            "gain": {
+                "scale": 1
+            }
+        }
+    },
+    "fossil": {
+        "type": "item",
+        "tier": 4,
+        "race": [],
+        "cost": 3,
+        "resolve": {
+            "gain": {
+                "duration": 1
+            }
+        }
+    },
+    "twig": {
+        "type": "item",
+        "tier": 1,
+        "race": [
+            "paa"
+        ],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "attack": 0
+            }
+        }
+    },
+    "stickynotes": {
+        "type": "item",
+        "tier": 1,
+        "race": [],
+        "cost": 2,
+        "spec": {
+            "resolve": {
+                "allstatus": [
+                    "paa",
+                    1
+                ]
+            }
+        }
+    },
+    "colander": {
+        "type": "item",
+        "tier": 2,
+        "race": [
+            "paa"
+        ],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "fireRate": 0
+            }
+        }
+    },
+    "inkbottle": {
+        "type": "item",
+        "tier": 3,
+        "race": [
+            "paa"
+        ],
+        "cost": 3,
+        "resolve": {
+            "gain": {
+                "attack": 1
+            }
+        }
+    },
+    "jigsawpuzzle": {
+        "type": "item",
+        "tier": 4,
+        "race": [
+            "paa"
+        ],
+        "cost": 3,
+        "resolve": {
+            "gain": {
+                "fireRate": 1
+            }
+        }
+    },
+    "sandpaper": {
+        "type": "item",
+        "tier": 5,
+        "race": [
+            "paa"
+        ],
+        "cost": 4,
+        "resolve": {
+            "gain": {
+                "attack": 1,
+                "fireRate": 1
+            }
+        }
+    },
+    "earbuds": {
+        "type": "item",
+        "tier": 5,
+        "race": [],
+        "cost": 4,
+        "spec": {
+            "resolve": {
+                "allstatus": [
+                    "paa",
+                    2
+                ]
+            }
+        }
+    },
+    "plantpot": {
+        "type": "item",
+        "tier": 6,
+        "race": [
+            "paa"
+        ],
+        "cost": 4,
+        "resolve": {
+            "gain": {
+                "coin": 1
+            }
+        }
+    },
+    "gloves": {
+        "type": "item",
+        "tier": 7,
+        "race": [
+            "paa"
+        ],
+        "cost": 5,
+        "resolve": {
+            "gain": {
+                "duration": 1
+            }
+        }
+    },
+    "calculator": {
+        "type": "item",
+        "tier": 8,
+        "race": [
+            "paa"
+        ],
+        "cost": 5,
+        "resolve": {
+            "gain": {
+                "scale": 1
+            }
+        }
+    },
+    "mop": {
+        "type": "item",
+        "tier": 9,
+        "race": [],
+        "cost": 6,
+        "spec": {
+            "resolve": {
+                "allstatus": [
+                    "paa",
+                    3
+                ]
+            }
+        }
+    },
+    "whiteboarderaser": {
+        "type": "item",
+        "tier": 10,
+        "race": [
+            "paa"
+        ],
+        "cost": 6,
+        "resolve": {
+            "gain": {
+                "attack": 2,
+                "fireRate": 2
+            }
+        }
+    },
+    "placemat": {
+        "type": "item",
+        "tier": 6,
+        "race": [],
+        "cost": 4,
+        "kill": {
+            "temp": {
+                "attack": 1
+            }
+        }
+    },
+    "key": {
+        "type": "item",
+        "tier": 6,
+        "race": [],
+        "cost": 4,
+        "kill": {
+            "temp": {
+                "fireRate": 1
+            }
+        }
+    },
+    "notebook": {
+        "type": "item",
+        "tier": 8,
+        "race": [],
+        "cost": 5,
+        "spec": {
+            "time": {
+                "towerFireRate": [
+                    "all",
+                    "*2"
+                ]
+            }
+        }
+    },
+    "mousepad": {
+        "type": "item",
+        "tier": 4,
+        "race": [],
+        "cost": 3,
+        "spec": {
+            "cost": [
+                "guu",
+                -1
+            ]
+        }
+    },
+    "screwdriver": {
+        "type": "item",
+        "tier": 6,
+        "race": [],
+        "cost": 4,
+        "spec": {
+            "fireRate": [
+                "ninja",
+                "*1.2"
+            ]
+        }
+    },
+    "sdcard": {
+        "type": "item",
+        "tier": 6,
+        "race": [],
+        "cost": 4,
+        "spec": {
+            "die": {
+                "exp": [
+                    "enemy",
+                    "*2"
+                ]
+            }
+        }
+    },
+    "jumprope": {
+        "type": "item",
+        "tier": 1,
+        "race": [
+            "ghost"
+        ],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "groundFireRate": 6
+            }
+        }
+    },
+    "map": {
+        "type": "item",
+        "tier": 2,
+        "race": [
+            "ghost"
+        ],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "groundAttack": 6
+            }
+        }
+    },
+    "trowel": {
+        "type": "item",
+        "tier": 3,
+        "race": [
+            "ghost"
+        ],
+        "cost": 3,
+        "requirement": {
+            "ghost": ">=3"
+        },
+        "resolve": {
+            "gain": {
+                "groundFireRate": 8
+            }
+        }
+    },
+    "doorknob": {
+        "type": "item",
+        "tier": 4,
+        "race": [
+            "ghost"
+        ],
+        "cost": 3,
+        "requirement": {
+            "ghost": ">=3"
+        },
+        "resolve": {
+            "gain": {
+                "groundFireRate": 8
+            }
+        }
+    },
+    "house": {
+        "type": "item",
+        "tier": 5,
+        "race": [
+            "ghost"
+        ],
+        "cost": 4,
+        "resolve": {
+            "gain": {
+                "airFireRate": 10
+            }
+        }
+    },
+    "leaf": {
+        "type": "item",
+        "tier": 6,
+        "race": [
+            "ghost"
+        ],
+        "cost": 4,
+        "resolve": {
+            "gain": {
+                "airAttack": 10
+            }
+        }
+    },
+    "icecubetray": {
+        "type": "item",
+        "tier": 7,
+        "race": [
+            "ghost"
+        ],
+        "cost": 5,
+        "resolve": {
+            "gain": {
+                "groundFireRate": 6,
+                "airFireRate": 6
+            }
+        }
+    },
+    "dishrack": {
+        "type": "item",
+        "tier": 8,
+        "race": [
+            "ghost"
+        ],
+        "cost": 5,
+        "resolve": {
+            "gain": {
+                "groundAttack": 6,
+                "airAttack": 6
+            }
+        }
+    },
+    "ironsand": {
+        "type": "item",
+        "tier": 2,
+        "race": [
+            "choki"
+        ],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "duration": 1
+            }
+        },
+        "condition": [
+            "magnet"
+        ]
+    },
+    "bigexplosion": {
+        "type": "item",
+        "tier": 2,
+        "race": [
+            "paa"
+        ],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "scale": 1
+            }
+        },
+        "condition": [
+            "bomb"
+        ]
+    },
+    "soysauce": {
+        "type": "item",
+        "tier": 4,
+        "race": [],
+        "cost": 3,
+        "spec": {
+            "fireRate": [
+                "ground",
+                "*1.2"
+            ]
+        },
+        "condition": [
+            "sushibro"
+        ]
+    },
+    "toner": {
+        "type": "item",
+        "tier": 3,
+        "race": [],
+        "cost": 3,
+        "spec": {
+            "fireRate": [
+                "tower",
+                "*1.2"
+            ]
+        },
+        "condition": [
+            "face"
+        ]
+    },
+    "urinal": {
+        "type": "item",
+        "tier": 4,
+        "race": [
+            "guu",
+            "paa"
+        ],
+        "cost": 3,
+        "resolve": {
+            "temp": {
+                "health": 1
+            }
+        },
+        "condition": [
+            "flashlight"
+        ]
+    },
+    "metaldetector": {
+        "type": "item",
+        "tier": 4,
+        "race": [],
+        "cost": 3,
+        "resolve": {
+            "temp": {
+                "choice": 2
+            }
+        },
+        "condition": [
+            "landmine"
+        ]
+    },
+    "mold": {
+        "type": "item",
+        "tier": 4,
+        "race": [],
+        "cost": 3,
+        "resolve": {
+            "temp": {
+                "groundBullet": 1
+            }
+        },
+        "condition": [
+            "pole"
+        ]
+    },
+    "antidotes": {
+        "type": "item",
+        "tier": 3,
+        "race": [],
+        "cost": 3,
+        "spec": {
+            "fireRate": [
+                "ninja",
+                "*1.2"
+            ]
+        },
+        "condition": [
+            "poisonbottle"
+        ]
+    },
+    "bigshower": {
+        "type": "item",
+        "tier": 4,
+        "race": [
+            "guu"
+        ],
+        "cost": 3,
+        "resolve": {
+            "temp": {
+                "scale": 8
+            }
+        },
+        "condition": [
+            "clock"
+        ]
+    },
+    "lubricatingoil": {
+        "type": "item",
+        "tier": 2,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "duration": 2
+            }
+        },
+        "condition": [
+            "handspinner"
+        ]
+    },
+    "omamori": {
+        "type": "item",
+        "tier": 4,
+        "race": [],
+        "cost": 3,
+        "resolve": {
+            "temp": {
+                "ninjaBullet": 1
+            }
+        },
+        "condition": [
+            "roulette"
+        ]
+    },
+    "tabletennisnetsupport": {
+        "type": "item",
+        "tier": 3,
+        "race": [],
+        "cost": 3,
+        "spec": {
+            "bulletSpeed": [
+                "tabletennis",
+                "*2"
+            ]
+        },
+        "condition": [
+            "tabletennis"
+        ]
+    },
+    "potion": {
+        "type": "item",
+        "tier": 3,
+        "race": [],
+        "cost": 3,
+        "spec": {
+            "attackRate": [
+                "tower",
+                "*1.2"
+            ]
+        },
+        "condition": [
+            "capsuletoymachine"
+        ]
+    },
+    "supplies": {
+        "type": "item",
+        "tier": 3,
+        "race": [],
+        "cost": 3,
+        "spec": {
+            "attackRate": [
+                "ground",
+                "*1.2"
+            ]
+        },
+        "condition": [
+            "artillery"
+        ]
+    },
+    "highlighter": {
+        "type": "item",
+        "tier": 6,
+        "race": [],
+        "cost": 4,
+        "spec": {
+            "fireRate": [
+                "pencil",
+                "*1.8"
+            ]
+        },
+        "condition": [
+            "pencil"
+        ]
+    },
+    "deposit": {
+        "type": "item",
+        "tier": 6,
+        "race": [],
+        "cost": 4,
+        "requirement": {
+            "coin": 15
+        },
+        "resolve": {
+            "gain": {
+                "coin": 5
+            }
+        },
+        "condition": [
+            "storepage"
+        ]
+    },
+    "barrier": {
+        "type": "item",
+        "tier": 6,
+        "race": [],
+        "cost": 4,
+        "resolve": {
+            "temp": {
+                "health": 5
+            }
+        },
+        "condition": [
+            "stealth"
+        ]
+    },
+    "catfood": {
+        "type": "item",
+        "tier": 3,
+        "race": [],
+        "cost": 3,
+        "resolve": {
+            "gain": {
+                "ninjaAttack": 2,
+                "bothFireRate": 2
+            }
+        },
+        "condition": [
+            "cat"
+        ]
+    },
+    "bone": {
+        "type": "item",
+        "tier": 3,
+        "race": [],
+        "cost": 3,
+        "resolve": {
+            "gain": {
+                "groundAttack": 3,
+                "ninjaFireRate": 2
+            }
+        },
+        "condition": [
+            "dog"
+        ]
+    },
+    "transparent": {
+        "type": "item",
+        "tier": 3,
+        "race": [],
+        "cost": 3,
+        "spec": {
+            "fireRate": [
+                "air",
+                "*1.5"
+            ]
+        },
+        "condition": [
+            "transparentdonut"
+        ]
+    },
+    "age": {
+        "type": "item",
+        "tier": 5,
+        "race": [],
+        "cost": 4,
+        "spec": {
+            "fireRate": [
+                "all",
+                "*1.2"
+            ]
+        },
+        "condition": [
+            "thinking"
+        ]
+    },
+    "colorcontactlenses": {
+        "type": "item",
+        "tier": 5,
+        "race": [],
+        "cost": 4,
+        "spec": {
+            "attackRate": [
+                "all",
+                "*1.2"
+            ]
+        },
+        "condition": [
+            "eyes"
+        ]
+    },
+    "shadowoftonfa": {
+        "type": "item",
+        "tier": 5,
+        "race": [],
+        "cost": 4,
+        "resolve": {
+            "temp": {
+                "bothBullet": 1
+            }
+        },
+        "condition": [
+            "tonfa"
+        ]
+    },
+    "priorityelevator": {
+        "type": "item",
+        "tier": 2,
+        "race": [],
+        "cost": 2,
+        "spec": {
+            "fireRate": [
+                "elevatorsauce",
+                "*2"
+            ]
+        },
+        "condition": [
+            "elevatorsauce"
+        ]
+    },
+    "coaster": {
+        "type": "item",
+        "tier": 1,
+        "race": [
+            "hearts"
+        ],
+        "cost": 2,
+        "requirement": {
+            "blood": ">=10"
+        },
+        "resolve": {
+            "gain": {
+                "blood": -10,
+                "attack": 2
+            }
+        }
+    },
+    "school": {
+        "type": "item",
+        "tier": 1,
+        "race": [
+            "hearts"
+        ],
+        "cost": 2,
+        "kill": {
+            "gain": {
+                "blood": 1
+            }
+        }
+    },
+    "circuitboard": {
+        "type": "item",
+        "tier": 3,
+        "race": [
+            "hearts"
+        ],
+        "cost": 3,
+        "requirement": {
+            "blood": ">=10"
+        },
+        "resolve": {
+            "gain": {
+                "blood": -10,
+                "fireRate": 4
+            }
+        }
+    },
+    "root": {
+        "type": "item",
+        "tier": 5,
+        "race": [
+            "hearts"
+        ],
+        "cost": 4,
+        "requirement": {
+            "blood": ">=10"
+        },
+        "resolve": {
+            "gain": {
+                "blood": -10,
+                "attack": 6
+            }
+        }
+    },
+    "peeler": {
+        "type": "item",
+        "tier": 7,
+        "race": [
+            "hearts"
+        ],
+        "cost": 5,
+        "requirement": {
+            "blood": ">=10"
+        },
+        "resolve": {
+            "gain": {
+                "blood": -10,
+                "fireRate": 8
+            }
+        }
+    },
+    "vial": {
+        "type": "item",
+        "tier": 9,
+        "race": [
+            "hearts"
+        ],
+        "cost": 6,
+        "requirement": {
+            "blood": ">=10"
+        },
+        "resolve": {
+            "gain": {
+                "blood": -10,
+                "attack": 10
+            }
+        }
+    },
+    "crown": {
+        "type": "item",
+        "tier": 2,
+        "race": [
+            "hearts"
+        ],
+        "cost": 2,
+        "purchase": {
+            "gain": {
+                "blood": 10
+            }
+        }
+    },
+    "utilityknife": {
+        "type": "item",
+        "tier": 4,
+        "race": [
+            "hearts"
+        ],
+        "cost": 3,
+        "purchase": {
+            "gain": {
+                "blood": 20
+            }
+        }
+    },
+    "kettle": {
+        "type": "item",
+        "tier": 6,
+        "race": [
+            "hearts"
+        ],
+        "cost": 4,
+        "purchase": {
+            "gain": {
+                "blood": 30
+            }
+        }
+    },
+    "petal": {
+        "type": "item",
+        "tier": 3,
+        "race": [
+            "clubs"
+        ],
+        "cost": 3,
+        "purchase": {
+            "gain": {
+                "hole": 1
+            }
+        }
+    },
+    "tupperware": {
+        "type": "item",
+        "tier": 7,
+        "race": [
+            "clubs"
+        ],
+        "cost": 5,
+        "purchase": {
+            "gain": {
+                "hole": 2
+            }
+        }
+    },
+    "chalk": {
+        "type": "item",
+        "tier": 1,
+        "race": [
+            "clubs"
+        ],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "bothAttack": 4
+            }
+        }
+    },
+    "crochethook": {
+        "type": "item",
+        "tier": 1,
+        "race": [
+            "clubs"
+        ],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "groundAttack": 4
+            }
+        }
+    },
+    "horseshoe": {
+        "type": "item",
+        "tier": 2,
+        "race": [
+            "clubs"
+        ],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "airAttack": 4
+            }
+        }
+    },
+    "lace": {
+        "type": "item",
+        "tier": 2,
+        "race": [
+            "clubs"
+        ],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "groundFireRate": 4
+            }
+        }
+    },
+    "beret": {
+        "type": "item",
+        "tier": 4,
+        "race": [
+            "clubs"
+        ],
+        "cost": 3,
+        "resolve": {
+            "temp": {
+                "bothFireRate": 8
+            }
+        }
+    },
+    "chopsticksrest": {
+        "type": "item",
+        "tier": 4,
+        "race": [
+            "clubs"
+        ],
+        "cost": 3,
+        "resolve": {
+            "temp": {
+                "airFireRate": 8
+            }
+        }
+    },
+    "toothbrush": {
+        "type": "item",
+        "tier": 5,
+        "race": [
+            "spades"
+        ],
+        "cost": 4,
+        "critical": {
+            "temp": {
+                "attack": 1
+            }
+        }
+    },
+    "tennisball": {
+        "type": "item",
+        "tier": 1,
+        "race": [
+            "spades"
+        ],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "bothCritical": 3
+            }
+        }
+    },
+    "meattenderizer": {
+        "type": "item",
+        "tier": 7,
+        "race": [
+            "spades"
+        ],
+        "cost": 5,
+        "resolve": {
+            "gain": {
+                "ninjaCritical": 2
+            }
+        }
+    },
+    "anchor": {
+        "type": "item",
+        "tier": 2,
+        "race": [
+            "spades"
+        ],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "airCritical": 3
+            }
+        }
+    },
+    "cuttingboard": {
+        "type": "item",
+        "tier": 2,
+        "race": [
+            "spades"
+        ],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "groundCritical": 3
+            }
+        }
+    },
+    "sextant": {
+        "type": "item",
+        "tier": 7,
+        "race": [
+            "spades"
+        ],
+        "cost": 5,
+        "resolve": {
+            "gain": {
+                "towerCritical": 2
+            }
+        }
+    },
+    "sugar": {
+        "type": "item",
+        "tier": 10,
+        "race": [
+            "spades"
+        ],
+        "cost": 6,
+        "critical": {
+            "temp": {
+                "fireRate": 2
+            }
+        }
+    },
+    "golfclub": {
+        "type": "item",
+        "tier": 3,
+        "race": [
+            "spades"
+        ],
+        "cost": 3,
+        "resolve": {
+            "gain": {
+                "airCritical": 1
+            }
+        }
+    },
+    "shadow": {
+        "type": "item",
+        "tier": 3,
+        "race": [
+            "spades"
+        ],
+        "cost": 3,
+        "resolve": {
+            "gain": {
+                "groundCritical": 1
+            }
+        }
+    },
+    "locket": {
+        "type": "item",
+        "tier": 4,
+        "race": [
+            "spades"
+        ],
+        "cost": 3,
+        "resolve": {
+            "gain": {
+                "bothCritical": 1
+            }
+        }
+    },
+    "scepter": {
+        "type": "item",
+        "tier": 4,
+        "race": [],
+        "cost": 3,
+        "resolve": {
+            "gain": {
+                "critical": 1
+            }
+        }
+    },
+    "colorpalette": {
+        "type": "item",
+        "tier": 5,
+        "race": [
+            "spades"
+        ],
+        "cost": 4,
+        "critical": {
+            "temp": {
+                "fireRate": 1
+            }
+        }
+    },
+    "crayon": {
+        "type": "item",
+        "tier": 6,
+        "race": [
+            "spades"
+        ],
+        "cost": 4,
+        "purchase": {
+            "gain": {
+                "critical": 2
+            }
+        }
+    },
+    "spoon": {
+        "type": "item",
+        "tier": 10,
+        "race": [
+            "spades"
+        ],
+        "cost": 6,
+        "critical": {
+            "temp": {
+                "attack": 2
+            }
+        }
+    },
+    "indoorbroom": {
+        "type": "item",
+        "tier": 9,
+        "race": [],
+        "cost": 6,
+        "purchase": {
+            "gain": {
+                "critical": 5
+            }
+        }
+    },
+    "dough": {
+        "type": "item",
+        "tier": 2,
+        "race": [
+            "paa"
+        ],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "fireRate": "2*differenttypes"
+            }
+        }
+    },
+    "trumpet": {
+        "type": "item",
+        "tier": 3,
+        "race": [
+            "hearts"
+        ],
+        "cost": 3,
+        "requirement": {
+            "differenttypes": ">=3"
+        },
+        "resolve": {
+            "temp": {
+                "airBullet": 1
+            }
+        }
+    },
+    "cork": {
+        "type": "item",
+        "tier": 3,
+        "race": [
+            "clubs"
+        ],
+        "cost": 3,
+        "requirement": {
+            "differenttypes": ">=3"
+        },
+        "resolve": {
+            "temp": {
+                "groundBullet": 1
+            }
+        }
+    },
+    "bacon": {
+        "type": "item",
+        "tier": 4,
+        "race": [
+            "guu"
+        ],
+        "cost": 3,
+        "resolve": {
+            "gain": {
+                "attack": "1*differenttypes"
+            }
+        }
+    },
+    "lyre": {
+        "type": "item",
+        "tier": 5,
+        "race": [
+            "spades"
+        ],
+        "cost": 4,
+        "requirement": {
+            "differenttypes": ">=2"
+        },
+        "resolve": {
+            "temp": {
+                "ninjaBullet": 1
+            }
+        }
+    },
+    "folder": {
+        "type": "item",
+        "tier": 5,
+        "race": [
+            "diamonds"
+        ],
+        "cost": 4,
+        "requirement": {
+            "differenttypes": ">=2"
+        },
+        "resolve": {
+            "temp": {
+                "towerBullet": 1
+            }
+        }
+    },
+    "contactlenses": {
+        "type": "item",
+        "tier": 8,
+        "race": [
+            "clubs"
+        ],
+        "cost": 5,
+        "requirement": {
+            "differenttypes": ">=5"
+        },
+        "resolve": {
+            "temp": {
+                "bullet": 3
+            }
+        }
+    },
+    "pouch": {
+        "type": "item",
+        "tier": 1,
+        "race": [
+            "diamonds"
+        ],
+        "cost": 2,
+        "buy": {
+            "temp": {
+                "groundAttack": 4
+            }
+        }
+    },
+    "haircream": {
+        "type": "item",
+        "tier": 2,
+        "race": [
+            "diamonds"
+        ],
+        "cost": 2,
+        "buy": {
+            "temp": {
+                "groundFireRate": 4
+            }
+        }
+    },
+    "firetorch": {
+        "type": "item",
+        "tier": 3,
+        "race": [
+            "diamonds"
+        ],
+        "cost": 3,
+        "sell": {
+            "temp": {
+                "coin": 1
+            }
+        }
+    },
+    "curtain": {
+        "type": "item",
+        "tier": 4,
+        "race": [
+            "diamonds"
+        ],
+        "cost": 3,
+        "sell": {
+            "temp": {
+                "bothFireRate": 8
+            }
+        }
+    },
+    "goblet": {
+        "type": "item",
+        "tier": 5,
+        "race": [
+            "diamonds"
+        ],
+        "cost": 4,
+        "sell": {
+            "temp": {
+                "bothAttack": 12
+            }
+        }
+    },
+    "satchel": {
+        "type": "item",
+        "tier": 6,
+        "race": [],
+        "cost": 4,
+        "spec": {
+            "sell": {
+                "allstatus": [
+                    "diamonds",
+                    2
+                ]
+            }
+        }
+    },
+    "guitarpick": {
+        "type": "item",
+        "tier": 8,
+        "race": [
+            "diamonds"
+        ],
+        "cost": 5,
+        "buy": {
+            "gain": {
+                "attack": 1
+            }
+        }
+    },
+    "herb": {
+        "type": "item",
+        "tier": 8,
+        "race": [
+            "diamonds"
+        ],
+        "cost": 5,
+        "sell": {
+            "gain": {
+                "fireRate": 1
+            }
+        }
+    },
+    "microscope": {
+        "type": "item",
+        "tier": 10,
+        "race": [],
+        "cost": 6,
+        "spec": {
+            "sell": {
+                "allstatus": [
+                    "diamonds",
+                    8
+                ]
+            }
+        }
+    },
+    "tapestry": {
+        "type": "item",
+        "tier": 10,
+        "race": [],
+        "cost": 6,
+        "spec": {
+            "buy": {
+                "allstatus": [
+                    "diamonds",
+                    8
+                ]
+            }
+        }
+    },
+    "testitem1": {
+        "type": "item",
+        "tier": 11,
+        "race": [
+            "guu",
+            "hearts",
+            "diamonds",
+            "clubs",
+            "spades"
+        ],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "coin": -1
+            },
+            "gain": {
+                "coin": -1
+            }
+        },
+        "target": {
+            "temp": {
+                "coin": [
+                    "guu",
+                    1
+                ]
+            }
+        }
+    },
+    "testitem2": {
+        "type": "item",
+        "tier": 11,
+        "race": [
+            "choki"
+        ],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "attack": "1*tier"
+            }
+        },
+        "target": {
+            "temp": {
+                "coin": [
+                    "choki",
+                    1
+                ]
+            },
+            "gain": {
+                "coin": [
+                    "choki",
+                    1
+                ]
+            }
+        },
+        "requirement": {
+            "paa": "<3",
+            "guu": "<=2"
+        }
+    },
+    "testitem3": {
+        "type": "item",
+        "tier": 11,
+        "race": [
+            "paa"
+        ],
+        "cost": 2,
+        "purchase": {
+            "gain": {
+                "coin": 1
+            }
+        },
+        "resolve": {
+            "gain": {
+                "coin": 1
+            }
+        },
+        "target": {
+            "temp": {
+                "airAttack": [
+                    "all",
+                    "1*tier"
+                ]
+            }
+        },
+        "requirement": {
+            "paa": ">=1",
+            "choki": ">-10"
+        }
+    },
+    "testitem4": {
+        "type": "item",
+        "tier": 11,
+        "race": [
+            "guu",
+            "choki",
+            "paa",
+            "ghost"
+        ],
+        "cost": 2,
+        "requirement": {
+            "testpower1": 1
+        },
+        "plus": {
+            "coin": {
+                "temp": {
+                    "attack": 1
+                }
+            }
+        },
+        "minus": {
+            "coin": {
+                "temp": {
+                    "fireRate": 1
+                }
+            }
+        }
+    },
+    "testitem5": {
+        "type": "item",
+        "tier": 11,
+        "race": [],
+        "cost": 2,
+        "plus": {
+            "attack": {
+                "temp": {
+                    "groundAttack": "1*tier"
+                }
+            }
+        },
+        "target": {
+            "temp": {
+                "airAttack": [
+                    "level>=2",
+                    "1*tier"
+                ]
+            }
+        },
+        "spec": {
+            "sell": {
+                "coin": [
+                    "paa",
+                    1
+                ]
+            },
+            "resolve": {
+                "coin": [
+                    "guu",
+                    -1
+                ]
+            }
+        }
+    },
+    "testitem6": {
+        "type": "item",
+        "tier": 12,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "temp": {
+                "coin": -754
+            },
+            "gain": {
+                "coin": -25
+            }
+        }
+    },
+    "testitem7": {
+        "type": "item",
+        "tier": 12,
+        "race": [],
+        "cost": 2,
+        "spec": {
+            "spec": {
+                "allstatus": [
+                    "all",
+                    "*1.5"
+                ]
+            }
+        }
+    },
+    "testitem9": {
+        "type": "item",
+        "tier": 12,
+        "race": [],
+        "cost": 2,
+        "resolve": {
+            "gain": {
+                "testresolve": 1,
+                "attack": 1,
+                "fireRate": 1
+            }
+        },
+        "kill": {
+            "gain": {
+                "testkill": 1
+            }
+        },
+        "buy": {
+            "gain": {
+                "testbuy": 1
+            }
+        },
+        "critical": {
+            "gain": {
+                "testcritical": 1
+            }
+        },
+        "sell": {
+            "gain": {
+                "testsell": 1
+            }
+        },
+        "time": {
+            "gain": {
+                "testtime": 1
             }
         }
     }

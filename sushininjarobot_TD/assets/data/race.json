@@ -43,5 +43,49 @@
         "race": [
             "ghost"
         ]
+    },
+    "hearts": {
+        "type": "race",
+        "tier": 1,
+        "desc": [
+            "[{hearts} >=3]",
+            "→ {health} +1*{hearts}"
+        ],
+        "race": [
+            "hearts"
+        ]
+    },
+    "clubs": {
+        "type": "race",
+        "tier": 1,
+        "desc": [
+            "[{clubs} >=3]",
+            "→ {hole} +2*{clubs}"
+        ],
+        "race": [
+            "clubs"
+        ]
+    },
+    "spades": {
+        "type": "race",
+        "tier": 1,
+        "desc": [
+            "[{spades} >=3]",
+            "→ {critical} +5*{spades}"
+        ],
+        "race": [
+            "spades"
+        ]
+    },
+    "diamonds": {
+        "type": "race",
+        "tier": 1,
+        "desc": [
+            "[{diamonds} >=3]",
+            "→ {choice} +0.5*{diamonds}"
+        ],
+        "race": [
+            "diamonds"
+        ]
     }
 }
