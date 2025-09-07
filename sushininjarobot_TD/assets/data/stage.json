@@ -2,7 +2,7 @@
     "shisuro": {
         "type": "stage",
         "stage": "shisuro",
-        "desc": "Win in 3:00",
+        "desc": "Win in 3:00.",
         "path": [
             [
                 1380,
@@ -49,7 +49,7 @@
     "rakuzushi": {
         "type": "stage",
         "stage": "rakuzushi",
-        "desc": "Win in 6:00",
+        "desc": "Win in 6:00.",
         "tier": 2,
         "path": [
             [
@@ -123,12 +123,13 @@
                 "lemon",
                 "canele"
             ]
-        ]
+        ],
+        "locked": true
     },
     "gyobei": {
         "type": "stage",
         "stage": "gyobei",
-        "desc": "Win in 10:00",
+        "desc": "Win in 10:00. Lots of flying enemies.",
         "tier": 3,
         "path": [
             [
@@ -172,25 +173,21 @@
                 "cherry"
             ],
             [
-                "tofu",
                 "cheese",
                 "wasabi",
                 "milk"
             ],
             [
                 "wataame",
-                "lemon",
                 "canele"
             ],
             [
-                "eringi",
                 "teabag",
                 "fish"
             ],
             [
                 "taiyaki",
-                "chocolate",
-                "hotdog"
+                "chocolate"
             ],
             [
                 "gyoza",
@@ -208,7 +205,7 @@
     "pakkazushi": {
         "type": "stage",
         "stage": "pakkazushi",
-        "desc": "Win in 10:00",
+        "desc": "Win in 10:00.",
         "tier": 3,
         "path": [
             [
@@ -380,7 +377,7 @@
     "beachzushi": {
         "type": "stage",
         "stage": "beachzushi",
-        "desc": "Win in 15:00",
+        "desc": "Win in 15:00.",
         "tier": 4,
         "path": [
             [

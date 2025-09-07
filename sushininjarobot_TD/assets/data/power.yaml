@@ -5,6 +5,7 @@ shuriken:
     - both
     - ninja
   tower: shuriken
+  desc: Throws a homing shuriken.
   attackRate: 1.2
   bulletSpeed: 1.2
   fireRate: 0.8
@@ -15,6 +16,7 @@ makibishi:
     - ground
     - ninja
   tower: makibishi
+  desc: Scatters caltrops on the ground that damage sushi.
   attackRate: 1
   bulletSpeed: 1
   fireRate: 0.5
@@ -25,6 +27,7 @@ magnet:
     - ground
     - ninja
   tower: magnet
+  desc: Creates a magnetic field that slows down sushi.
   attackRate: 0
   bulletSpeed: 1
   fireRate: 0.5
@@ -35,6 +38,7 @@ bomb:
     - both
     - ninja
   tower: bomb
+  desc: Throws a homing bomb that explodes after a short time.
   attackRate: 0.5
   bulletSpeed: 0.7
   fireRate: 1
@@ -45,6 +49,7 @@ kunai:
     - both
     - ninja
   tower: kunai
+  desc: Throws a volley of kunai in a wide area.
   attackRate: 0.5
   bulletSpeed: 1.5
   fireRate: 1
@@ -55,6 +60,7 @@ katana:
     - ground
     - ninja
   tower: katana
+  desc: A draggable, powerful blade that continuously damages sushi.
   attackRate: 1.7
   bulletSpeed: 1
   fireRate: 1
@@ -65,6 +71,7 @@ sushibro:
     - ground
     - ninja
   tower: sushibro
+  desc: Summons a friendly sushi that attacks sushi from the goal.
   attackRate: 1.2
   bulletSpeed: 1
   fireRate: 0.8
@@ -75,6 +82,7 @@ sprinkler:
     - ground
     - tower
   tower: sprinkler
+  desc: Creates a mist that continuously damages sushi within its range.
   attackRate: 1.2
   bulletSpeed: 0.6
   fireRate: 0.8
@@ -85,6 +93,7 @@ bookshelf:
     - both
     - tower
   tower: bookshelf
+  desc: Launches a book that circles the tower, damaging sushi.
   attackRate: 1.1
   bulletSpeed: 1
   fireRate: 0.9
@@ -95,6 +104,7 @@ mousetrap:
     - ground
     - tower
   tower: mousetrap
+  desc: A draggable trap that temporarily stops sushi.
   attackRate: 0.5
   bulletSpeed: 0.3
   fireRate: 0.8
@@ -105,6 +115,7 @@ face:
     - both
     - tower
   tower: face
+  desc: Shoots projectiles in 4 directions.
   attackRate: 0.5
   bulletSpeed: 1.5
   fireRate: 1
@@ -115,6 +126,7 @@ rifle:
     - both
     - tower
   tower: rifle
+  desc: A powerful, long-range weapon.
   attackRate: 2
   bulletSpeed: 10
   fireRate: 0.5
@@ -126,6 +138,7 @@ airhockey:
     - ground
     - tower
   tower: airhockey
+  desc: An interactive tower where you hit a puck to damage sushi.
   attackRate: 2
   bulletSpeed: 1
   fireRate: 1
@@ -137,6 +150,7 @@ flashlight:
     - both
     - tower
   tower: flashlight
+  desc: Shoots a laser beam across the screen.
   attackRate: 1
   bulletSpeed: 1
   fireRate: 0.8
@@ -147,6 +161,7 @@ obake:
     - both
     - tower
   tower: obake
+  desc: A ghost that circles you and shoots projectiles.
   attackRate: 1
   bulletSpeed: 0.4
   fireRate: 1
@@ -157,6 +172,7 @@ slime:
     - both
     - tower
   tower: slime
+  desc: A slime that follows you and shoots projectiles.
   attackRate: 1
   bulletSpeed: 1
   fireRate: 1
@@ -167,6 +183,7 @@ antiair:
     - air
     - tower
   tower: antiair
+  desc: Specifically targets flying sushi.
   attackRate: 1
   bulletSpeed: 3
   fireRate: 1.25
@@ -177,6 +194,7 @@ landmine:
     - ground
     - tower
   tower: landmine
+  desc: Draggable mines that explode on contact.
   attackRate: 3
   bulletSpeed: 1
   fireRate: 0.5
@@ -187,6 +205,7 @@ pole:
     - ground
     - tower
   tower: pole
+  desc: A draggable chain of poles that damage sushi on contact.
   attackRate: 0.3
   bulletSpeed: 1
   fireRate: 1
@@ -197,6 +216,7 @@ merlion:
     - ground
     - tower
   tower: merlion
+  desc: Spouts projectiles in an arc.
   attackRate: 0.4
   bulletSpeed: 1
   fireRate: 2.5
@@ -207,6 +227,7 @@ boomerang:
     - air
     - ninja
   tower: boomerang
+  desc: Throws a boomerang that circles outwards from you.
   attackRate: 1.5
   bulletSpeed: 1.2
   fireRate: 0.8
@@ -330,9 +351,11 @@ keyboard:
     - both
     - tower
   tower: keyboard
+  desc: An interactive keyboard that shoots projectiles when keys are pressed.
   attackRate: 0.5
   bulletSpeed: 1
   fireRate: 2
+  locked: true
 simple-16:
   type: power
   tier: 2
@@ -340,6 +363,7 @@ simple-16:
     - both
     - tower
   tower: simple-16
+  desc: A 16-step sequencer that plays notes and shoots projectiles.
   attackRate: 0.1
   bulletSpeed: 1
   fireRate: 5
@@ -355,6 +379,7 @@ telephonepole:
     - air
     - tower
   tower: telephonepole
+  desc: Shoots lightning between poles.
   attackRate: 0.3
   bulletSpeed: 1
   fireRate: 1.25
@@ -365,6 +390,7 @@ sunglasses:
     - both
     - tower
   tower: sunglasses
+  desc: Sunglasses that can be moved around to shoot projectiles.
   attackRate: 2
   bulletSpeed: 1
   fireRate: 0.6
@@ -375,6 +401,7 @@ swingingblade:
     - both
     - ninja
   tower: swingingblade
+  desc: A blade that swings back and forth, damaging sushi.
   attackRate: 1
   bulletSpeed: 1
   fireRate: 1
@@ -385,6 +412,7 @@ roulette:
     - both
     - ninja
   tower: roulette
+  desc: A roulette that shoots projectiles in various patterns.
   attackRate: 1.1
   bulletSpeed: 0.9
   fireRate: 0.9
@@ -392,6 +420,7 @@ sunglasseswitheyes:
   type: power
   tier: 1
   upgrade: sunglasses
+  desc: Adds eyes to the sunglasses, allowing them to shoot projectiles automatically.
   condition:
     - sunglasses
   limit: 1
@@ -399,6 +428,7 @@ practiceofkunai:
   type: power
   tier: 1
   upgrade: kunai
+  desc: Kunai will now home in on sushi.
   condition:
     - kunai
   limit: 1
@@ -406,6 +436,7 @@ greatkatana:
   type: power
   tier: 1
   upgrade: katana
+  desc: Makes the katana much larger.
   condition:
     - katana
   limit: 1
@@ -413,6 +444,7 @@ longfusebomb:
   type: power
   tier: 1
   upgrade: bomb
+  desc: Increases the fuse time of the bomb, allowing it to travel further.
   condition:
     - bomb
   limit: 1
@@ -420,6 +452,7 @@ makibishimakibishi:
   type: power
   tier: 1
   upgrade: makibishi
+  desc: Makibishi will now scatter more caltrops.
   condition:
     - makibishi
   limit: 1
@@ -427,6 +460,7 @@ neodymiummagnet:
   type: power
   tier: 1
   upgrade: magnet
+  desc: Increases the strength of the magnet, slowing sushi more.
   condition:
     - magnet
   limit: 1
@@ -434,6 +468,7 @@ fuumashuriken:
   type: power
   tier: 1
   upgrade: shuriken
+  desc: Doubles the shuriken's durability.
   condition:
     - shuriken
   limit: 1
@@ -441,6 +476,7 @@ sushiparty:
   type: power
   tier: 1
   upgrade: sushibro
+  desc: Adds more sushi to the sushibro's party.
   condition:
     - sushibro
   limit: 1
@@ -448,6 +484,7 @@ guidedsprinkler:
   type: power
   tier: 1
   upgrade: sprinkler
+  desc: The sprinkler's mist will now home in on sushi.
   condition:
     - sprinkler
   limit: 1
@@ -455,6 +492,7 @@ bookflower:
   type: power
   tier: 1
   upgrade: bookshelf
+  desc: The bookshelf's book will now travel in a flower pattern.
   condition:
     - bookshelf
   limit: 1
@@ -465,13 +503,15 @@ poisonbottle:
     - both
     - ninja
   tower: poisonbottle
+  desc: Throws a bottle that creates a poison cloud on impact.
   attackRate: 1
-  bulletSpeed: 0.6
-  fireRate: 1
+  bulletSpeed: 0.8
+  fireRate: 1.3
 mouseghost:
   type: power
   tier: 1
   upgrade: mousetrap
+  desc: A ghost will now appear when the mousetrap is triggered.
   condition:
     - mousetrap
   limit: 1
@@ -479,6 +519,7 @@ bigface:
   type: power
   tier: 1
   upgrade: face
+  desc: Makes the face tower much larger and shoot more projectiles.
   condition:
     - face
   limit: 1
@@ -486,6 +527,7 @@ burstmode:
   type: power
   tier: 1
   upgrade: rifle
+  desc: The rifle will now fire in a 3-shot burst.
   condition:
     - rifle
   limit: 1
@@ -493,6 +535,7 @@ premiumpuck:
   type: power
   tier: 1
   upgrade: airhockey
+  desc: The air hockey puck will now slide much further.
   condition:
     - airhockey
   limit: 1
@@ -500,6 +543,7 @@ mirrorball:
   type: power
   tier: 1
   upgrade: flashlight
+  desc: Turns the flashlight into a mirrorball that damages sushi in a wide area.
   condition:
     - flashlight
   limit: 1
@@ -507,6 +551,7 @@ nurikabe:
   type: power
   tier: 1
   upgrade: obake
+  desc: The obake will now summon a wall to block sushi.
   condition:
     - obake
   limit: 1
@@ -514,6 +559,7 @@ queenslime:
   type: power
   tier: 1
   upgrade: slime
+  desc: The slime will now periodically spawn more slimes.
   condition:
     - slime
   limit: 1
@@ -521,6 +567,7 @@ antiairfighter:
   type: power
   tier: 1
   upgrade: antiair
+  desc: An anti-air fighter will now fly across the screen when the anti-air tower fires.
   condition:
     - antiair
   limit: 1
@@ -528,6 +575,7 @@ claymore:
   type: power
   tier: 1
   upgrade: landmine
+  desc: Turns landmines into powerful claymores that shoot projectiles.
   condition:
     - landmine
   limit: 1
@@ -535,6 +583,7 @@ constructionsite:
   type: power
   tier: 1
   upgrade: pole
+  desc: Doubles the length of the pole.
   condition:
     - pole
   limit: 1
@@ -542,6 +591,7 @@ integratedresort:
   type: power
   tier: 1
   upgrade: merlion
+  desc: The merlion will now spout a resort facility.
   condition:
     - merlion
   limit: 1
@@ -549,6 +599,7 @@ bombboomerang:
   type: power
   tier: 1
   upgrade: boomerang
+  desc: The boomerang will now explode on contact.
   condition:
     - boomerang
   limit: 1
@@ -556,6 +607,7 @@ looper:
   type: power
   tier: 1
   upgrade: keyboard
+  desc: Adds a looper to the keyboard, allowing you to record and play back melodies.
   condition:
     - keyboard
   limit: 1
@@ -563,6 +615,7 @@ extensionbar:
   type: power
   tier: 1
   upgrade: simple-16
+  desc: Expands the simple-16 to a simple-32.
   condition:
     - simple-16
   limit: 1
@@ -570,6 +623,7 @@ circulatingcurrent:
   type: power
   tier: 1
   upgrade: telephonepole
+  desc: The telephone pole will now shoot lightning from all poles simultaneously.
   condition:
     - telephonepole
   limit: 1
@@ -577,6 +631,7 @@ fullswingingblade:
   type: power
   tier: 1
   upgrade: swingingblade
+  desc: The swinging blade will now swing in a full circle at high speed.
   condition:
     - swingingblade
   limit: 1
@@ -584,6 +639,7 @@ jackpot:
   type: power
   tier: 1
   upgrade: roulette
+  desc: Adds a jackpot to the roulette, with a chance to release a powerful attack.
   condition:
     - roulette
   limit: 1
@@ -591,6 +647,7 @@ triplepoisonampoule:
   type: power
   tier: 1
   upgrade: poisonbottle
+  desc: Triples the duration of the poison cloud.
   condition:
     - poisonbottle
   limit: 1
@@ -601,6 +658,7 @@ handspinner:
     - ground
     - ninja
   tower: handspinner
+  desc: A spinner that damages sushi on contact. Click to spin it.
   attackRate: 1.2
   bulletSpeed: 1.2
   fireRate: 1.25
@@ -608,6 +666,7 @@ electrichandspinner:
   type: power
   tier: 1
   upgrade: handspinner
+  desc: The handspinner will now spin automatically.
   condition:
     - handspinner
   limit: 1
@@ -618,6 +677,7 @@ tabletennis:
     - both
     - tower
   tower: tabletennis
+  desc: A table tennis racket that you can use to hit a ball at sushi.
   attackRate: 1
   bulletSpeed: 1
   fireRate: 0.5
@@ -625,6 +685,7 @@ tabletennis2:
   type: power
   tier: 1
   upgrade: tabletennis
+  desc: Hitting the ball with the racket will now create more balls.
   condition:
     - tabletennis
   limit: 1
@@ -635,6 +696,7 @@ sasumata:
     - both
     - ninja
   tower: sasumata
+  desc: A draggable pole arm that can stop sushi.
   attackRate: 0.4
   bulletSpeed: 1
   fireRate: 0.6
@@ -642,6 +704,7 @@ spikesasumata:
   type: power
   tier: 1
   upgrade: sasumata
+  desc: The sasumata will now release spikes when it hits sushi.
   condition:
     - sasumata
   limit: 1
@@ -652,6 +715,7 @@ samepuzzle:
     - both
     - tower
   tower: samepuzzle
+  desc: A puzzle game where matching gems shoots projectiles.
   attackRate: 0.2
   bulletSpeed: 0.8
   fireRate: 0.8
@@ -659,6 +723,7 @@ easymode:
   type: power
   tier: 1
   upgrade: samepuzzle
+  desc: Reduces the number of gem types in the samepuzzle.
   condition:
     - samepuzzle
   limit: 1
@@ -669,6 +734,7 @@ capsuletoymachine:
     - both
     - tower
   tower: capsuletoymachine
+  desc: A machine that launches capsule toys at sushi.
   attackRate: 0.2
   bulletSpeed: 0.7
   fireRate: 0.5
@@ -676,6 +742,7 @@ capsuletoybadge:
   type: power
   tier: 1
   upgrade: capsuletoymachine
+  desc: Captured sushi will now become projectiles.
   condition:
     - capsuletoymachine
   limit: 1
@@ -686,6 +753,7 @@ clock:
     - ground
     - tower
   tower: clock
+  desc: A clock that damages sushi around it.
   attackRate: 0.5
   bulletSpeed: 1
   fireRate: 1
@@ -693,6 +761,7 @@ x3clock:
   type: power
   tier: 1
   upgrade: clock
+  desc: Makes the clock tower 3 times larger.
   condition:
     - clock
   limit: 1
@@ -703,6 +772,7 @@ artillery:
     - ground
     - tower
   tower: artillery
+  desc: An artillery cannon that fires a long-range projectile.
   attackRate: 0.5
   bulletSpeed: 1
   fireRate: 1
@@ -710,6 +780,7 @@ longartillery:
   type: power
   tier: 1
   upgrade: artillery
+  desc: Greatly increases the range of the artillery.
   condition:
     - artillery
   limit: 1
@@ -720,6 +791,7 @@ thundercloud:
     - both
     - tower
   tower: thundercloud
+  desc: A cloud that strikes sushi with lightning.
   attackRate: 1
   bulletSpeed: 1
   fireRate: 0.5
@@ -727,6 +799,7 @@ lightningrod:
   type: power
   tier: 1
   upgrade: thundercloud
+  desc: Adds lightning rods that will also be struck by lightning.
   condition:
     - thundercloud
   limit: 1
@@ -737,6 +810,7 @@ signpole:
     - both
     - tower
   tower: signpole
+  desc: A sign pole that shoots projectiles upwards.
   attackRate: 0.2
   bulletSpeed: 0.1
   fireRate: 3
@@ -744,6 +818,7 @@ scissorsstorm:
   type: power
   tier: 1
   upgrade: signpole
+  desc: The sign pole will now also shoot scissors.
   condition:
     - signpole
   limit: 1
@@ -754,13 +829,16 @@ ufocatcher:
     - ground
     - tower
   tower: ufocatcher
+  desc: A UFO catcher that can grab and defeat sushi.
   attackRate: 1
   bulletSpeed: 0.3
   fireRate: 0.6
+  locked: true
 homingufocatcher:
   type: power
   tier: 1
   upgrade: ufocatcher
+  desc: The UFO catcher will now home in on sushi.
   condition:
     - ufocatcher
   limit: 1
@@ -771,6 +849,7 @@ pencil:
     - ground
     - ninja
   tower: pencil
+  desc: Draw lines on the screen to damage sushi.
   attackRate: 0.1
   bulletSpeed: 1
   fireRate: 5
@@ -778,6 +857,7 @@ eraser:
   type: power
   tier: 1
   upgrade: pencil
+  desc: Adds an eraser that can be used to home in on sushi.
   condition:
     - pencil
   limit: 1
@@ -788,6 +868,7 @@ storepage:
     - both
     - tower
   tower: storepage
+  desc: A store page that launches megaphones at sushi.
   attackRate: 0.8
   bulletSpeed: 0.6
   fireRate: 0.8
@@ -795,6 +876,7 @@ discountsale:
   type: power
   tier: 1
   upgrade: storepage
+  desc: The store page will now launch homing megaphones.
   condition:
     - storepage
   limit: 1
@@ -805,6 +887,7 @@ magiccarpet:
     - both
     - ninja
   tower: magiccarpet
+  desc: A magic carpet that follows you and shoots projectiles.
   attackRate: 1
   bulletSpeed: 0.6
   fireRate: 0.5
@@ -812,6 +895,7 @@ jinn:
   type: power
   tier: 1
   upgrade: magiccarpet
+  desc: The magic carpet will now summon a jinn.
   condition:
     - magiccarpet
   limit: 1
@@ -822,6 +906,7 @@ stealth:
     - ground
     - ninja
   tower: stealth
+  desc: Allows you to become temporarily invisible and throw random items.
   attackRate: 0.2
   bulletSpeed: 1
   fireRate: 0.5
@@ -829,6 +914,7 @@ throwingwildly:
   type: power
   tier: 1
   upgrade: stealth
+  desc: The stealth power will now throw 5 items at once.
   condition:
     - stealth
   limit: 1
@@ -839,6 +925,7 @@ bambooshootlance:
     - ground
     - ninja
   tower: bambooshootlance
+  desc: Summons a bamboo shoot from the ground to attack sushi.
   attackRate: 1
   bulletSpeed: 1
   fireRate: 1
@@ -846,6 +933,7 @@ longbambooshootlance:
   type: power
   tier: 1
   upgrade: bambooshootlance
+  desc: Makes the bamboo shoot lance much longer.
   condition:
     - bambooshootlance
   limit: 1
@@ -856,6 +944,7 @@ cat:
     - both
     - ninja
   tower: cat
+  desc: A cat that runs across the screen, damaging sushi.
   attackRate: 1
   bulletSpeed: 1
   fireRate: 0.3
@@ -863,6 +952,7 @@ sittingcat:
   type: power
   tier: 1
   upgrade: cat
+  desc: A sitting cat will now appear, damaging ground sushi.
   condition:
     - cat
   limit: 1
@@ -873,6 +963,7 @@ dog:
     - ground
     - ninja
   tower: dog
+  desc: A dog that you can move to attack sushi.
   attackRate: 0.5
   bulletSpeed: 1
   fireRate: 1
@@ -880,6 +971,7 @@ frisbee:
   type: power
   tier: 1
   upgrade: dog
+  desc: The dog will now play frisbee with you, damaging sushi in between.
   condition:
     - dog
   limit: 1
@@ -890,6 +982,7 @@ transparentdonut:
     - air
     - ninja
   tower: transparentdonut
+  desc: A donut that attacks flying sushi.
   attackRate: 1.5
   bulletSpeed: 1.5
   fireRate: 0.8
@@ -897,6 +990,7 @@ realization:
   type: power
   tier: 1
   upgrade: transparentdonut
+  desc: The transparent donut will now become solid, allowing it to hit all sushi.
   condition:
     - transparentdonut
   limit: 1
@@ -907,6 +1001,7 @@ thinking:
     - both
     - ninja
   tower: thinking
+  desc: A thought bubble that follows you and can generate projectiles.
   attackRate: 0.3
   bulletSpeed: 0.6
   fireRate: 1
@@ -914,6 +1009,7 @@ imagination:
   type: power
   tier: 1
   upgrade: thinking
+  desc: The thinking bubble will now periodically shoot projectiles.
   condition:
     - thinking
   limit: 1
@@ -992,6 +1088,7 @@ tonfa:
     - both
     - ninja
   tower: tonfa
+  desc: A draggable tonfa that damages sushi. Flips on hit.
   attackRate: 1
   bulletSpeed: 1
   fireRate: 1
@@ -999,6 +1096,7 @@ tonfabeam:
   type: power
   tier: 1
   upgrade: tonfa
+  desc: The tonfa will now shoot a beam when it flips.
   condition:
     - tonfa
   limit: 1
@@ -1009,6 +1107,7 @@ bamboocopter:
     - air
     - ninja
   tower: bamboocopter
+  desc: A bamboo copter that attacks flying sushi.
   attackRate: 1.5
   bulletSpeed: 0.3
   fireRate: 1
@@ -1016,6 +1115,7 @@ paperballoon:
   type: power
   tier: 1
   upgrade: bamboocopter
+  desc: The bamboocopter will now also launch a paper balloon.
   condition:
     - bamboocopter
   limit: 1
@@ -1026,6 +1126,7 @@ eyes:
     - both
     - tower
   tower: eyes
+  desc: A pair of eyes that shoot lasers where you point.
   attackRate: 0.5
   bulletSpeed: 0.5
   fireRate: 1
@@ -1033,6 +1134,7 @@ kiss:
   type: power
   tier: 1
   upgrade: eyes
+  desc: Adds a mouth to the eyes that can be moved around to damage sushi.
   condition:
     - eyes
   limit: 1
@@ -1043,13 +1145,15 @@ domino:
     - ground
     - tower
   tower: domino
-  attackRate: 0.4
+  desc: A set of dominoes that can be knocked over to create a chain reaction explosion.
+  attackRate: 0.8
   bulletSpeed: 1
   fireRate: 1
 pivot:
   type: power
   tier: 1
   upgrade: domino
+  desc: Adds a pivot to the dominoes, allowing for more complex chain reactions.
   condition:
     - domino
   limit: 1
@@ -1336,6 +1440,7 @@ hamsterwheel:
     - ground
     - ninja
   tower: hamsterwheel
+  desc: A hamster in a wheel that damages sushi as it rolls.
   attackRate: 2.2
   bulletSpeed: 1
   fireRate: 1
@@ -1343,6 +1448,7 @@ sunflowerseeds:
   type: power
   tier: 1
   upgrade: hamsterwheel
+  desc: The hamster will now run back and forth automatically.
   condition:
     - hamsterwheel
   limit: 1
@@ -1361,7 +1467,16 @@ cameralens:
   tier: 2
   purchase:
     gain:
+      exp: "50*tier"
+documents:
+  type: power
+  tier: 4
+  purchase:
+    gain:
       exp: "100*tier"
+  condition:
+    - teleporter
+  limit: 1
 televideo:
   type: power
   tier: 5
@@ -1380,6 +1495,7 @@ elevatorsauce:
     - both
     - tower
   tower: elevatorsauce
+  desc: An elevator sauce that can move sushi between ground and air.
   attackRate: 0
   bulletSpeed: 1
   fireRate: 0.5
@@ -1387,6 +1503,7 @@ flyingsauce:
   type: power
   tier: 5
   upgrade: elevatorsauce
+  desc: The elevator sauce will now have a flying saucer companion.
   condition:
     - elevatorsauce
   limit: 1
@@ -1403,6 +1520,7 @@ hat:
     - air
     - ninja
   tower: hat
+  desc: A hat that shoots projectiles.
   attackRate: 1
   bulletSpeed: 0.7
   fireRate: 1.5
@@ -1410,6 +1528,7 @@ hatmissile:
   type: power
   tier: 2
   upgrade: hat
+  desc: The hat will now shoot a missile.
   condition:
     - hat
   limit: 1
@@ -1436,6 +1555,266 @@ electrictoothbrush:
   purchase:
     gain:
       hole: 10
+teleporter:
+  type: power
+  tier: 3
+  race:
+    - ground
+    - tower
+  tower: teleporter
+  desc: A teleporter that can move sushi to a random point on the path.
+  attackRate: 0
+  bulletSpeed: 1
+  fireRate: 2
+  locked: true
+report:
+  type: power
+  tier: 3
+  upgrade: teleporter
+  desc: Gain experience when sushi is teleported.
+  condition:
+    - teleporter
+  limit: 1
+rafflesia:
+  type: power
+  tier: 3
+  race:
+    - both
+    - tower
+  tower: rafflesia
+  desc: A flower that blooms and then shoots projectiles.
+  attackRate: 1
+  bulletSpeed: 1
+  fireRate: 1.5
+  locked: true
+poisonflower:
+  type: power
+  tier: 3
+  upgrade: rafflesia
+  desc: The rafflesia will now also create a poison cloud.
+  condition:
+    - rafflesia
+  limit: 1
+button:
+  type: power
+  tier: 3
+  race:
+    - both
+    - ninja
+  tower: button
+  desc: A button that fires a laser across the screen when pressed.
+  attackRate: 5
+  bulletSpeed: 1
+  fireRate: 0.1
+  locked: true
+moneyslot:
+  type: power
+  tier: 3
+  upgrade: button
+  desc: Adds a money slot to the button, allowing you to press it again for a cost.
+  condition:
+    - button
+  limit: 1
+flaminghoop:
+  type: power
+  tier: 3
+  race:
+    - air
+    - tower
+  tower: flaminghoop
+  desc: A flaming hoop that sets projectiles on fire, giving them an area of effect.
+  attackRate: 0.7
+  bulletSpeed: 1
+  fireRate: 1
+  locked: true
+eternalflame:
+  type: power
+  tier: 3
+  upgrade: flaminghoop
+  desc: The flaming hoop will now last forever.
+  condition:
+    - flaminghoop
+  limit: 1
+stonecarving:
+  type: power
+  tier: 3
+  race:
+    - both
+    - tower
+  tower: stonecarving
+  desc: A stone carving that can be interacted with to gain stats.
+  attackRate: 0.1
+  bulletSpeed: 1
+  fireRate: 0.1
+  locked: true
+moneysolution:
+  type: power
+  tier: 3
+  upgrade: stonecarving
+  desc: The stone carving will now accept coins instead of health.
+  condition:
+    - stonecarving
+  limit: 1
+tackle:
+  type: power
+  tier: 3
+  race:
+    - ground
+    - ninja
+  tower: tackle
+  desc: A tackle that damages sushi around you.
+  attackRate: 0.5
+  bulletSpeed: 1
+  fireRate: 1
+  locked: true
+  limit: 1
+jump:
+  type: power
+  tier: 3
+  upgrade: tackle
+  desc: The tackle will now be able to jump, hitting air sushi.
+  condition:
+    - tackle
+  limit: 1
+soapbubbles:
+  type: power
+  tier: 3
+  race:
+    - air
+    - ninja
+  tower: soapbubbles
+  desc: Creates floating soap bubbles that damage sushi in the air.
+  attackRate: 0.8
+  bulletSpeed: 0.3
+  fireRate: 1.4
+  locked: true
+  limit: 1
+soapbubbleaccelerator:
+  type: power
+  tier: 3
+  upgrade: soapbubbles
+  desc: Accelerates the bubble, increasing its speed and damage.
+  condition:
+    - soapbubbles
+  limit: 1
+acceleratormark2:
+  type: power
+  tier: 3
+  spec:
+    bulletSpeed:
+      - ninja
+      - "*2"
+  condition:
+    - soapbubbles
+  limit: 1
+hawk:
+  type: power
+  tier: 3
+  race:
+    - air
+    - ninja
+  tower: hawk
+  desc: The hawk circles overhead and attacks the sushi in the air.
+  attackRate: 2
+  bulletSpeed: 1
+  fireRate: 1.5
+  locked: true
+  limit: 1
+hawkclawflash:
+  type: power
+  tier: 3
+  upgrade: hawk
+  desc: Hawk performs a powerful hawk claw flash attack.
+  condition:
+    - hawk
+  limit: 1
+hawktimer:
+  type: power
+  tier: 3
+  spec:
+    fireRate:
+      - hawk
+      - "*2"
+  condition:
+    - hawk
+  limit: 2
+helicopter:
+  type: power
+  tier: 3
+  race:
+    - air
+    - tower
+  tower: helicopter
+  desc: A controllable helicopter that follows your cursor.
+  attackRate: 1.5
+  bulletSpeed: 1
+  fireRate: 1
+  locked: true
+helicopterblowgun:
+  type: power
+  tier: 3
+  upgrade: helicopter
+  desc: The helicopter is now equipped with a blowgun that automatically fires projectiles.
+  condition:
+    - helicopter
+  limit: 1
+needlehelicopter:
+  type: power
+  tier: 3
+  spec:
+    attackRate:
+      - helicopter
+      - "*2"
+  condition:
+    - helicopter
+  limit: 1
+meatpullups:
+  type: power
+  tier: 3
+  race:
+    - both
+    - tower
+  tower: meatpullups
+  desc: Click to do pull-ups, firing a projectile when the meat reaches the top.
+  attackRate: 1.6
+  bulletSpeed: 0.8
+  fireRate: 1.2
+  locked: true
+meatmeter:
+  type: power
+  tier: 3
+  upgrade: meatpullups
+  desc: A meter is added for automatic pull-ups. The closer the meter is to full, the faster the pull-ups will be.
+  condition:
+    - meatpullups
+  limit: 1
+synchronizedsalmon:
+  type: power
+  tier: 3
+  race:
+    - ground
+    - ninja
+  tower: synchronizedsalmon
+  desc: A team of synchronized salmon jump from the ground, damaging sushi.
+  attackRate: 1.5
+  bulletSpeed: 1
+  fireRate: 0.9
+  locked: true
+whale:
+  type: power
+  tier: 3
+  upgrade: synchronizedsalmon
+  desc: A powerful whale appears with the salmon, damaging all sushi in a wide area.
+  condition:
+    - synchronizedsalmon
+  limit: 1
+fishsamba:
+  type: power
+  tier: 7
+  purchase:
+    gain:
+      groundBullet: 2
+  limit: 1
 # ----------------------------------------
 # ここから下はテスト用パワー
 # ----------------------------------------
@@ -1446,7 +1825,7 @@ electrictoothbrush:
 testpower1:
   type: power
   tier: 11
-  desc: "@spec.resolve.coin: [ 'all', 1 ], rerollCost: -10"
+  desc: "@spec.resolve.coin: [ 'all', 1 ], rerollCost: -10\n2 lines desc is here"
   rerollCost: -10
   spec:
     resolve:

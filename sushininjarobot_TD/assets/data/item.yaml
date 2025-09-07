@@ -34,14 +34,17 @@ tshirt:
       fireRate: 7
 brassknuckles:
   type: item
-  tier: 1
+  tier: 8
   race: []
-  cost: 2
-  purchase:
+  cost: 5
+  requirement:
+    coin: 3
+  resolve:
     gain:
-      qtip: 10
-      fireRate: 1
-button:
+      coin: -3
+    temp:
+      ninjaAttack: 48
+robe:
   type: item
   tier: 2
   race: []
@@ -75,12 +78,14 @@ cap:
       towerAttack: 4
 camera:
   type: item
-  tier: 4
+  tier: 10
   race: []
-  cost: 3
-  resolve:
+  cost: 6
+  requirement:
+    rerollCount: ">=20"
+  reroll:
     gain:
-      qtip: 3
+      attack: 1
 circulator:
   type: item
   tier: 5
@@ -128,14 +133,15 @@ fishingrod:
       fireRate: 2
 fukutsu:
   type: item
-  tier: 7
+  tier: 1
   race: []
-  cost: 5
-  requirement:
-    qtip: 5
-  resolve:
-    temp:
-      qtip: 5
+  cost: 2
+  purchase:
+    gain:
+      health: 1
+  damaged:
+    gain:
+      ninjaAttack: 4
 garbagecan:
   type: item
   tier: 8
@@ -148,21 +154,12 @@ garbagecan:
       towerFireRate: 2
 hairmassager:
   type: item
-  tier: 9
-  race: []
-  cost: 6
-  spec:
-    resolve:
-      qtip:
-        - all
-        - 1
-  level:
-    2:
-      spec:
-        resolve:
-          qtip:
-            - all
-            - 2
+  tier: 5
+  race: ["spades"]
+  cost: 4
+  critical:
+    temp:
+      attack: 1
 gomibukuro:
   type: item
   tier: 10
@@ -177,12 +174,14 @@ gomibukuro:
       fireRate: 3
 hammer:
   type: item
-  tier: 1
-  race: []
-  cost: 2
-  resolve:
+  tier: 9
+  race: ["choki"]
+  cost: 6
+  target:
     temp:
-      coin: 2
+      attack:
+        - choki
+        - 24
 hanger:
   type: item
   tier: 2
@@ -219,12 +218,13 @@ instax:
       coin: 1
 joypad:
   type: item
-  tier: 4
+  tier: 9
   race: []
-  cost: 3
-  resolve:
-    gain:
-      coin: 1
+  cost: 6
+  minus:
+    coin:
+      gain:
+        ninjaAttack: 1
 kusarigama:
   type: item
   tier: 5
@@ -257,33 +257,29 @@ matryoshka:
       coin: 4
 mayo:
   type: item
-  tier: 7
+  tier: 1
   race: []
-  cost: 5
-  resolve:
-    gain:
-      coin: 2
+  cost: 2
+  time:
+    temp:
+      towerAttack: 2
 mouse:
   type: item
-  tier: 8
+  tier: 1
   race: []
-  cost: 5
-  requirement:
-    coin: 3
-  resolve:
+  cost: 2
+  purchase:
     gain:
-      coin: -3
-    temp:
-      ninjaAttack: 48
+      qtip: 10
+      fireRate: 1
 natto:
   type: item
-  tier: 9
+  tier: 4
   race: []
-  cost: 6
-  minus:
-    coin:
-      gain:
-        ninjaAttack: 1
+  cost: 3
+  resolve:
+    temp:
+      coin: 3
 wind:
   type: item
   tier: 9
@@ -463,7 +459,7 @@ beer:
   cost: 3
   resolve:
     temp:
-      airAttack: 32
+      groundFireRate: 32
 teeth:
   type: item
   tier: 3
@@ -514,20 +510,20 @@ mirror:
       airFireRate: 48
 toiletpaper:
   type: item
-  tier: 9
-  race: []
-  cost: 6
-  resolve:
-    temp:
-      airAttack: 56
-smartphone:
-  type: item
   tier: 10
   race: []
   cost: 6
   resolve:
     gain:
       airFireRate: 7
+smartphone:
+  type: item
+  tier: 9
+  race: []
+  cost: 6
+  resolve:
+    temp:
+      airAttack: 56
 pointingstick:
   type: item
   tier: 10
@@ -538,13 +534,14 @@ pointingstick:
       airAttack: 7
 token:
   type: item
-  tier: 1
+  tier: 7
   race: []
-  cost: 2
-  damaged:
-    gain:
-      ninjaAttack: 2
-      ninjaFireRate: 2
+  cost: 5
+  requirement:
+    qtip: 5
+  resolve:
+    temp:
+      qtip: 5
 bongo:
   type: item
   tier: 2
@@ -581,6 +578,9 @@ chopsticks:
   purchase:
     gain:
       health: 3
+  damaged:
+    gain:
+      ninjaFireRate: 5
 spray:
   type: item
   tier: 5
@@ -667,12 +667,12 @@ kazoo:
       attack: 1
 art:
   type: item
-  tier: 1
+  tier: 4
   race: []
-  cost: 2
+  cost: 3
   resolve:
     gain:
-      fireRate: 1
+      scale: 1
 bandgraph:
   type: item
   tier: 1
@@ -762,6 +762,8 @@ boxinggloves:
     gain:
       towerAttack: -2
       ninjaAttack: 3
+      misfortune: 1
+  locked: true
 standingmummy:
   type: item
   tier: 2
@@ -771,6 +773,8 @@ standingmummy:
     gain:
       ninjaAttack: -2
       towerAttack: 3
+      misfortune: 1
+  locked: true
 soap:
   type: item
   tier: 2
@@ -780,6 +784,8 @@ soap:
     gain:
       towerFireRate: -2
       ninjaFireRate: 3
+      misfortune: 1
+  locked: true
 dryer:
   type: item
   tier: 2
@@ -789,6 +795,8 @@ dryer:
     gain:
       ninjaFireRate: -2
       towerFireRate: 3
+      misfortune: 1
+  locked: true
 can:
   type: item
   tier: 2
@@ -798,6 +806,7 @@ can:
     gain:
       attack: -1
       ninjaFireRate: 3
+      misfortune: 1
 deckbrush:
   type: item
   tier: 2
@@ -807,6 +816,7 @@ deckbrush:
     gain:
       attack: -1
       towerFireRate: 3
+      misfortune: 1
 cloud:
   type: item
   tier: 3
@@ -816,6 +826,7 @@ cloud:
     gain:
       fireRate: -1
       groundAttack: 5
+      misfortune: 2
 unicycle:
   type: item
   tier: 3
@@ -825,6 +836,7 @@ unicycle:
     gain:
       fireRate: -1
       airAttack: 5
+      misfortune: 2
 aabattery:
   type: item
   tier: 2
@@ -850,6 +862,7 @@ lighter:
     gain:
       attack: -1
       bothFireRate: 4
+      misfortune: 2
 tiepin:
   type: item
   tier: 1
@@ -873,7 +886,7 @@ polevaultpole:
   cost: 4
   purchase:
     gain:
-      attack: 6
+      fireRate: 6
 cactus:
   type: item
   tier: 5
@@ -881,15 +894,18 @@ cactus:
   cost: 4
   purchase:
     gain:
-      fireRate: 6
+      attack: 6
 bathmat:
   type: item
-  tier: 3
+  tier: 9
   race: []
-  cost: 3
+  cost: 6
+  requirement:
+    rerollCount: ">=15"
   resolve:
-    temp:
-      groundAttack: 32
+    gain:
+      attack: 4
+      fireRate: 4
 ladle:
   type: item
   tier: 3
@@ -897,7 +913,7 @@ ladle:
   cost: 3
   resolve:
     temp:
-      groundFireRate: 32
+      airAttack: 32
 thermometer:
   type: item
   tier: 3
@@ -908,12 +924,12 @@ thermometer:
       airAttack: 32
 realdog:
   type: item
-  tier: 3
-  race: []
-  cost: 3
+  tier: 2
+  race: ["ghost"]
+  cost: 2
   resolve:
-    temp:
-      airFireRate: 32
+    gain:
+      groundAttack: 6
 saturn:
   type: item
   tier: 7
@@ -948,7 +964,7 @@ building:
   cost: 2
   resolve:
     temp:
-      fireRate: 3
+      fireRate: 6
 flask:
   type: item
   tier: 3
@@ -1066,22 +1082,22 @@ knife:
         - 5
 grater:
   type: item
-  tier: 1
-  race: ["choki"]
-  cost: 2
-  target:
-    temp:
-      fireRate:
-        - choki
-        - 3
-whistle:
-  type: item
   tier: 2
   race: ["choki"]
   cost: 2
   target:
     temp:
       attack:
+        - choki
+        - 3
+whistle:
+  type: item
+  tier: 1
+  race: ["choki"]
+  cost: 2
+  target:
+    temp:
+      fireRate:
         - choki
         - 3
 vase:
@@ -1156,14 +1172,12 @@ towel:
         - 3
 wallet:
   type: item
-  tier: 9
-  race: ["choki"]
-  cost: 6
-  target:
+  tier: 1
+  race: []
+  cost: 2
+  resolve:
     temp:
-      attack:
-        - choki
-        - 24
+      coin: 2
 rubberduck:
   type: item
   tier: 10
@@ -1288,12 +1302,12 @@ pizzacutter:
       towerFireRate: 2
 coinpurse:
   type: item
-  tier: 1
+  tier: 7
   race: []
-  cost: 2
-  time:
-    temp:
-      towerAttack: 2
+  cost: 5
+  resolve:
+    gain:
+      coin: 2
 binder:
   type: item
   tier: 3
@@ -1486,12 +1500,12 @@ shoppingbag:
       fireRate: 5
 easel:
   type: item
-  tier: 4
+  tier: 1
   race: []
-  cost: 3
+  cost: 2
   resolve:
     gain:
-      scale: 1
+      fireRate: 1
 fossil:
   type: item
   tier: 4
@@ -1668,12 +1682,12 @@ jumprope:
       groundFireRate: 6
 map:
   type: item
-  tier: 2
-  race: ["ghost"]
-  cost: 2
+  tier: 3
+  race: []
+  cost: 3
   resolve:
-    gain:
-      groundAttack: 6
+    temp:
+      airFireRate: 32
 trowel:
   type: item
   tier: 3
@@ -1993,7 +2007,7 @@ coaster:
   resolve:
     gain:
       blood: -10
-      attack: 2
+      attack: 3
 school:
   type: item
   tier: 1
@@ -2012,7 +2026,7 @@ circuitboard:
   resolve:
     gain:
       blood: -10
-      fireRate: 4
+      fireRate: 5
 root:
   type: item
   tier: 5
@@ -2023,7 +2037,7 @@ root:
   resolve:
     gain:
       blood: -10
-      attack: 6
+      attack: 7
 peeler:
   type: item
   tier: 7
@@ -2034,7 +2048,7 @@ peeler:
   resolve:
     gain:
       blood: -10
-      fireRate: 8
+      fireRate: 9
 vial:
   type: item
   tier: 9
@@ -2045,7 +2059,7 @@ vial:
   resolve:
     gain:
       blood: -10
-      attack: 10
+      attack: 11
 crown:
   type: item
   tier: 2
@@ -2136,12 +2150,21 @@ chopsticksrest:
       airFireRate: 8
 toothbrush:
   type: item
-  tier: 5
-  race: ["spades"]
-  cost: 4
-  critical:
-    temp:
-      attack: 1
+  tier: 9
+  race: []
+  cost: 6
+  spec:
+    resolve:
+      qtip:
+        - all
+        - 1
+  level:
+    2:
+      spec:
+        resolve:
+          qtip:
+            - all
+            - 2
 tennisball:
   type: item
   tier: 1
@@ -2262,6 +2285,7 @@ dough:
   resolve:
     temp:
       fireRate: "2*differenttypes"
+  locked: true
 trumpet:
   type: item
   tier: 3
@@ -2290,6 +2314,7 @@ bacon:
   resolve:
     gain:
       attack: "1*differenttypes"
+  locked: true
 lyre:
   type: item
   tier: 5
@@ -2310,6 +2335,16 @@ folder:
   resolve:
     temp:
       towerBullet: 1
+webcam:
+  type: item
+  tier: 7
+  race: ["choki"]
+  cost: 5
+  resolve:
+    gain:
+      attack: "1*differenttypes"
+      fireRate: "1*differenttypes"
+  locked: true
 contactlenses:
   type: item
   tier: 8
@@ -2326,16 +2361,16 @@ pouch:
   race: ["diamonds"]
   cost: 2
   buy:
-    temp:
-      groundAttack: 4
+    gain:
+      groundAttack: 1
 haircream:
   type: item
   tier: 2
   race: ["diamonds"]
   cost: 2
   buy:
-    temp:
-      groundFireRate: 4
+    gain:
+      groundFireRate: 1
 firetorch:
   type: item
   tier: 3
@@ -2350,16 +2385,16 @@ curtain:
   race: ["diamonds"]
   cost: 3
   sell:
-    temp:
-      bothFireRate: 8
+    gain:
+      bothFireRate: 1
 goblet:
   type: item
   tier: 5
   race: ["diamonds"]
   cost: 4
   sell:
-    temp:
-      bothAttack: 12
+    gain:
+      bothAttack: 2
 satchel:
   type: item
   tier: 6
@@ -2406,6 +2441,419 @@ tapestry:
       allstatus:
         - diamonds
         - 8
+xylophone:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  reroll:
+    temp:
+      choice: 1
+  locked: true
+shell:
+  type: item
+  tier: 2
+  race: []
+  cost: 2
+  reroll:
+    temp:
+      coin: 1
+  locked: true
+sandals:
+  type: item
+  tier: 3
+  race: []
+  cost: 3
+  requirement:
+    rerollCount: ">=5"
+  resolve:
+    gain:
+      attack: 3
+gong:
+  type: item
+  tier: 3
+  race: []
+  cost: 3
+  requirement:
+    rerollCount: ">=5"
+  resolve:
+    gain:
+      fireRate: 3
+sewingneedle:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  reroll:
+    gain:
+      bothCritical: 1
+  locked: true
+apron:
+  type: item
+  tier: 5
+  race: []
+  cost: 4
+  spec:
+    reroll:
+      allstatus:
+        - all
+        - 1
+  locked: true
+dustpan:
+  type: item
+  tier: 6
+  race: []
+  cost: 4
+  requirement:
+    rerollCount: ">=10"
+  reroll:
+    gain:
+      bothAttack: 1
+rug:
+  type: item
+  tier: 7
+  race: []
+  cost: 5
+  requirement:
+    rerollCount: ">=10"
+  resolve:
+    temp:
+      attack: 40
+harp:
+  type: item
+  tier: 8
+  race: []
+  cost: 5
+  requirement:
+    rerollCount: ">=10"
+  resolve:
+    temp:
+      fireRate: 40
+pinecone:
+  type: item
+  tier: 6
+  race: []
+  cost: 4
+  requirement:
+    rerollCount: ">=10"
+  reroll:
+    gain:
+      bothFireRate: 1
+helmet:
+  type: item
+  tier: 3
+  race: []
+  cost: 3
+  resolve:
+    temp:
+      groundAttack: 32
+firstaidkit:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  resolve:
+    gain:
+      qtip: 3
+feather:
+  type: item
+  tier: 10
+  race: []
+  cost: 6
+  requirement:
+    rerollCount: ">=20"
+  reroll:
+    gain:
+      fireRate: 1
+blank:
+  type: item
+  tier: 1
+  race: []
+  cost: 10
+  misfortune: true
+rafflesiawine:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  spec:
+    attackRate:
+      - both
+      - "*1.2"
+  condition:
+    - rafflesia
+lever:
+  type: item
+  tier: 6
+  race: []
+  cost: 4
+  minus:
+    coin:
+      gain:
+        attack: 1
+  condition:
+    - button
+burningbamboo:
+  type: item
+  tier: 3
+  race: []
+  cost: 3
+  spec:
+    attackRate:
+      - air
+      - "*1.5"
+  condition:
+    - flaminghoop
+hipotion:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  resolve:
+    temp:
+      health: 3
+  condition:
+    - stonecarving
+barbell:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  resolve:
+    gain:
+      ninjaCritical: 2
+  condition:
+    - tackle
+skates:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  resolve:
+    temp:
+      tamago: 1
+      ninjaAttack: 8
+speaker:
+  type: item
+  tier: 2
+  race: []
+  cost: 2
+  resolve:
+    gain:
+      towerFireRate: 1
+    temp:
+      niwatori: 1
+washingmachine:
+  type: item
+  tier: 3
+  race: []
+  cost: 3
+  requirement:
+    niwatori: ">=1"
+  resolve:
+    temp:
+      tamago: 1
+    gain:
+      towerAttack: 3
+  locked: true
+carafe:
+  type: item
+  tier: 5
+  race: []
+  cost: 4
+  requirement:
+    tamago: ">=2"
+  resolve:
+    temp:
+      niwatori: 2
+    gain:
+      ninjaFireRate: 4
+  locked: true
+zipper:
+  type: item
+  tier: 6
+  race: []
+  cost: 4
+  resolve:
+    temp:
+      tamago: 2
+      ninjaAttack: 24
+wardrobe:
+  type: item
+  tier: 6
+  race: []
+  cost: 4
+  resolve:
+    temp:
+      niwatori: 2
+      towerAttack: 24
+wheelbarrow:
+  type: item
+  tier: 7
+  race: []
+  cost: 5
+  requirement:
+    tamago: ">=3"
+  resolve:
+    temp:
+      niwatori: 3
+      ninjaAttack: 40
+  locked: true
+freezer:
+  type: item
+  tier: 7
+  race: []
+  cost: 5
+  requirement:
+    niwatori: ">=3"
+  resolve:
+    temp:
+      tamago: 3
+      towerAttack: 40
+  locked: true
+laminator:
+  type: item
+  tier: 9
+  race: []
+  cost: 6
+  requirement:
+    tamago: ">=1"
+  kill:
+    gain:
+      tamago: -1
+    temp:
+      ninjaFireRate: 16
+yogamat:
+  type: item
+  tier: 9
+  race: []
+  cost: 6
+  requirement:
+    niwatori: ">=1"
+  kill:
+    gain:
+      niwatori: -1
+    temp:
+      towerFireRate: 16
+fireextinguisher:
+  type: item
+  tier: 10
+  race: []
+  cost: 6
+  spec:
+    resolve:
+      tamago:
+        - all
+        - 2
+cooler:
+  type: item
+  tier: 10
+  race: []
+  cost: 6
+  spec:
+    resolve:
+      niwatori:
+        - all
+        - 2
+swimsuit:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  requirement:
+    numberofsushi: "<=100"
+  resolve:
+    gain:
+      bothAttack: 3
+airconditioner:
+  type: item
+  tier: 1
+  race: []
+  cost: 2
+  requirement:
+    numberofsushi: "<=100"
+  resolve:
+    gain:
+      towerFireRate: 3
+heels:
+  type: item
+  tier: 3
+  race: []
+  cost: 3
+  resolve:
+    temp:
+      towerAttack: "0.05*numberofsushi"
+  locked: true
+soccerball:
+  type: item
+  tier: 3
+  race: []
+  cost: 3
+  resolve:
+    temp:
+      bothFireRate: "0.05*numberofsushi"
+  locked: true
+coffeemaker:
+  type: item
+  tier: 5
+  race: []
+  cost: 4
+  resolve:
+    temp:
+      towerCritical: "0.03*numberofsushi"
+liquidsoap:
+  type: item
+  tier: 5
+  race: []
+  cost: 4
+  resolve:
+    temp:
+      bothCritical: "0.03*numberofsushi"
+mascara:
+  type: item
+  tier: 7
+  race: []
+  cost: 5
+  resolve:
+    gain:
+      bothAttack: "0.01*numberofsushi"
+  locked: true
+powerstrip:
+  type: item
+  tier: 7
+  race: []
+  cost: 5
+  resolve:
+    gain:
+      towerFireRate: "0.01*numberofsushi"
+  locked: true
+refrigerator:
+  type: item
+  tier: 9
+  race: []
+  cost: 6
+  kill:
+    temp:
+      towerAttack: "0.001*numberofsushi"
+extensioncord:
+  type: item
+  tier: 9
+  race: []
+  cost: 6
+  kill:
+    temp:
+      bothFireRate: "0.001*numberofsushi"
+muscularmeat:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  spec:
+    fireRate:
+      - both
+      - "*1.2"
+  condition:
+    - meatpullups
 # ----------------------------------------
 # ここから下はテスト用アイテム
 # ----------------------------------------

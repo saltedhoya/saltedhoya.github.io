@@ -33,7 +33,8 @@
             "power": [
                 "pyramid"
             ]
-        }
+        },
+        "locked": true
     },
     "sewingmachineghost": {
         "type": "character",
@@ -121,6 +122,11 @@
                 "worldfixes"
             ]
         },
+        "locked": true
+    },
+    "epilogue": {
+        "type": "title",
+        "desc": "A button will be added to the title screen",
         "locked": true
     }
 }

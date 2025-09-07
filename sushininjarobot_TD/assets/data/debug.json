@@ -22,6 +22,29 @@
         "scene": "Resolve"
     },
     {
+        "label": "カード発動: numberofsushi 確認",
+        "status": {
+            "expNum": 130,
+            "fireRateNum": 30,
+            "attackNum": 30,
+            "numberofsushiNum": 19,
+            "power": [
+                "rimokon",
+                "kunai"
+            ],
+            "deck": [
+                "heels",
+                "soccerball"
+            ],
+            "towers": [
+                {
+                    "towerKey": "kunai"
+                }
+            ]
+        },
+        "scene": "Resolve"
+    },
+    {
         "label": "カード購入: シンプルな購入画面",
         "status": {
             "expNum": 1000,
@@ -37,7 +60,7 @@
         "scene": "Cards"
     },
     {
-        "label": "カード購入: チョキ種族ボーナス確認",
+        "label": "カード購入: チョキ種族ボーナス",
         "status": {
             "coinNum": 1,
             "expNum": 500,
@@ -62,7 +85,7 @@
         "scene": "Cards"
     },
     {
-        "label": "カード購入: ハート種族ボーナス確認",
+        "label": "カード購入: ハート種族ボーナス",
         "status": {
             "deck": [
                 "coaster",
@@ -83,7 +106,7 @@
         "scene": "Cards"
     },
     {
-        "label": "カード購入: ゴースト種族ボーナス確認",
+        "label": "カード購入: ゴースト種族ボーナス",
         "status": {
             "deck": [
                 "jumprope",
@@ -104,7 +127,7 @@
         "scene": "Cards"
     },
     {
-        "label": "カード購入: クラブ種族ボーナス確認",
+        "label": "カード購入: クラブ種族ボーナス",
         "status": {
             "deck": [
                 "chalk",
@@ -125,7 +148,7 @@
         "scene": "Cards"
     },
     {
-        "label": "カード購入: スペード種族ボーナス確認",
+        "label": "カード購入: スペード種族ボーナス",
         "status": {
             "deck": [
                 "sextant",
@@ -146,7 +169,7 @@
         "scene": "Cards"
     },
     {
-        "label": "カード購入: ダイヤモンド種族ボーナス確認",
+        "label": "カード購入: ダイヤモンド種族ボーナス",
         "status": {
             "deck": [
                 "pouch",
@@ -167,7 +190,61 @@
         "scene": "Cards"
     },
     {
-        "label": "ラウンド: x3clock 動作確認",
+        "label": "カード購入: シンプルなカード購入・★動画用★",
+        "status": {
+            "coinNum": 10,
+            "expNum": 50,
+            "locked": [
+                "kazoo",
+                "comb"
+            ],
+            "deck": [],
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "ラウンド: shuriken だけ",
+        "status": {
+            "deck": [],
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: katana だけ",
+        "status": {
+            "deck": [],
+            "power": [
+                "rimokon",
+                "katana"
+            ],
+            "towers": [
+                {
+                    "towerKey": "katana"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: x3clock",
         "status": {
             "deck": [
                 "bigshower"
@@ -186,7 +263,7 @@
         "scene": "TD"
     },
     {
-        "label": "ラウンド: hatmissile 動作確認",
+        "label": "ラウンド: hatmissile",
         "status": {
             "roundTotalTime": 120000,
             "power": [
@@ -203,7 +280,7 @@
         "scene": "TD"
     },
     {
-        "label": "ラウンド: paperballoon 動作確認",
+        "label": "ラウンド: paperballoon",
         "status": {
             "coinNum": 1,
             "tierNum": 4,
@@ -224,7 +301,7 @@
         "scene": "TD"
     },
     {
-        "label": "ラウンド: keyboard 動作確認",
+        "label": "ラウンド: keyboard",
         "status": {
             "power": [
                 "rimokon",
@@ -239,7 +316,7 @@
         "scene": "TD"
     },
     {
-        "label": "ラウンド: guidedsprinkler 動作確認",
+        "label": "ラウンド: guidedsprinkler",
         "status": {
             "power": [
                 "rimokon",
@@ -255,14 +332,269 @@
         "scene": "TD"
     },
     {
-        "label": "ラウンド: toothbrush (criticalフェーズ発動) 動作確認",
+        "label": "ラウンド: bigface",
+        "status": {
+            "power": [
+                "rimokon",
+                "face",
+                "bigface"
+            ],
+            "towers": [
+                {
+                    "towerKey": "face"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: nurikabe",
+        "status": {
+            "power": [
+                "rimokon",
+                "obake",
+                "nurikabe"
+            ],
+            "towers": [
+                {
+                    "towerKey": "obake"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: magnet",
+        "status": {
+            "power": [
+                "rimokon",
+                "magnet"
+            ],
+            "towers": [
+                {
+                    "towerKey": "magnet"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: ufocather",
+        "status": {
+            "power": [
+                "rimokon",
+                "ufocatcher"
+            ],
+            "towers": [
+                {
+                    "towerKey": "ufocatcher"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: kunai",
+        "status": {
+            "power": [
+                "rimokon",
+                "kunai"
+            ],
+            "towers": [
+                {
+                    "towerKey": "kunai"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: elevatorsauce / flyingsauce",
+        "status": {
+            "roundTotalTime": 59000,
+            "fireRateNum": 20,
+            "power": [
+                "rimokon",
+                "elevatorsauce",
+                "flyingsauce"
+            ],
+            "towers": [
+                {
+                    "towerKey": "elevatorsauce"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: bomb",
+        "status": {
+            "fireRateNum": 40,
+            "power": [
+                "rimokon",
+                "bomb"
+            ],
+            "towers": [
+                {
+                    "towerKey": "bomb"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: poisonbottle",
+        "status": {
+            "power": [
+                "rimokon",
+                "poisonbottle"
+            ],
+            "towers": [
+                {
+                    "towerKey": "poisonbottle"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: eyes",
+        "status": {
+            "power": [
+                "rimokon",
+                "eyes"
+            ],
+            "towers": [
+                {
+                    "towerKey": "eyes"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: teleporter / report",
+        "status": {
+            "power": [
+                "rimokon",
+                "teleporter",
+                "report"
+            ],
+            "towers": [
+                {
+                    "towerKey": "teleporter"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: airhockey とアイドル",
+        "status": {
+            "attackNum": -10,
+            "power": [
+                "rimokon",
+                "airhockey",
+                "kunai",
+                "boomerang",
+                "tabletennis",
+                "boomerang"
+            ],
+            "towers": [
+                {
+                    "towerKey": "airhockey"
+                },
+                {
+                    "towerKey": "kunai"
+                },
+                {
+                    "towerKey": "boomerang"
+                },
+                {
+                    "towerKey": "tabletennis"
+                },
+                {
+                    "towerKey": "boomerang"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: capsuletoymachine",
+        "status": {
+            "fireRateNum": 40,
+            "power": [
+                "rimokon",
+                "capsuletoymachine"
+            ],
+            "towers": [
+                {
+                    "towerKey": "capsuletoymachine"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: bomb / bambooshootlance",
+        "status": {
+            "bossCreated": 10,
+            "roundTotalTime": 660010,
+            "fireRateNum": 40,
+            "power": [
+                "rimokon",
+                "bomb",
+                "bambooshootlance",
+                "longbambooshootlance"
+            ],
+            "towers": [
+                {
+                    "towerKey": "bomb"
+                },
+                {
+                    "towerKey": "bambooshootlance"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: suhibro (sushiparty)",
+        "status": {
+            "bossCreated": 10,
+            "roundTotalTime": 660010,
+            "fireRateNum": 200,
+            "attackNum": 200,
+            "deck": [
+                "toothbrush",
+                "tennisball",
+                "lyre",
+                "colorpalette"
+            ],
+            "power": [
+                "rimokon",
+                "sushibro",
+                "sushiparty"
+            ],
+            "towers": [
+                {
+                    "towerKey": "sushibro"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: toothbrush (criticalフェーズ発動)",
         "status": {
             "criticalNum": 100,
             "deck": [
                 "toothbrush"
             ],
             "power": [
-                "rimokon"
+                "rimokon",
+                "katana"
             ],
             "towers": [
                 {
@@ -273,7 +605,368 @@
         "scene": "TD"
     },
     {
-        "label": "カード購入: レベルアップ購入確認",
+        "label": "ラウンド: cursedkatana と 次ボスゲームオーバー",
+        "status": {
+            "bossCreated": 10,
+            "roundTotalTime": 58000,
+            "attackNum": 5,
+            "power": [
+                "rimokon",
+                "katana",
+                "cursedkatana"
+            ],
+            "towers": [
+                {
+                    "towerKey": "katana"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: rafflesia",
+        "status": {
+            "fireRateNum": 30,
+            "power": [
+                "rimokon",
+                "rafflesia",
+                "poisonflower"
+            ],
+            "towers": [
+                {
+                    "towerKey": "rafflesia"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: button",
+        "status": {
+            "bounceNum": 1,
+            "coinNum": 50,
+            "deck": [
+                "lever"
+            ],
+            "power": [
+                "rimokon",
+                "button",
+                "moneyslot"
+            ],
+            "towers": [
+                {
+                    "towerKey": "button"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: hat & artilary",
+        "status": {
+            "bossCreated": 10,
+            "roundTotalTime": 660010,
+            "fireRateNum": 50,
+            "power": [
+                "rimokon",
+                "hat",
+                "artillery"
+            ],
+            "towers": [
+                {
+                    "towerKey": "hat"
+                },
+                {
+                    "towerKey": "artillery"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: flaminghoop 各種",
+        "status": {
+            "power": [
+                "rimokon",
+                "merlion",
+                "sprinkler",
+                "katana",
+                "flaminghoop",
+                "eternalflame"
+            ],
+            "towers": [
+                {
+                    "towerKey": "merlion"
+                },
+                {
+                    "towerKey": "sprinkler"
+                },
+                {
+                    "towerKey": "katana"
+                },
+                {
+                    "towerKey": "flaminghoop"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: stonecarving 各種",
+        "status": {
+            "coinNum": 50,
+            "power": [
+                "rimokon",
+                "stonecarving",
+                "moneysolution"
+            ],
+            "towers": [
+                {
+                    "towerKey": "stonecarving"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: tackle",
+        "status": {
+            "bossCreated": 10,
+            "roundTotalTime": 300010,
+            "power": [
+                "rimokon",
+                "tackle",
+                "jump"
+            ],
+            "towers": [
+                {
+                    "towerKey": "tackle"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: 卓球2",
+        "status": {
+            "fireRateNum": 40,
+            "bossCreated": 10,
+            "roundTotalTime": 300010,
+            "power": [
+                "rimokon",
+                "tabletennis",
+                "tabletennis",
+                "tabletennis",
+                "tabletennis2"
+            ],
+            "towers": [
+                {
+                    "towerKey": "tabletennis"
+                },
+                {
+                    "towerKey": "tabletennis"
+                },
+                {
+                    "towerKey": "tabletennis"
+                }
+            ]
+        },
+        "setStage": "beachzushi",
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: シールド検証",
+        "status": {
+            "fireRateNum": 40,
+            "bossCreated": 10,
+            "roundTotalTime": 300010,
+            "power": [
+                "rimokon",
+                "bomb",
+                "bomb",
+                "bomb",
+                "bomb"
+            ],
+            "towers": [
+                {
+                    "towerKey": "bomb"
+                },
+                {
+                    "towerKey": "bomb"
+                },
+                {
+                    "towerKey": "bomb"
+                },
+                {
+                    "towerKey": "bomb"
+                }
+            ]
+        },
+        "setStage": "beachzushi",
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: soapbubbles",
+        "status": {
+            "bossCreated": 10,
+            "roundTotalTime": 300010,
+            "power": [
+                "rimokon",
+                "soapbubbles",
+                "soapbubbleaccelerator"
+            ],
+            "towers": [
+                {
+                    "towerKey": "soapbubbles"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: hawk",
+        "status": {
+            "attackNum": 30,
+            "fireRateNum": 30,
+            "bossCreated": 10,
+            "roundTotalTime": 300010,
+            "power": [
+                "rimokon",
+                "hawk",
+                "hawkclawflash"
+            ],
+            "towers": [
+                {
+                    "towerKey": "hawk"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: helicopter",
+        "status": {
+            "attackNum": 30,
+            "fireRateNum": 30,
+            "bossCreated": 10,
+            "roundTotalTime": 300010,
+            "power": [
+                "rimokon",
+                "helicopter",
+                "helicopterblowgun",
+                "needlehelicopter"
+            ],
+            "towers": [
+                {
+                    "towerKey": "helicopter"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: samepuzzle",
+        "status": {
+            "power": [
+                "rimokon",
+                "samepuzzle",
+                "soapbubbleaccelerator"
+            ],
+            "towers": [
+                {
+                    "towerKey": "samepuzzle"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: meatpullups",
+        "status": {
+            "power": [
+                "rimokon",
+                "meatpullups",
+                "meatmeter"
+            ],
+            "towers": [
+                {
+                    "towerKey": "meatpullups"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: synchronizedsalmon / whale",
+        "status": {
+            "power": [
+                "rimokon",
+                "synchronizedsalmon",
+                "whale"
+            ],
+            "towers": [
+                {
+                    "towerKey": "synchronizedsalmon"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: handspinner",
+        "status": {
+            "power": [
+                "rimokon",
+                "handspinner",
+                "electrichandspinner"
+            ],
+            "towers": [
+                {
+                    "towerKey": "handspinner"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: roulette",
+        "status": {
+            "power": [
+                "rimokon",
+                "roulette",
+                "jackpot"
+            ],
+            "towers": [
+                {
+                    "towerKey": "roulette"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: swingingblade",
+        "status": {
+            "coinNum": 1,
+            "powersForDebug": [
+                "fullswingingblade",
+                "katana",
+                "keyboard"
+            ],
+            "power": [
+                "rimokon",
+                "swingingblade"
+            ],
+            "towers": [
+                {
+                    "towerKey": "swingingblade"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "カード購入: レベルアップ購入",
         "status": {
             "coinNum": 7,
             "expNum": 120,
@@ -303,7 +996,27 @@
         "scene": "Cards"
     },
     {
-        "label": "カード購入: レベル2カード表示確認",
+        "label": "カード購入: リロールで (choice+1)",
+        "status": {
+            "coinNum": 1000,
+            "expNum": 1600,
+            "deck": [
+                "xylophone"
+            ],
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード購入: レベル2カード表示",
         "status": {
             "coinNum": 1000,
             "expNum": 1600,
@@ -323,7 +1036,7 @@
         "scene": "Cards"
     },
     {
-        "label": "カード購入: スペック変更カードのレベルアップ購入確認",
+        "label": "カード購入: スペック変更カードのレベルアップ購入",
         "status": {
             "coinNum": 1000,
             "choiceNum": 2,
@@ -353,7 +1066,7 @@
         "scene": "Cards"
     },
     {
-        "label": "カード購入: 一時コインが消える処理確認",
+        "label": "カード購入: 一時コインが消える処理",
         "status": {
             "locked": [
                 "mayo",
@@ -376,7 +1089,7 @@
         "scene": "Cards"
     },
     {
-        "label": "カード購入: レベル3いかないカードのレベルアップ処理確認",
+        "label": "カード購入: レベル3いかないカードのレベルアップ処理",
         "status": {
             "locked": [
                 "mayo",
@@ -405,7 +1118,24 @@
         "scene": "Cards"
     },
     {
-        "label": "カード購入: デッキ最大購入処理確認",
+        "label": "カード購入: misfortune 発動",
+        "status": {
+            "misfortuneNum": 100,
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ],
+            "coinNum": 10
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード購入: デッキ最大購入処理",
         "status": {
             "coinNum": 100,
             "expNum": 500,
@@ -909,7 +1639,7 @@
         "setStage": "gyobei"
     },
     {
-        "label": "カード発動: (スクショ用) いろいろ発動してる感じ",
+        "label": "カード発動: (スクショ用) いろいろ発動してる感じ: チョキ",
         "status": {
             "bossCreated": 6,
             "roundTotalTime": 360010,
@@ -948,6 +1678,52 @@
                 },
                 {
                     "towerKey": "sushibro"
+                },
+                {
+                    "towerKey": "katana"
+                }
+            ]
+        },
+        "scene": "Cards"
+    },
+    {
+        "label": "カード発動: (スクショ用) いろいろ発動してる感じ: パー",
+        "status": {
+            "bossCreated": 6,
+            "roundTotalTime": 360010,
+            "expNum": 1200,
+            "coinNum": 100,
+            "locked": [
+                "tennisball",
+                "rubberduck"
+            ],
+            "power": [
+                "rimokon",
+                "shuriken",
+                "katana",
+                "katana",
+                "greatkatana",
+                "katana"
+            ],
+            "deck": [
+                "earbuds",
+                "earbuds",
+                "mop",
+                "mop",
+                "tie",
+                "tie",
+                "twig",
+                "twig"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                },
+                {
+                    "towerKey": "katana"
+                },
+                {
+                    "towerKey": "katana"
                 },
                 {
                     "towerKey": "katana"
@@ -1063,5 +1839,87 @@
         },
         "scene": "Cards",
         "setStage": "beachzushi"
+    },
+    {
+        "label": "カード購入: (スクショ用) たくさん要素がある画面2。購入画面後のラウンド用",
+        "status": {
+            "bossCreated": 11,
+            "roundTotalTime": 660010,
+            "fireRateNum": 60,
+            "expNum": 3000,
+            "power": [
+                "rimokon",
+                "sasumata",
+                "cat",
+                "dog",
+                "samepuzzle",
+                "synchronizedsalmon",
+                "hat",
+                "teleporter",
+                "storepage",
+                "handspinner"
+            ],
+            "deck": [
+                "dc",
+                "fork",
+                "bongo",
+                "polevaultpole",
+                "towel",
+                "handblender",
+                "progressbar",
+                "deckbrush",
+                "laptop",
+                "gauze"
+            ],
+            "towers": [
+                {
+                    "towerKey": "sasumata"
+                },
+                {
+                    "towerKey": "cat"
+                },
+                {
+                    "towerKey": "dog"
+                },
+                {
+                    "towerKey": "samepuzzle"
+                },
+                {
+                    "towerKey": "synchronizedsalmon"
+                },
+                {
+                    "towerKey": "hat"
+                },
+                {
+                    "towerKey": "teleporter"
+                },
+                {
+                    "towerKey": "storepage"
+                },
+                {
+                    "towerKey": "handspinner"
+                }
+            ]
+        },
+        "scene": "Cards",
+        "setStage": "beachzushi"
+    },
+    {
+        "label": "ラウンド: (デバッグ用) 敵配列指定",
+        "status": {
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ],
+            "enemies": [
+                "dorayaki"
+            ]
+        },
+        "scene": "TD"
     }
 ]
