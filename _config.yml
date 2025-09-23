@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://saltedhoya.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: saltedhoya
-github_username:  saltedhoya
+github_username: saltedhoya
 
 remote_theme: b2a3e8/jekyll-theme-console
 plugins:
@@ -14,9 +14,9 @@ plugins:
 header_pages:
   - index.md
   - about.md
+  - privacy/
 
 style: dark # dark (default), light or hacker
 
 footer: '<a href="https://x.com/saltedhoya">X</a> <a href="https://store.steampowered.com/search/?developer=Salted%20Hoya">Steam</a>'
-
 # google_analytics: UA-NNNNNNNN-N
