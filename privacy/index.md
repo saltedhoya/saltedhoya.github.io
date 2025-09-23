@@ -1,3 +1,9 @@
+---
+title: /privacy/
+layout: page
+permalink: /privacy/
+---
+
 # Privacy Policy for Salted Hoya's Games
 
 Thank you for playing Salted Hoya's games! This Privacy Policy explains what information I collect and why I collect it. Your privacy is important to me, and I am committed to protecting it.
