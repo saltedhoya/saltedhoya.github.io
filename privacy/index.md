@@ -1,6 +1,5 @@
 ---
-title: Privacy Policy for Salted Hoya's Games
-link_title: /privacy/
+title: Privacy Policy
 layout: page
 permalink: /privacy/
 ---

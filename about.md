@@ -1,6 +1,5 @@
 ---
-title: About Salted Hoya
-link_title: /about
+title: About
 layout: page
 permalink: /about.html
 ---

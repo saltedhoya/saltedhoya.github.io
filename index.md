@@ -1,6 +1,5 @@
 ---
 title: Salted Hoya
-link_title: /home
 layout: home
 permalink: /
 ---
