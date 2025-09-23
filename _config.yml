@@ -14,7 +14,7 @@ plugins:
 header_pages:
   - index.md
   - about.md
-  - privacy/
+  - privacy/index.md
 
 style: dark # dark (default), light or hacker
 
