@@ -17,9 +17,9 @@ makibishi:
     - ninja
   tower: makibishi
   desc: Scatters caltrops on the ground that damage sushi.
-  attackRate: 1
+  attackRate: 1.3
   bulletSpeed: 1
-  fireRate: 0.5
+  fireRate: 0.7
 magnet:
   type: power
   tier: 2
@@ -41,7 +41,7 @@ bomb:
   desc: Throws a homing bomb that explodes after a short time.
   attackRate: 0.5
   bulletSpeed: 0.7
-  fireRate: 1
+  fireRate: 0.5
 kunai:
   type: power
   tier: 1
@@ -63,7 +63,7 @@ katana:
   desc: A draggable, powerful blade that continuously damages sushi.
   attackRate: 1.7
   bulletSpeed: 1
-  fireRate: 1
+  fireRate: 0.8
 sushibro:
   type: power
   tier: 1
@@ -72,7 +72,7 @@ sushibro:
     - ninja
   tower: sushibro
   desc: Summons a friendly sushi that attacks sushi from the goal.
-  attackRate: 1.2
+  attackRate: 1.4
   bulletSpeed: 1
   fireRate: 0.8
 sprinkler:
@@ -83,7 +83,7 @@ sprinkler:
     - tower
   tower: sprinkler
   desc: Creates a mist that continuously damages sushi within its range.
-  attackRate: 1.2
+  attackRate: 0.9
   bulletSpeed: 0.6
   fireRate: 0.8
 bookshelf:
@@ -94,9 +94,9 @@ bookshelf:
     - tower
   tower: bookshelf
   desc: Launches a book that circles the tower, damaging sushi.
-  attackRate: 1.1
+  attackRate: 0.4
   bulletSpeed: 1
-  fireRate: 0.9
+  fireRate: 0.6
 mousetrap:
   type: power
   tier: 2
@@ -139,19 +139,19 @@ airhockey:
     - tower
   tower: airhockey
   desc: An interactive tower where you hit a puck to damage sushi.
-  attackRate: 2
+  attackRate: 1.4
   bulletSpeed: 1
   fireRate: 1
   locked: true
 flashlight:
   type: power
-  tier: 1
+  tier: 2
   race:
-    - both
+    - air
     - tower
   tower: flashlight
   desc: Shoots a laser beam across the screen.
-  attackRate: 1
+  attackRate: 0.8
   bulletSpeed: 1
   fireRate: 0.8
 obake:
@@ -162,9 +162,9 @@ obake:
     - tower
   tower: obake
   desc: A ghost that circles you and shoots projectiles.
-  attackRate: 1
+  attackRate: 0.7
   bulletSpeed: 0.4
-  fireRate: 1
+  fireRate: 0.9
 slime:
   type: power
   tier: 1
@@ -173,9 +173,9 @@ slime:
     - tower
   tower: slime
   desc: A slime that follows you and shoots projectiles.
-  attackRate: 1
+  attackRate: 0.9
   bulletSpeed: 1
-  fireRate: 1
+  fireRate: 0.9
 antiair:
   type: power
   tier: 2
@@ -184,9 +184,9 @@ antiair:
     - tower
   tower: antiair
   desc: Specifically targets flying sushi.
-  attackRate: 1
+  attackRate: 1.3
   bulletSpeed: 3
-  fireRate: 1.25
+  fireRate: 1.3
 landmine:
   type: power
   tier: 1
@@ -195,9 +195,9 @@ landmine:
     - tower
   tower: landmine
   desc: Draggable mines that explode on contact.
-  attackRate: 3
+  attackRate: 2.5
   bulletSpeed: 1
-  fireRate: 0.5
+  fireRate: 0.3
 pole:
   type: power
   tier: 1
@@ -217,9 +217,9 @@ merlion:
     - tower
   tower: merlion
   desc: Spouts projectiles in an arc.
-  attackRate: 0.4
+  attackRate: 0.6
   bulletSpeed: 1
-  fireRate: 2.5
+  fireRate: 2
 boomerang:
   type: power
   tier: 2
@@ -234,6 +234,7 @@ boomerang:
 rimokon:
   type: power
   tier: 4
+  desc: Doubles {exp} gained from sushi.
   spec:
     die:
       exp:
@@ -246,9 +247,11 @@ thimble:
     cost:
       - guu
       - -1
+  desc: Reduces the cost of {guu}'s cards by 1.
 sponge:
   type: power
   tier: 6
+  desc: Reduces the cost of all cards by 1.
   spec:
     cost:
       - all
@@ -256,12 +259,14 @@ sponge:
 pearlnecklace:
   type: power
   tier: 2
+  desc: Increase deck size by 1.
   purchase:
     gain:
       deck: 1
 sharpener:
   type: power
   tier: 4
+  desc: Reduces 1 deck size and adds 1 projectile count.
   purchase:
     gain:
       deck: -1
@@ -269,19 +274,22 @@ sharpener:
 stapler:
   type: power
   tier: 8
+  desc: Gain 1 projectile count.
   purchase:
     gain:
       bullet: 1
 yarnball:
   type: power
   tier: 8
+  desc: Gain an additional acquisition at the start of each round.
   phase:
     resolveCount:
       - all
       - 1
 gas:
   type: power
-  tier: 6
+  tier: 5
+  desc: Gain 1 additional acquisition at the start of each round for chosen cards.
   option:
     type: race
     choice:
@@ -292,9 +300,25 @@ gas:
     resolveCount:
       - option
       - 1
+eyeshadow:
+  type: power
+  tier: 5
+  desc: Gain 1 additional acquisition at the start of each round for chosen cards.
+  option:
+    type: race
+    choice:
+      - hearts
+      - diamonds
+      - clubs
+      - spades
+  phase:
+    resolveCount:
+      - option
+      - 1
 handkerchief:
   type: power
   tier: 4
+  desc: Gain 1 additional acquisition at the start of each round for {guu}'s cards.
   phase:
     resolveCount:
       - guu
@@ -305,16 +329,20 @@ faucet:
   purchase:
     gain:
       choice: 1
+  desc: Adds 1 more option when purchasing.
 pyramid:
   type: power
   tier: 6
   purchase:
     gain:
       choice: 2
+  desc: Adds 2 more option when purchasing.
 pushpin:
   type: power
   tier: 3
-  desc: "{option} → +1{level}"
+  desc:
+    - "{option} → +1{level}"
+    - Levels up a card in your deck.
   option:
     type: deck
   purchase:
@@ -323,6 +351,7 @@ pushpin:
 toothpaste:
   type: power
   tier: 2
+  desc: Doubles {boss} speed and triples {exp} gained from {boss}.
   spec:
     speed:
       - boss
@@ -334,6 +363,7 @@ toothpaste:
 pen:
   type: power
   tier: 4
+  desc: Reduces the cost of chosen cards by 1.
   option:
     type: race
     choice:
@@ -364,13 +394,15 @@ simple-16:
     - tower
   tower: simple-16
   desc: A 16-step sequencer that plays notes and shoots projectiles.
-  attackRate: 0.1
+  attackRate: 0.5
   bulletSpeed: 1
-  fireRate: 5
+  fireRate: 4
 metalghost:
   type: power
   tier: 4
-  desc: "{ghost} → Durable"
+  desc:
+    - "{ghost} → Durable"
+    - "{ghost} cards will no longer be consumed"
   limit: 1
 telephonepole:
   type: power
@@ -380,20 +412,20 @@ telephonepole:
     - tower
   tower: telephonepole
   desc: Shoots lightning between poles.
-  attackRate: 0.3
+  attackRate: 0.9
   bulletSpeed: 1
-  fireRate: 1.25
+  fireRate: 1.3
 sunglasses:
   type: power
   tier: 2
   race:
-    - both
+    - air
     - tower
   tower: sunglasses
   desc: Sunglasses that can be moved around to shoot projectiles.
-  attackRate: 2
+  attackRate: 1.5
   bulletSpeed: 1
-  fireRate: 0.6
+  fireRate: 1.2
 swingingblade:
   type: power
   tier: 1
@@ -402,9 +434,9 @@ swingingblade:
     - ninja
   tower: swingingblade
   desc: A blade that swings back and forth, damaging sushi.
-  attackRate: 1
+  attackRate: 0.8
   bulletSpeed: 1
-  fireRate: 1
+  fireRate: 0.7
 roulette:
   type: power
   tier: 1
@@ -413,9 +445,9 @@ roulette:
     - ninja
   tower: roulette
   desc: A roulette that shoots projectiles in various patterns.
-  attackRate: 1.1
+  attackRate: 0.8
   bulletSpeed: 0.9
-  fireRate: 0.9
+  fireRate: 0.8
 sunglasseswitheyes:
   type: power
   tier: 1
@@ -504,9 +536,9 @@ poisonbottle:
     - ninja
   tower: poisonbottle
   desc: Throws a bottle that creates a poison cloud on impact.
-  attackRate: 1
+  attackRate: 0.6
   bulletSpeed: 0.8
-  fireRate: 1.3
+  fireRate: 0.4
 mouseghost:
   type: power
   tier: 1
@@ -678,9 +710,9 @@ tabletennis:
     - tower
   tower: tabletennis
   desc: A table tennis racket that you can use to hit a ball at sushi.
-  attackRate: 1
+  attackRate: 0.9
   bulletSpeed: 1
-  fireRate: 0.5
+  fireRate: 1.1
 tabletennis2:
   type: power
   tier: 1
@@ -716,9 +748,9 @@ samepuzzle:
     - tower
   tower: samepuzzle
   desc: A puzzle game where matching gems shoots projectiles.
-  attackRate: 0.2
+  attackRate: 0.5
   bulletSpeed: 0.8
-  fireRate: 0.8
+  fireRate: 0.5
 easymode:
   type: power
   tier: 1
@@ -754,9 +786,9 @@ clock:
     - tower
   tower: clock
   desc: A clock that damages sushi around it.
-  attackRate: 0.5
+  attackRate: 0.9
   bulletSpeed: 1
-  fireRate: 1
+  fireRate: 1.4
 x3clock:
   type: power
   tier: 1
@@ -773,9 +805,9 @@ artillery:
     - tower
   tower: artillery
   desc: An artillery cannon that fires a long-range projectile.
-  attackRate: 0.5
+  attackRate: 1.2
   bulletSpeed: 1
-  fireRate: 1
+  fireRate: 0.9
 longartillery:
   type: power
   tier: 1
@@ -792,7 +824,7 @@ thundercloud:
     - tower
   tower: thundercloud
   desc: A cloud that strikes sushi with lightning.
-  attackRate: 1
+  attackRate: 1.2
   bulletSpeed: 1
   fireRate: 0.5
 lightningrod:
@@ -811,7 +843,7 @@ signpole:
     - tower
   tower: signpole
   desc: A sign pole that shoots projectiles upwards.
-  attackRate: 0.2
+  attackRate: 0.4
   bulletSpeed: 0.1
   fireRate: 3
 scissorsstorm:
@@ -850,9 +882,9 @@ pencil:
     - ninja
   tower: pencil
   desc: Draw lines on the screen to damage sushi.
-  attackRate: 0.1
+  attackRate: 0.5
   bulletSpeed: 1
-  fireRate: 5
+  fireRate: 2
 eraser:
   type: power
   tier: 1
@@ -888,9 +920,9 @@ magiccarpet:
     - ninja
   tower: magiccarpet
   desc: A magic carpet that follows you and shoots projectiles.
-  attackRate: 1
+  attackRate: 0.9
   bulletSpeed: 0.6
-  fireRate: 0.5
+  fireRate: 0.9
 jinn:
   type: power
   tier: 1
@@ -907,7 +939,7 @@ stealth:
     - ninja
   tower: stealth
   desc: Allows you to become temporarily invisible and throw random items.
-  attackRate: 0.2
+  attackRate: 1
   bulletSpeed: 1
   fireRate: 0.5
 throwingwildly:
@@ -939,15 +971,15 @@ longbambooshootlance:
   limit: 1
 cat:
   type: power
-  tier: 1
+  tier: 2
   race:
     - both
     - ninja
   tower: cat
   desc: A cat that runs across the screen, damaging sushi.
-  attackRate: 1
+  attackRate: 0.8
   bulletSpeed: 1
-  fireRate: 0.3
+  fireRate: 0.2
 sittingcat:
   type: power
   tier: 1
@@ -958,15 +990,15 @@ sittingcat:
   limit: 1
 dog:
   type: power
-  tier: 1
+  tier: 2
   race:
     - ground
     - ninja
   tower: dog
   desc: A dog that you can move to attack sushi.
-  attackRate: 0.5
+  attackRate: 0.9
   bulletSpeed: 1
-  fireRate: 1
+  fireRate: 1.2
 frisbee:
   type: power
   tier: 1
@@ -985,7 +1017,7 @@ transparentdonut:
   desc: A donut that attacks flying sushi.
   attackRate: 1.5
   bulletSpeed: 1.5
-  fireRate: 0.8
+  fireRate: 0.9
 realization:
   type: power
   tier: 1
@@ -998,13 +1030,13 @@ thinking:
   type: power
   tier: 1
   race:
-    - both
+    - air
     - ninja
   tower: thinking
   desc: A thought bubble that follows you and can generate projectiles.
-  attackRate: 0.3
+  attackRate: 1.4
   bulletSpeed: 0.6
-  fireRate: 1
+  fireRate: 0.8
 imagination:
   type: power
   tier: 1
@@ -1016,6 +1048,7 @@ imagination:
 saw:
   type: power
   tier: 4
+  desc: Reduces {enemy} speed.
   spec:
     speed:
       - enemy
@@ -1023,14 +1056,17 @@ saw:
 tapemeasure:
   type: power
   tier: 4
+  desc: Reduces reroll cost by 1.
   rerollCost: -1
 saucepan:
   type: power
   tier: 6
+  desc: Reduces reroll cost by 2.
   rerollCost: -2
 glue:
   type: power
   tier: 2
+  desc: Reduces the speed of flying {enemy}.
   spec:
     speed:
       - flying
@@ -1038,47 +1074,45 @@ glue:
 rollingpin:
   type: power
   tier: 6
+  desc: Gain 1 {tower} projectile count.
   purchase:
     gain:
       towerBullet: 1
 wrench:
   type: power
   tier: 6
+  desc: Gain 1 {ninja} projectile count.
   purchase:
     gain:
       ninjaBullet: 1
 broom:
   type: power
   tier: 4
+  desc: Gain 1 {air} projectile count.
   purchase:
     gain:
       airBullet: 1
 fishinglure:
   type: power
   tier: 4
+  desc: Gain 1 {ground} projectile count.
   purchase:
     gain:
       groundBullet: 1
 fountainpen:
   type: power
   tier: 4
+  desc: Gain 1 {both} projectile count.
   purchase:
     gain:
       bothBullet: 1
 paperclip:
   type: power
   tier: 4
+  desc: Increases all acquisition value every 10 seconds.
   spec:
     time:
-      towerAttack:
-        - all
-        - 1
-penstand:
-  type: power
-  tier: 4
-  spec:
-    time:
-      towerFireRate:
+      allstatus:
         - all
         - 1
 tonfa:
@@ -1089,9 +1123,9 @@ tonfa:
     - ninja
   tower: tonfa
   desc: A draggable tonfa that damages sushi. Flips on hit.
-  attackRate: 1
+  attackRate: 0.8
   bulletSpeed: 1
-  fireRate: 1
+  fireRate: 0.8
 tonfabeam:
   type: power
   tier: 1
@@ -1160,6 +1194,7 @@ pivot:
 spareshuriken:
   type: power
   tier: 2
+  desc: Gain 1 {both} projectile count.
   purchase:
     gain:
       bothBullet: 1
@@ -1168,6 +1203,7 @@ spareshuriken:
 makibishigun:
   type: power
   tier: 2
+  desc: Increases the fire rate of {ground} by 1.5x.
   spec:
     fireRate:
       - ground
@@ -1181,12 +1217,14 @@ sharpkunai:
     attackRate:
       - kunai
       - "*2"
+  desc: Doubles {kunai}'s attack.
   condition:
     - kunai
   limit: 1
 cursedkatana:
   type: power
   tier: 2
+  desc: Doubles {katana}'s attack, but increases {enemy} speed by 1.5x.
   spec:
     attackRate:
       - katana
@@ -1200,6 +1238,7 @@ cursedkatana:
 longhosepipe:
   type: power
   tier: 2
+  desc: Increases all duration by 15.
   purchase:
     gain:
       duration: 15
@@ -1208,6 +1247,7 @@ longhosepipe:
 bookwiththorns:
   type: power
   tier: 2
+  desc: Increases the fire rate of {tower} by 1.2x.
   spec:
     fireRate:
       - tower
@@ -1217,6 +1257,7 @@ bookwiththorns:
 mousetrapefficiencymachine:
   type: power
   tier: 4
+  desc: Doubles {mousetrap}'s fire rate.
   spec:
     fireRate:
       - mousetrap
@@ -1227,6 +1268,7 @@ mousetrapefficiencymachine:
 heavybullets:
   type: power
   tier: 3
+  desc: Doubles the attack of {tower}, but reduces their fire rate.
   spec:
     fireRate:
       - tower
@@ -1239,6 +1281,7 @@ heavybullets:
 fullswing:
   type: power
   tier: 5
+  desc: Triples {airhockey}'s attack.
   spec:
     attackRate:
       - airhockey
@@ -1249,6 +1292,7 @@ fullswing:
 stupa:
   type: power
   tier: 3
+  desc: Doubles {obake}'s attack.
   spec:
     attackRate:
       - obake
@@ -1259,6 +1303,7 @@ stupa:
 driedslime:
   type: power
   tier: 3
+  desc: Increases the bullet speed of {tower} by 1.5x.
   spec:
     bulletSpeed:
       - tower
@@ -1268,6 +1313,7 @@ driedslime:
 laserscope:
   type: power
   tier: 2
+  desc: Increases the attack of {air} by 1.5x.
   spec:
     attackRate:
       - air
@@ -1277,6 +1323,7 @@ laserscope:
 catching:
   type: power
   tier: 2
+  desc: Increases the fire rate of {air} by 1.5x.
   spec:
     fireRate:
       - air
@@ -1286,6 +1333,7 @@ catching:
 artificialtree:
   type: power
   tier: 6
+  desc: Increases {merlion}'s fire rate by 2.5x.
   spec:
     fireRate:
       - merlion
@@ -1296,6 +1344,7 @@ artificialtree:
 sheetmusic:
   type: power
   tier: 3
+  desc: Reduces reroll cost by 2.
   rerollCost: -2
   condition:
     - keyboard
@@ -1303,6 +1352,7 @@ sheetmusic:
 headphone:
   type: power
   tier: 4
+  desc: Doubles {simple-16}'s attack.
   spec:
     attackRate:
       - simple-16
@@ -1313,6 +1363,7 @@ headphone:
 polemountedtransformer:
   type: power
   tier: 4
+  desc: Doubles {telephonepole}'s fire rate.
   spec:
     fireRate:
       - telephonepole
@@ -1323,6 +1374,7 @@ polemountedtransformer:
 wearingsunglasses:
   type: power
   tier: 2
+  desc: Doubles {sunglasses}'s bullet speed.
   spec:
     bulletSpeed:
       - sunglasses
@@ -1333,6 +1385,7 @@ wearingsunglasses:
 jaggedblade:
   type: power
   tier: 4
+  desc: Doubles {swingingblade}'s fire rate.
   spec:
     fireRate:
       - swingingblade
@@ -1343,6 +1396,7 @@ jaggedblade:
 dojo:
   type: power
   tier: 8
+  desc: Doubles the fire rate of {ninja}.
   spec:
     fireRate:
       - ninja
@@ -1353,6 +1407,7 @@ dojo:
 tas:
   type: power
   tier: 3
+  desc: Gain 1 {tower} projectile count.
   purchase:
     gain:
       towerBullet: 1
@@ -1362,6 +1417,7 @@ tas:
 weatherstick:
   type: power
   tier: 5
+  desc: Increases the attack of {both} by 1.5x.
   spec:
     attackRate:
       - both
@@ -1371,6 +1427,7 @@ weatherstick:
 scissorcase:
   type: power
   tier: 5
+  desc: Increases the fire rate of {both} by 1.5x.
   spec:
     fireRate:
       - both
@@ -1380,16 +1437,18 @@ scissorcase:
 soulofufo:
   type: power
   tier: 3
+  desc: Doubles {ufocatcher}'s fire rate.
   spec:
     fireRate:
       - ufocatcher
-      - "*1.5"
+      - "*2"
   condition:
     - ufocatcher
   limit: 3
 monkey:
   type: power
   tier: 3
+  desc: Doubles the fire rate of {tower}, but reduces their attack.
   spec:
     attackRate:
       - tower
@@ -1402,6 +1461,7 @@ monkey:
 bamboo:
   type: power
   tier: 3
+  desc: Increases the attack of {ground} by 1.5x.
   spec:
     attackRate:
       - ground
@@ -1411,6 +1471,7 @@ bamboo:
 dominostopper:
   type: power
   tier: 9
+  desc: Gain 2 projectile count.
   purchase:
     gain:
       bullet: 2
@@ -1420,6 +1481,7 @@ dominostopper:
 menko:
   type: power
   tier: 6
+  desc: Gain 2 {air} projectile count.
   purchase:
     gain:
       airBullet: 2
@@ -1429,6 +1491,7 @@ menko:
 telescope:
   type: power
   tier: 4
+  desc: Gain 1 projectile count, but lose 5 attack.
   purchase:
     gain:
       bullet: 1
@@ -1455,6 +1518,7 @@ sunflowerseeds:
 motorpoweredwheel:
   type: power
   tier: 3
+  desc: Increases the bullet speed of {ninja} by 1.5x.
   spec:
     bulletSpeed:
       - ninja
@@ -1465,12 +1529,14 @@ motorpoweredwheel:
 cameralens:
   type: power
   tier: 2
+  desc: Gain 50*{exp}.
   purchase:
     gain:
       exp: "50*tier"
 documents:
   type: power
   tier: 4
+  desc: Gain 100*{exp}.
   purchase:
     gain:
       exp: "100*tier"
@@ -1480,11 +1546,14 @@ documents:
 televideo:
   type: power
   tier: 5
-  desc: "{power} → {power}{power}"
+  desc:
+    - "{power} → {power}{power}"
+    - The next time you would gain a scroll, gain 2 scrolls instead.
   limit: 1
 basketball:
   type: power
   tier: 5
+  desc: Projectiles bounce 1 additional time.
   purchase:
     gain:
       bounce: 1
@@ -1510,6 +1579,7 @@ flyingsauce:
 bouncyball:
   type: power
   tier: 8
+  desc: Projectiles bounce 2 additional times.
   purchase:
     gain:
       bounce: 2
@@ -1535,6 +1605,7 @@ hatmissile:
 proteinshaker:
   type: power
   tier: 3
+  desc: Increases the attack of {ninja} by 1.2x.
   spec:
     attackRate:
       - ninja
@@ -1544,6 +1615,7 @@ proteinshaker:
 worldfixes:
   type: power
   tier: 7
+  desc: Multiply your acquisition value by -2 at the start of each round.
   spec:
     resolve:
       allstatus:
@@ -1552,6 +1624,7 @@ worldfixes:
 electrictoothbrush:
   type: power
   tier: 5
+  desc: Permanently keep more 10% of any temporary status.
   purchase:
     gain:
       hole: 10
@@ -1585,7 +1658,7 @@ rafflesia:
   desc: A flower that blooms and then shoots projectiles.
   attackRate: 1
   bulletSpeed: 1
-  fireRate: 1.5
+  fireRate: 1
   locked: true
 poisonflower:
   type: power
@@ -1623,7 +1696,7 @@ flaminghoop:
     - tower
   tower: flaminghoop
   desc: A flaming hoop that sets projectiles on fire, giving them an area of effect.
-  attackRate: 0.7
+  attackRate: 1.1
   bulletSpeed: 1
   fireRate: 1
   locked: true
@@ -1663,9 +1736,9 @@ tackle:
     - ninja
   tower: tackle
   desc: A tackle that damages sushi around you.
-  attackRate: 0.5
+  attackRate: 1.2
   bulletSpeed: 1
-  fireRate: 1
+  fireRate: 0.9
   locked: true
   limit: 1
 jump:
@@ -1686,7 +1759,7 @@ soapbubbles:
   desc: Creates floating soap bubbles that damage sushi in the air.
   attackRate: 0.8
   bulletSpeed: 0.3
-  fireRate: 1.4
+  fireRate: 1.5
   locked: true
   limit: 1
 soapbubbleaccelerator:
@@ -1700,6 +1773,7 @@ soapbubbleaccelerator:
 acceleratormark2:
   type: power
   tier: 3
+  desc: Doubles the bullet speed of {ninja}.
   spec:
     bulletSpeed:
       - ninja
@@ -1715,7 +1789,7 @@ hawk:
     - ninja
   tower: hawk
   desc: The hawk circles overhead and attacks the sushi in the air.
-  attackRate: 2
+  attackRate: 1.8
   bulletSpeed: 1
   fireRate: 1.5
   locked: true
@@ -1731,6 +1805,7 @@ hawkclawflash:
 hawktimer:
   type: power
   tier: 3
+  desc: Doubles {hawk}'s fire rate.
   spec:
     fireRate:
       - hawk
@@ -1748,7 +1823,7 @@ helicopter:
   desc: A controllable helicopter that follows your cursor.
   attackRate: 1.5
   bulletSpeed: 1
-  fireRate: 1
+  fireRate: 1.1
   locked: true
 helicopterblowgun:
   type: power
@@ -1761,6 +1836,7 @@ helicopterblowgun:
 needlehelicopter:
   type: power
   tier: 3
+  desc: Doubles {helicopter}'s attack.
   spec:
     attackRate:
       - helicopter
@@ -1796,7 +1872,7 @@ synchronizedsalmon:
     - ninja
   tower: synchronizedsalmon
   desc: A team of synchronized salmon jump from the ground, damaging sushi.
-  attackRate: 1.5
+  attackRate: 1.1
   bulletSpeed: 1
   fireRate: 0.9
   locked: true
@@ -1811,9 +1887,62 @@ whale:
 fishsamba:
   type: power
   tier: 7
+  desc: Gain 2 {ground} projectile count.
   purchase:
     gain:
       groundBullet: 2
+  condition:
+    - synchronizedsalmon
+  limit: 1
+pandagraph:
+  type: power
+  tier: 3
+  race:
+    - both
+    - ninja
+  tower: pandagraph
+  desc: Draws a line graph and damages sushi.
+  attackRate: 1.2
+  bulletSpeed: 1
+  fireRate: 0.6
+  locked: true
+columnchart:
+  type: power
+  tier: 3
+  upgrade: pandagraph
+  desc: Changes the pandagraph into a column chart that damages sushi.
+  condition:
+    - pandagraph
+  limit: 1
+bandgraph:
+  type: power
+  tier: 3
+  desc: Gain 1 {ninja} projectile count.
+  purchase:
+    gain:
+      ninjaBullet: 1
+  condition:
+    - pandagraph
+  limit: 1
+hanpenprinter:
+  type: power
+  tier: 3
+  race:
+    - air
+    - tower
+  tower: hanpenprinter
+  desc: Print flying sushi, hanpen.
+  attackRate: 0.1
+  bulletSpeed: 1
+  fireRate: 0.5
+  locked: true
+motherhanpen:
+  type: power
+  tier: 3
+  upgrade: hanpenprinter
+  desc: The hanpen printer will now print a giant mother hanpen.
+  condition:
+    - hanpenprinter
   limit: 1
 # ----------------------------------------
 # ここから下はテスト用パワー

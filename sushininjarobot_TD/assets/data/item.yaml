@@ -159,7 +159,7 @@ hairmassager:
   cost: 4
   critical:
     temp:
-      attack: 1
+      groundAttack: 1
 gomibukuro:
   type: item
   tier: 10
@@ -179,9 +179,9 @@ hammer:
   cost: 6
   target:
     temp:
-      attack:
+      groundAttack:
         - choki
-        - 24
+        - 36
 hanger:
   type: item
   tier: 2
@@ -255,7 +255,7 @@ matryoshka:
   resolve:
     temp:
       coin: 4
-mayo:
+spatula:
   type: item
   tier: 1
   race: []
@@ -270,9 +270,9 @@ mouse:
   cost: 2
   purchase:
     gain:
-      qtip: 10
+      qtip: 4
       fireRate: 1
-natto:
+pouch:
   type: item
   tier: 4
   race: []
@@ -570,7 +570,7 @@ scotchtape:
     health:
       temp:
         ninjaFireRate: 32
-chopsticks:
+cushion:
   type: item
   tier: 4
   race: []
@@ -628,7 +628,7 @@ downloads:
     gain:
       health: -1
       attack: 5
-a4:
+belt:
   type: item
   tier: 8
   race: []
@@ -673,7 +673,7 @@ art:
   resolve:
     gain:
       scale: 1
-bandgraph:
+canopener:
   type: item
   tier: 1
   race: []
@@ -689,14 +689,6 @@ bell:
   resolve:
     temp:
       fireRate: 8
-loveletter:
-  type: item
-  tier: 4
-  race: []
-  cost: 3
-  resolve:
-    gain:
-      attack: 2
 comb:
   type: item
   tier: 4
@@ -704,8 +696,16 @@ comb:
   cost: 3
   resolve:
     gain:
+      attack: 2
+loveletter:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  resolve:
+    gain:
       fireRate: 2
-tissuebox:
+screwdriver:
   type: item
   tier: 4
   race: []
@@ -745,7 +745,7 @@ incensesticks:
   resolve:
     temp:
       attack: 32
-balloon:
+thermometer:
   type: item
   tier: 7
   race: []
@@ -863,7 +863,7 @@ lighter:
       attack: -1
       bothFireRate: 4
       misfortune: 2
-tiepin:
+ruler:
   type: item
   tier: 1
   race: []
@@ -871,7 +871,7 @@ tiepin:
   purchase:
     gain:
       attack: 2
-ruler:
+tiepin:
   type: item
   tier: 1
   race: []
@@ -914,7 +914,7 @@ ladle:
   resolve:
     temp:
       airAttack: 32
-thermometer:
+balloon:
   type: item
   tier: 3
   race: []
@@ -1087,9 +1087,9 @@ grater:
   cost: 2
   target:
     temp:
-      attack:
+      groundAttack:
         - choki
-        - 3
+        - 6
 whistle:
   type: item
   tier: 1
@@ -1097,17 +1097,17 @@ whistle:
   cost: 2
   target:
     temp:
-      fireRate:
+      groundFireRate:
         - choki
-        - 3
+        - 6
 vase:
   type: item
   tier: 3
-  race: []
+  race: ["choki"]
   cost: 3
   target:
     gain:
-      fireRate:
+      groundFireRate:
         - choki
         - 1
 paintbrush:
@@ -1117,9 +1117,9 @@ paintbrush:
   cost: 4
   target:
     temp:
-      fireRate:
+      groundFireRate:
         - choki
-        - 12
+        - 20
 skateboard:
   type: item
   tier: 5
@@ -1127,49 +1127,39 @@ skateboard:
   cost: 4
   target:
     temp:
-      attack:
+      groundAttack:
         - choki
-        - 12
+        - 20
 lightbulb:
   type: item
   tier: 4
-  race: []
+  race: ["choki"]
   cost: 3
   target:
     gain:
-      attack:
+      groundAttack:
         - choki
         - 1
 stapleremover:
   type: item
   tier: 7
-  race: []
+  race: ["choki"]
   cost: 5
   target:
     gain:
-      attack:
+      groundAttack:
         - choki
-        - 3
-kite:
-  type: item
-  tier: 8
-  race: []
-  cost: 5
-  target:
-    gain:
-      fireRate:
-        - choki
-        - 3
+        - 2
 towel:
   type: item
   tier: 8
-  race: []
+  race: ["choki"]
   cost: 5
   target:
     gain:
-      fireRate:
+      groundFireRate:
         - choki
-        - 3
+        - 2
 wallet:
   type: item
   tier: 1
@@ -1185,7 +1175,7 @@ rubberduck:
   cost: 6
   target:
     gain:
-      attack:
+      groundAttack:
         - choki
         - 4
 vinylrecord:
@@ -1195,7 +1185,7 @@ vinylrecord:
   cost: 6
   target:
     gain:
-      fireRate:
+      groundFireRate:
         - choki
         - 4
 holepunch:
@@ -1218,22 +1208,22 @@ bottleopener:
   resolve:
     temp:
       bothAttack: "5*tier"
-cushion:
+chopsticks:
   type: item
   tier: 2
   race: []
   cost: 2
   purchase:
     gain:
-      exp: "10*tier"
-canopener:
+      exp: "5*tier"
+deckchair:
   type: item
   tier: 2
   race: []
   cost: 2
   resolve:
     gain:
-      exp: "5*tier"
+      exp: "3*tier"
 binoculars:
   type: item
   tier: 4
@@ -1241,15 +1231,15 @@ binoculars:
   cost: 3
   resolve:
     gain:
-      exp: "10*tier"
-belt:
+      exp: "6*tier"
+a4:
   type: item
   tier: 4
   race: []
   cost: 3
   purchase:
     gain:
-      exp: "20*tier"
+      exp: "10*tier"
 pincushion:
   type: item
   tier: 5
@@ -1273,7 +1263,7 @@ wateringcan:
   cost: 5
   purchase:
     gain:
-      exp: "40*tier"
+      exp: "20*tier"
 toolbox:
   type: item
   tier: 7
@@ -1281,7 +1271,7 @@ toolbox:
   cost: 5
   resolve:
     gain:
-      exp: "20*tier"
+      exp: "9*tier"
 harmonica:
   type: item
   tier: 10
@@ -1316,7 +1306,7 @@ binder:
   time:
     gain:
       towerAttack: 1
-spatula:
+mayo:
   type: item
   tier: 3
   race: []
@@ -1521,7 +1511,7 @@ twig:
   cost: 2
   resolve:
     gain:
-      attack: 0
+      bothAttack: 1
 stickynotes:
   type: item
   tier: 1
@@ -1539,7 +1529,7 @@ colander:
   cost: 2
   resolve:
     gain:
-      fireRate: 0
+      bothFireRate: 1
 inkbottle:
   type: item
   tier: 3
@@ -1563,8 +1553,8 @@ sandpaper:
   cost: 4
   resolve:
     gain:
-      attack: 1
-      fireRate: 1
+      bothAttack: 2
+      bothFireRate: 2
 earbuds:
   type: item
   tier: 5
@@ -1616,8 +1606,8 @@ whiteboarderaser:
   cost: 6
   resolve:
     gain:
-      attack: 2
-      fireRate: 2
+      bothAttack: 3
+      bothFireRate: 3
 placemat:
   type: item
   tier: 6
@@ -1626,14 +1616,6 @@ placemat:
   kill:
     temp:
       attack: 1
-key:
-  type: item
-  tier: 6
-  race: []
-  cost: 4
-  kill:
-    temp:
-      fireRate: 1
 notebook:
   type: item
   tier: 8
@@ -1653,7 +1635,7 @@ mousepad:
     cost:
       - guu
       - -1
-screwdriver:
+tissuebox:
   type: item
   tier: 6
   race: []
@@ -2107,7 +2089,7 @@ chalk:
   cost: 2
   resolve:
     temp:
-      bothAttack: 4
+      bothAttack: 8
 crochethook:
   type: item
   tier: 1
@@ -2115,7 +2097,7 @@ crochethook:
   cost: 2
   resolve:
     temp:
-      groundAttack: 4
+      groundAttack: 16
 horseshoe:
   type: item
   tier: 2
@@ -2123,7 +2105,7 @@ horseshoe:
   cost: 2
   resolve:
     temp:
-      airAttack: 4
+      airAttack: 16
 lace:
   type: item
   tier: 2
@@ -2131,7 +2113,7 @@ lace:
   cost: 2
   resolve:
     temp:
-      groundFireRate: 4
+      groundFireRate: 16
 beret:
   type: item
   tier: 4
@@ -2139,7 +2121,7 @@ beret:
   cost: 3
   resolve:
     temp:
-      bothFireRate: 8
+      bothFireRate: 16
 chopsticksrest:
   type: item
   tier: 4
@@ -2147,7 +2129,7 @@ chopsticksrest:
   cost: 3
   resolve:
     temp:
-      airFireRate: 8
+      airFireRate: 24
 toothbrush:
   type: item
   tier: 9
@@ -2212,7 +2194,7 @@ sugar:
   cost: 6
   critical:
     temp:
-      fireRate: 2
+      bothAttack: 3
 golfclub:
   type: item
   tier: 3
@@ -2252,7 +2234,7 @@ colorpalette:
   cost: 4
   critical:
     temp:
-      fireRate: 1
+      airAttack: 1
 crayon:
   type: item
   tier: 6
@@ -2355,12 +2337,12 @@ contactlenses:
   resolve:
     temp:
       bullet: 3
-pouch:
+nut:
   type: item
   tier: 1
   race: ["diamonds"]
   cost: 2
-  buy:
+  sell:
     gain:
       groundAttack: 1
 haircream:
@@ -2368,7 +2350,7 @@ haircream:
   tier: 2
   race: ["diamonds"]
   cost: 2
-  buy:
+  sell:
     gain:
       groundFireRate: 1
 firetorch:
@@ -2410,7 +2392,7 @@ guitarpick:
   tier: 8
   race: ["diamonds"]
   cost: 5
-  buy:
+  sell:
     gain:
       attack: 1
 herb:
@@ -2437,7 +2419,7 @@ tapestry:
   race: []
   cost: 6
   spec:
-    buy:
+    sell:
       allstatus:
         - diamonds
         - 8
@@ -2468,7 +2450,7 @@ sandals:
     rerollCount: ">=5"
   resolve:
     gain:
-      attack: 3
+      bothAttack: 4
 gong:
   type: item
   tier: 3
@@ -2478,7 +2460,7 @@ gong:
     rerollCount: ">=5"
   resolve:
     gain:
-      fireRate: 3
+      bothFireRate: 4
 sewingneedle:
   type: item
   tier: 4
@@ -2568,7 +2550,7 @@ feather:
 blank:
   type: item
   tier: 1
-  race: []
+  race: ["applecore"]
   cost: 10
   misfortune: true
 rafflesiawine:
@@ -2761,17 +2743,17 @@ swimsuit:
   race: []
   cost: 2
   requirement:
-    numberofsushi: "<=100"
+    numberofsushi: "<=50"
   resolve:
     gain:
-      bothAttack: 3
+      ninjaAttack: 3
 airconditioner:
   type: item
   tier: 1
   race: []
   cost: 2
   requirement:
-    numberofsushi: "<=100"
+    numberofsushi: "<=50"
   resolve:
     gain:
       towerFireRate: 3
@@ -2791,7 +2773,7 @@ soccerball:
   cost: 3
   resolve:
     temp:
-      bothFireRate: "0.05*numberofsushi"
+      ninjaFireRate: "0.05*numberofsushi"
   locked: true
 coffeemaker:
   type: item
@@ -2808,7 +2790,7 @@ liquidsoap:
   cost: 4
   resolve:
     temp:
-      bothCritical: "0.03*numberofsushi"
+      ninjaCritical: "0.03*numberofsushi"
 mascara:
   type: item
   tier: 7
@@ -2816,7 +2798,7 @@ mascara:
   cost: 5
   resolve:
     gain:
-      bothAttack: "0.01*numberofsushi"
+      ninjaAttack: "0.01*numberofsushi"
   locked: true
 powerstrip:
   type: item
@@ -2842,7 +2824,7 @@ extensioncord:
   cost: 6
   kill:
     temp:
-      bothFireRate: "0.001*numberofsushi"
+      ninjaFireRate: "0.001*numberofsushi"
 muscularmeat:
   type: item
   tier: 4
@@ -2854,6 +2836,60 @@ muscularmeat:
       - "*1.2"
   condition:
     - meatpullups
+filament:
+  type: item
+  tier: 4
+  race: []
+  cost: 3
+  resolve:
+    gain:
+      groundFireRate: 6
+  condition:
+    - hanpenprinter
+planter:
+  type: item
+  tier: 5
+  race: []
+  cost: 4
+  target:
+    gain:
+      critical:
+        - applecore
+        - 5
+  locked: true
+sneakers:
+  type: item
+  tier: 7
+  race: []
+  cost: 5
+  target:
+    gain:
+      fireRate:
+        - applecore
+        - 10
+  locked: true
+textbook:
+  type: item
+  tier: 7
+  race: []
+  cost: 5
+  target:
+    gain:
+      attack:
+        - applecore
+        - 10
+  locked: true
+dumbbell:
+  type: item
+  tier: 10
+  race: []
+  cost: 6
+  target:
+    gain:
+      bullet:
+        - applecore
+        - 1
+  locked: true
 # ----------------------------------------
 # ここから下はテスト用アイテム
 # ----------------------------------------

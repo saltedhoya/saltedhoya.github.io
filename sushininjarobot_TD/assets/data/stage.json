@@ -37,7 +37,7 @@
             [
                 "cake",
                 "banana",
-                "curry"
+                "potatochips"
             ],
             [
                 "datemaki",
@@ -160,7 +160,7 @@
             [
                 "yocchanika",
                 "cake",
-                "curry"
+                "potatochips"
             ],
             [
                 "datemaki",
@@ -205,7 +205,8 @@
     "pakkazushi": {
         "type": "stage",
         "stage": "pakkazushi",
-        "desc": "Win in 10:00.",
+        "desc": "Win in 10:00. One card type will be banned.",
+        "banNum": 1,
         "tier": 3,
         "path": [
             [
@@ -328,7 +329,7 @@
             [
                 "yocchanika",
                 "cake",
-                "curry"
+                "potatochips"
             ],
             [
                 "datemaki",
@@ -377,7 +378,8 @@
     "beachzushi": {
         "type": "stage",
         "stage": "beachzushi",
-        "desc": "Win in 15:00.",
+        "desc": "Win in 15:00. Two card types will be banned.",
+        "banNum": 2,
         "tier": 4,
         "path": [
             [
@@ -444,7 +446,7 @@
             [
                 "yocchanika",
                 "banana",
-                "curry"
+                "potatochips"
             ],
             [
                 "naruto",

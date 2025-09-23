@@ -5,7 +5,7 @@
                 "exp": 15
             }
         },
-        "hp": 849530,
+        "hp": 397991,
         "race": [
             "flying"
         ],
@@ -19,7 +19,7 @@
                 "exp": 3
             }
         },
-        "hp": 221,
+        "hp": 211,
         "race": [],
         "speed": 50,
         "tier": 3,
@@ -31,7 +31,7 @@
                 "exp": 15
             }
         },
-        "hp": 849530,
+        "hp": 397991,
         "race": [
             "flying"
         ],
@@ -46,7 +46,7 @@
                 "exp": 5
             }
         },
-        "hp": 524,
+        "hp": 460,
         "race": [],
         "shield": 1,
         "skill": [
@@ -63,7 +63,7 @@
                 "exp": 2
             }
         },
-        "hp": 53,
+        "hp": 52,
         "race": [],
         "shield": 1,
         "speed": 80,
@@ -76,7 +76,7 @@
                 "exp": 3
             }
         },
-        "hp": 92,
+        "hp": 88,
         "race": [
             "flying"
         ],
@@ -90,7 +90,7 @@
                 "exp": 7
             }
         },
-        "hp": 1403,
+        "hp": 1111,
         "race": [
             "flying"
         ],
@@ -104,7 +104,7 @@
                 "exp": 14
             }
         },
-        "hp": 218460,
+        "hp": 109997,
         "race": [],
         "speed": 100,
         "tier": 14,
@@ -116,7 +116,7 @@
                 "exp": 15
             }
         },
-        "hp": 849530,
+        "hp": 397991,
         "race": [],
         "speed": 50,
         "tier": 15,
@@ -128,7 +128,7 @@
                 "exp": 6
             }
         },
-        "hp": 707,
+        "hp": 591,
         "race": [],
         "shield": 1,
         "speed": 150,
@@ -136,13 +136,13 @@
         "type": "enemy"
     },
     "cherry": {
-        "activateRate": 3,
+        "activateRate": 4,
         "die": {
             "gain": {
                 "exp": 5
             }
         },
-        "hp": 1047,
+        "hp": 921,
         "race": [
             "flying"
         ],
@@ -160,7 +160,7 @@
                 "exp": 16
             }
         },
-        "hp": 828092,
+        "hp": 360448,
         "race": [
             "flying"
         ],
@@ -186,7 +186,7 @@
                 "exp": 13
             }
         },
-        "hp": 75075,
+        "hp": 40565,
         "race": [],
         "speed": 150,
         "tier": 13,
@@ -198,7 +198,7 @@
                 "exp": 9
             }
         },
-        "hp": 8019,
+        "hp": 5642,
         "race": [
             "flying"
         ],
@@ -213,7 +213,7 @@
                 "exp": 10
             }
         },
-        "hp": 31076,
+        "hp": 20532,
         "race": [],
         "shield": 1,
         "skill": [
@@ -230,7 +230,7 @@
                 "exp": 11
             }
         },
-        "hp": 30060,
+        "hp": 18608,
         "race": [],
         "speed": 100,
         "tier": 11,
@@ -255,13 +255,13 @@
         "type": "enemy"
     },
     "datemaki": {
-        "activateRate": 4,
+        "activateRate": 5,
         "die": {
             "gain": {
                 "exp": 4
             }
         },
-        "hp": 249,
+        "hp": 229,
         "race": [
             "flying"
         ],
@@ -272,6 +272,50 @@
         ],
         "speed": 100,
         "tier": 4,
+        "type": "enemy"
+    },
+    "debugsushi1": {
+        "die": {
+            "gain": {
+                "exp": 1
+            }
+        },
+        "hp": 99999999,
+        "race": [],
+        "speed": 1,
+        "tier": 100,
+        "type": "enemy"
+    },
+    "debugsushi2": {
+        "die": {
+            "gain": {
+                "exp": 1
+            }
+        },
+        "hp": 99999999,
+        "race": [
+            "flying"
+        ],
+        "speed": 1,
+        "tier": 100,
+        "type": "enemy"
+    },
+    "dekahanpen": {
+        "activateRate": 4,
+        "die": {
+            "gain": {
+                "coin": 1,
+                "exp": 10
+            }
+        },
+        "hp": 2380,
+        "race": [],
+        "skill": [
+            "spawn",
+            "hanpen"
+        ],
+        "speed": 70,
+        "tier": 7,
         "type": "enemy"
     },
     "dorayaki": {
@@ -294,7 +338,7 @@
                 "exp": 8
             }
         },
-        "hp": 8246,
+        "hp": 6163,
         "race": [],
         "shield": 1,
         "speed": 50,
@@ -307,7 +351,7 @@
                 "exp": 8
             }
         },
-        "hp": 2749,
+        "hp": 2054,
         "race": [],
         "shield": 5,
         "speed": 150,
@@ -321,7 +365,7 @@
                 "exp": 2
             }
         },
-        "hp": 85,
+        "hp": 84,
         "race": [],
         "skill": [
             "spawn",
@@ -337,7 +381,7 @@
                 "exp": 13
             }
         },
-        "hp": 112613,
+        "hp": 60847,
         "race": [],
         "speed": 100,
         "tier": 13,
@@ -349,7 +393,7 @@
                 "exp": 12
             }
         },
-        "hp": 58152,
+        "hp": 33663,
         "race": [],
         "speed": 100,
         "tier": 12,
@@ -362,7 +406,7 @@
                 "exp": 10
             }
         },
-        "hp": 15538,
+        "hp": 10266,
         "race": [],
         "shield": 1,
         "skill": [
@@ -373,13 +417,27 @@
         "tier": 10,
         "type": "enemy"
     },
+    "hanpen": {
+        "die": {
+            "gain": {
+                "exp": 6
+            }
+        },
+        "hp": 81,
+        "race": [
+            "flying"
+        ],
+        "speed": 130,
+        "tier": 3,
+        "type": "enemy"
+    },
     "hotdog": {
         "die": {
             "gain": {
                 "exp": 9
             }
         },
-        "hp": 8019,
+        "hp": 5642,
         "race": [],
         "speed": 100,
         "tier": 9,
@@ -391,7 +449,7 @@
                 "exp": 2
             }
         },
-        "hp": 61,
+        "hp": 60,
         "race": [
             "flying"
         ],
@@ -405,7 +463,7 @@
                 "exp": 7
             }
         },
-        "hp": 2105,
+        "hp": 1666,
         "race": [],
         "shield": 2,
         "speed": 100,
@@ -418,7 +476,7 @@
                 "exp": 4
             }
         },
-        "hp": 498,
+        "hp": 458,
         "race": [
             "flying"
         ],
@@ -432,7 +490,7 @@
                 "exp": 10
             }
         },
-        "hp": 10359,
+        "hp": 6844,
         "race": [],
         "shield": 2,
         "speed": 150,
@@ -445,7 +503,7 @@
                 "exp": 6
             }
         },
-        "hp": 530,
+        "hp": 443,
         "race": [],
         "shield": 1,
         "speed": 200,
@@ -470,7 +528,7 @@
                 "exp": 11
             }
         },
-        "hp": 20040,
+        "hp": 12406,
         "race": [],
         "speed": 150,
         "tier": 11,
@@ -482,7 +540,7 @@
                 "exp": 4
             }
         },
-        "hp": 356,
+        "hp": 327,
         "race": [],
         "shield": 1,
         "speed": 70,
@@ -495,7 +553,7 @@
                 "exp": 13
             }
         },
-        "hp": 112613,
+        "hp": 60847,
         "race": [],
         "speed": 100,
         "tier": 13,
@@ -507,7 +565,7 @@
                 "exp": 11
             }
         },
-        "hp": 30060,
+        "hp": 18608,
         "race": [],
         "speed": 100,
         "tier": 11,
@@ -519,7 +577,7 @@
                 "exp": 16
             }
         },
-        "hp": 828092,
+        "hp": 360448,
         "race": [],
         "speed": 100,
         "tier": 16,
@@ -531,7 +589,7 @@
                 "exp": 14
             }
         },
-        "hp": 145640,
+        "hp": 73331,
         "race": [
             "flying"
         ],
@@ -545,7 +603,7 @@
                 "exp": 5
             }
         },
-        "hp": 1047,
+        "hp": 921,
         "race": [],
         "shield": 2,
         "speed": 50,
@@ -564,6 +622,24 @@
         "tier": 2,
         "type": "enemy"
     },
+    "potatochips": {
+        "activateRate": 5,
+        "die": {
+            "gain": {
+                "exp": 3
+            }
+        },
+        "hp": 106,
+        "race": [],
+        "shield": 2,
+        "skill": [
+            "shield",
+            1
+        ],
+        "speed": 100,
+        "tier": 3,
+        "type": "enemy"
+    },
     "pumpkin": {
         "activateRate": 4,
         "die": {
@@ -571,7 +647,7 @@
                 "exp": 4
             }
         },
-        "hp": 830,
+        "hp": 763,
         "race": [],
         "shield": 1,
         "skill": [
@@ -588,7 +664,7 @@
                 "exp": 5
             }
         },
-        "hp": 349,
+        "hp": 307,
         "race": [
             "flying"
         ],
@@ -603,7 +679,7 @@
                 "exp": 16
             }
         },
-        "hp": 828092,
+        "hp": 360448,
         "race": [],
         "speed": 100,
         "tier": 16,
@@ -640,7 +716,7 @@
                 "exp": 12
             }
         },
-        "hp": 116305,
+        "hp": 67325,
         "race": [
             "flying"
         ],
@@ -654,7 +730,7 @@
                 "exp": 4
             }
         },
-        "hp": 249,
+        "hp": 229,
         "race": [],
         "skill": [
             "split",
@@ -671,7 +747,7 @@
                 "exp": 9
             }
         },
-        "hp": 8019,
+        "hp": 5642,
         "race": [
             "flying"
         ],
@@ -686,7 +762,7 @@
                 "exp": 8
             }
         },
-        "hp": 8246,
+        "hp": 6163,
         "race": [],
         "shield": 1,
         "skill": [
@@ -703,7 +779,7 @@
                 "exp": 6
             }
         },
-        "hp": 1061,
+        "hp": 887,
         "race": [],
         "shield": 1,
         "speed": 100,
@@ -716,7 +792,7 @@
                 "exp": 6
             }
         },
-        "hp": 2122,
+        "hp": 1774,
         "race": [
             "flying"
         ],
@@ -731,7 +807,7 @@
                 "exp": 7
             }
         },
-        "hp": 4209,
+        "hp": 3333,
         "race": [
             "flying"
         ],
@@ -745,7 +821,7 @@
                 "exp": 12
             }
         },
-        "hp": 58152,
+        "hp": 33663,
         "race": [],
         "speed": 100,
         "tier": 12,
@@ -757,7 +833,7 @@
                 "exp": 14
             }
         },
-        "hp": 218460,
+        "hp": 109997,
         "race": [],
         "speed": 100,
         "tier": 14,
@@ -769,7 +845,7 @@
                 "exp": 3
             }
         },
-        "hp": 138,
+        "hp": 132,
         "race": [
             "flying"
         ],

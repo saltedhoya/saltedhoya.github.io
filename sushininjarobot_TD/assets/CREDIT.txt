@@ -1,5 +1,5 @@
-# Design, Programming, Art & Localization
+# Design, Programming, Art, Text & Localization #
 © Salted Hoya
 
-# Music
+# Music #
 This game using enikaitashiro's BGM, © RemanolD.

@@ -94,6 +94,11 @@
         "status": {
             "power": [
                 "elevatorsauce"
+            ],
+            "towers": [
+                {
+                    "towerKey": "elevatorsauce"
+                }
             ]
         },
         "locked": true

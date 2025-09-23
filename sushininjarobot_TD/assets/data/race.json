@@ -87,5 +87,15 @@
         "race": [
             "diamonds"
         ]
+    },
+    "applecore": {
+        "type": "race",
+        "tier": 1,
+        "desc": [
+            "No effect"
+        ],
+        "race": [
+            "applecore"
+        ]
     }
 }

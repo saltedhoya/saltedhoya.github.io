@@ -13,16 +13,16 @@
             "button",
             "synchronizedsalmon",
             "rifle",
-            "tackle",
-            "soapbubbles",
-            "testitem1",
-            "testitem1",
+            "hanpenprinter",
             "meatpullups",
             [
                 "dough",
                 "bacon",
                 "webcam"
             ],
+            "tackle",
+            "soapbubbles",
+            "pandagraph",
             "hawk",
             [
                 "washingmachine",
@@ -30,7 +30,12 @@
                 "wheelbarrow",
                 "freezer"
             ],
-            "testitem1",
+            [
+                "planter",
+                "sneakers",
+                "textbook",
+                "dumbbell"
+            ],
             "stonecarving",
             "helicopter",
             "elevatorsnake",
@@ -40,14 +45,14 @@
                 "mascara",
                 "powerstrip"
             ],
+            "teleporter",
+            "rafflesia",
             [
                 "dryer",
                 "soap",
                 "standingmummy",
                 "boxinggloves"
             ],
-            "teleporter",
-            "rafflesia",
             "flaminghoop",
             "keyboard",
             "ufocatcher"

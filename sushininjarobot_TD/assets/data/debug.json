@@ -110,7 +110,7 @@
         "status": {
             "deck": [
                 "jumprope",
-                "map",
+                "jumprope",
                 "trowel",
                 "tie"
             ],
@@ -172,7 +172,7 @@
         "label": "カード購入: ダイヤモンド種族ボーナス",
         "status": {
             "deck": [
-                "pouch",
+                "nut",
                 "haircream",
                 "firetorch",
                 "tie"
@@ -210,6 +210,45 @@
             ]
         },
         "scene": "Cards"
+    },
+    {
+        "label": "ラウンド: 長いステータス確認",
+        "status": {
+            "banned": [
+                "ninja"
+            ],
+            "ninjaFireRateNum": 1,
+            "towerFireRateNum": 1,
+            "bothFireRateNum": 1,
+            "groundFireRateNum": 1,
+            "airFireRateNum": 1,
+            "ninjaAttackNum": 1,
+            "towerAttackNum": 1,
+            "bothAttackNum": 1,
+            "groundAttackNum": 1,
+            "airAttackNum": 1,
+            "ninjaCriticalNum": 1,
+            "towerCriticalNum": 1,
+            "bothCriticalNum": 1,
+            "groundCriticalNum": 1,
+            "airCriticalNum": 1,
+            "ninjaBulletNum": 1,
+            "towerBulletNum": 1,
+            "bothBulletNum": 1,
+            "groundBulletNum": 1,
+            "airBulletNum": 1,
+            "deck": [],
+            "power": [
+                "rimokon",
+                "shuriken"
+            ],
+            "towers": [
+                {
+                    "towerKey": "shuriken"
+                }
+            ]
+        },
+        "scene": "TD"
     },
     {
         "label": "ラウンド: shuriken だけ",
@@ -626,7 +665,7 @@
     {
         "label": "ラウンド: rafflesia",
         "status": {
-            "fireRateNum": 30,
+            "fireRateNum": 10,
             "power": [
                 "rimokon",
                 "rafflesia",
@@ -960,6 +999,53 @@
             "towers": [
                 {
                     "towerKey": "swingingblade"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: pandagraph",
+        "status": {
+            "healthNum": 10,
+            "fireRateNum": 300,
+            "attackNum": 0,
+            "powersForDebug": [
+                "columnchart",
+                "tapemeasure",
+                "flashlight"
+            ],
+            "power": [
+                "rimokon",
+                "pandagraph",
+                "signpole"
+            ],
+            "towers": [
+                {
+                    "towerKey": "pandagraph"
+                },
+                {
+                    "towerKey": "signpole"
+                }
+            ]
+        },
+        "scene": "TD"
+    },
+    {
+        "label": "ラウンド: hanpenprinter",
+        "status": {
+            "power": [
+                "rimokon",
+                "hanpenprinter",
+                "kunai",
+                "motherhanpen"
+            ],
+            "towers": [
+                {
+                    "towerKey": "hanpenprinter"
+                },
+                {
+                    "towerKey": "kunai"
                 }
             ]
         },
