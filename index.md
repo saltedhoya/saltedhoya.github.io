@@ -1,5 +1,6 @@
 ---
-title: /home
+title: Salted Hoya
+link_title: /home
 layout: home
 permalink: /
 ---
@@ -10,7 +11,6 @@ permalink: /
 
 "sushininjarobot TD" is a casual tower defense game with rogue-lite elements.
 
-- [Game(Web Demo)](https://saltedhoya.com/sushininjarobot_TD/)
 - [Game(Steam)](https://store.steampowered.com/app/3019000/sushininjarobot_TD)
 
 ---

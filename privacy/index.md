@@ -1,5 +1,6 @@
 ---
-title: /privacy/
+title: Privacy Policy for Salted Hoya's Games
+link_title: /privacy/
 layout: page
 permalink: /privacy/
 ---
@@ -52,4 +53,4 @@ I may update this Privacy Policy from time to time. I will notify you of any cha
 
 ## 7. Contact Me
 
-If you have any questions about this Privacy Policy, please feel free to contact me at: https://x.com/saltedhoya
+If you have any questions about this Privacy Policy, please feel free to contact me at: [https://x.com/saltedhoya](https://x.com/saltedhoya)
